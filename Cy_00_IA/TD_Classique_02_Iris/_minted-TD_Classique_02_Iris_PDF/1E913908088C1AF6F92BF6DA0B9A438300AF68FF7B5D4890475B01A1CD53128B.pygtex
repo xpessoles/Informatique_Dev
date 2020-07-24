@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{sklearn} \PYG{k+kn}{import} \PYG{n}{datasets}
+\PYG{n}{iris} \PYG{o}{=} \PYG{n}{datasets}\PYG{o}{.}\PYG{n}{load\PYGZus{}iris}\PYG{p}{()}
+\end{Verbatim}

@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{n+nb}{print}\PYG{p}{(}\PYG{n+nb}{dir}\PYG{p}{(}\PYG{n}{iris}\PYG{p}{))}
+        \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}DESCR\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}data\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}feature\PYGZus{}names\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}target\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}target\PYGZus{}names\PYGZsq{}}\PYG{p}{]}
+\end{Verbatim}

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.11)  24 JUL 2020 21:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.11)  24 JUL 2020 23:01
 entering extended mode
-**./Cy_01_Ch_01_Introduction_Cours_PDF.tex
-(Cy_01_Ch_01_Introduction_Cours_PDF.tex
+**./TD_Classique_02_Iris_PDF.tex
+(TD_Classique_02_Iris_PDF.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-04-06>
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
@@ -230,6 +230,134 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip49
 )
+("C:\Program Files\MiKTeX 2.9\tex/latex/minted\minted.sty"
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/fvextra\fvextra.sty"
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count185
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/fancyvrb\fancyvrb.sty"
+Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count186
+\FV@InFile=\read2
+\FV@TabBox=\box45
+\c@FancyVerbLine=\count187
+\FV@StepNumber=\count188
+\FV@OutFile=\write3
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/upquote\upquote.sty"
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/lineno\lineno.sty"
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count189
+\output=\toks16
+\linenoprevgraf=\count190
+\linenumbersep=\dimen140
+\linenumberwidth=\dimen141
+\c@linenumber=\count191
+\c@pagewiselinenumber=\count192
+\c@LN@truepage=\count193
+\c@internallinenumber=\count194
+\c@internallinenumbers=\count195
+\quotelinenumbersep=\dimen142
+\bframerule=\dimen143
+\bframesep=\dimen144
+\bframebox=\box46
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count196
+\c@FV@TrueTabCounter=\count197
+\FV@TabBox@Group=\box47
+\FV@TmpLength=\skip50
+\c@FV@HighlightLinesStart=\count198
+\c@FV@HighlightLinesStop=\count199
+\FV@LoopCount=\count266
+\FV@NCharsBox=\box48
+\FV@BreakIndent=\dimen145
+\FV@BreakIndentNChars=\count267
+\FV@BreakSymbolSepLeft=\dimen146
+\FV@BreakSymbolSepLeftNChars=\count268
+\FV@BreakSymbolSepRight=\dimen147
+\FV@BreakSymbolSepRightNChars=\count269
+\FV@BreakSymbolIndentLeft=\dimen148
+\FV@BreakSymbolIndentLeftNChars=\count270
+\FV@BreakSymbolIndentRight=\dimen149
+\FV@BreakSymbolIndentRightNChars=\count271
+\c@FancyVerbLineBreakLast=\count272
+\FV@LineBox=\box49
+\FV@LineIndentBox=\box50
+\FV@LineWidth=\dimen150
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count273
+\calc@Bcount=\count274
+\calc@Adimen=\dimen151
+\calc@Bdimen=\dimen152
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count275
+\calc@Cskip=\skip53
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\shellesc.sty"
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/ifplatform\ifplatform.sty"
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/catchfile\catchfile.sty"
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifluatex.sty"
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/xstring\xstring.tex"
+\integerpart=\count276
+\decimalpart=\count277
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/framed\framed.sty"
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip54
+\fb@frw=\dimen153
+\fb@frh=\dimen154
+\FrameRule=\dimen155
+\FrameSep=\dimen156
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count278
+\float@exts=\toks17
+\float@box=\box51
+\@float@everytoks=\toks18
+\@floatcapt=\box52
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box53
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count279
+\c@minted@pygmentizecounter=\count280
+\@float@every@listing=\toks19
+\c@listing=\count281
+)
+runsystem(if not exist _minted-TD_Classique_02_Iris_PDF mkdir _minted-TD_Classi
+que_02_Iris_PDF)...executed.
+
+
 (../../style/new_style.tex
 ("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -237,18 +365,18 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 ("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty"
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count185
-\Gm@cntv=\count186
-\c@Gm@tempcnt=\count187
-\Gm@bindingoffset=\dimen140
-\Gm@wd@mp=\dimen141
-\Gm@odd@mp=\dimen142
-\Gm@even@mp=\dimen143
-\Gm@layoutwidth=\dimen144
-\Gm@layoutheight=\dimen145
-\Gm@layouthoffset=\dimen146
-\Gm@layoutvoffset=\dimen147
-\Gm@dimlist=\toks16
+\Gm@cnth=\count282
+\Gm@cntv=\count283
+\c@Gm@tempcnt=\count284
+\Gm@bindingoffset=\dimen157
+\Gm@wd@mp=\dimen158
+\Gm@odd@mp=\dimen159
+\Gm@even@mp=\dimen160
+\Gm@layoutwidth=\dimen161
+\Gm@layoutheight=\dimen162
+\Gm@layouthoffset=\dimen163
+\Gm@layoutvoffset=\dimen164
+\Gm@dimlist=\toks20
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
@@ -268,8 +396,8 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen148
-\Gin@req@width=\dimen149
+\Gin@req@height=\dimen165
+\Gin@req@width=\dimen166
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
@@ -277,15 +405,15 @@ Package: expl3 2020-04-06 L3 programming layer (loader)
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count188
-\l__pdf_internal_box=\box45
+\l__kernel_color_stack_int=\count285
+\l__pdf_internal_box=\box54
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse.sty"
 Package: xparse 2020-03-06 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count189
-\g__xparse_grabber_int=\count190
-\l__xparse_m_args_int=\count191
-\l__xparse_v_nesting_int=\count192
+\l__xparse_current_arg_int=\count286
+\g__xparse_grabber_int=\count287
+\l__xparse_m_args_int=\count288
+\l__xparse_v_nesting_int=\count289
 )
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
@@ -296,13 +424,13 @@ File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrcs.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common.tex"
-\pgfutil@everybye=\toks17
-\pgfutil@tempdima=\dimen150
-\pgfutil@tempdimb=\dimen151
+\pgfutil@everybye=\toks21
+\pgfutil@tempdima=\dimen167
+\pgfutil@tempdimb=\dimen168
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common-lists.te
 x")) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-latex.def"
-\pgfutil@abb=\box46
+\pgfutil@abb=\box55
 ("C:\Program Files\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -318,33 +446,33 @@ Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks18
-\pgfkeys@temptoks=\toks19
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeysfiltered.code.te
 x"
-\pgfkeys@tmptoks=\toks20
+\pgfkeys@tmptoks=\toks24
 ))
-\pgf@x=\dimen152
-\pgf@y=\dimen153
-\pgf@xa=\dimen154
-\pgf@ya=\dimen155
-\pgf@xb=\dimen156
-\pgf@yb=\dimen157
-\pgf@xc=\dimen158
-\pgf@yc=\dimen159
-\pgf@xd=\dimen160
-\pgf@yd=\dimen161
-\w@pgf@writea=\write3
-\r@pgf@reada=\read2
-\c@pgf@counta=\count193
-\c@pgf@countb=\count194
-\c@pgf@countc=\count195
-\c@pgf@countd=\count196
-\t@pgf@toka=\toks21
-\t@pgf@tokb=\toks22
-\t@pgf@tokc=\toks23
-\pgf@sys@id@count=\count197
+\pgf@x=\dimen169
+\pgf@y=\dimen170
+\pgf@xa=\dimen171
+\pgf@ya=\dimen172
+\pgf@xb=\dimen173
+\pgf@yb=\dimen174
+\pgf@xc=\dimen175
+\pgf@yc=\dimen176
+\pgf@xd=\dimen177
+\pgf@yd=\dimen178
+\w@pgf@writea=\write5
+\r@pgf@reada=\read4
+\c@pgf@counta=\count290
+\c@pgf@countb=\count291
+\c@pgf@countc=\count292
+\c@pgf@countd=\count293
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count294
  ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgf.cfg"
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -360,8 +488,8 @@ File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.t
 ex"
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count198
-\pgfsyssoftpath@bigbuffer@items=\count199
+\pgfsyssoftpath@smallbuffer@items=\count295
+\pgfsyssoftpath@bigbuffer@items=\count296
 )
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsysprotocol.code.t
 ex"
@@ -390,12 +518,12 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathcalc.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathutil.code.tex")
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen162
-\pgfmath@count=\count266
-\pgfmath@box=\box47
-\pgfmath@toks=\toks24
-\pgfmath@stack@operand=\toks25
-\pgfmath@stack@operation=\toks26
+\pgfmath@dimen=\dimen179
+\pgfmath@count=\count297
+\pgfmath@box=\box56
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
 )
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.basic.code.
@@ -415,58 +543,58 @@ ex")
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.integerarit
 hmetics.code.tex")))
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count267
+\c@pgfmathroundto@lastzeros=\count298
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfint.code.tex")
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 "
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen163
-\pgf@picmaxx=\dimen164
-\pgf@picminy=\dimen165
-\pgf@picmaxy=\dimen166
-\pgf@pathminx=\dimen167
-\pgf@pathmaxx=\dimen168
-\pgf@pathminy=\dimen169
-\pgf@pathmaxy=\dimen170
-\pgf@xx=\dimen171
-\pgf@xy=\dimen172
-\pgf@yx=\dimen173
-\pgf@yy=\dimen174
-\pgf@zx=\dimen175
-\pgf@zy=\dimen176
+\pgf@picminx=\dimen180
+\pgf@picmaxx=\dimen181
+\pgf@picminy=\dimen182
+\pgf@picmaxy=\dimen183
+\pgf@pathminx=\dimen184
+\pgf@pathmaxx=\dimen185
+\pgf@pathminy=\dimen186
+\pgf@pathmaxy=\dimen187
+\pgf@xx=\dimen188
+\pgf@xy=\dimen189
+\pgf@yx=\dimen190
+\pgf@yy=\dimen191
+\pgf@zx=\dimen192
+\pgf@zy=\dimen193
 )
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathconstruct.c
 ode.tex"
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen177
-\pgf@path@lasty=\dimen178
+\pgf@path@lastx=\dimen194
+\pgf@path@lasty=\dimen195
 )
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathusage.code.
 tex"
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen179
-\pgf@shorten@start@additional=\dimen180
+\pgf@shorten@end@additional=\dimen196
+\pgf@shorten@start@additional=\dimen197
 )
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 "
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfpic=\box48
-\pgf@hbox=\box49
-\pgf@layerbox@main=\box50
-\pgf@picture@serial@count=\count268
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count299
 )
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoregraphicstate.co
 de.tex"
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen181
+\pgflinewidth=\dimen198
 )
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoretransformations
 .code.tex"
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen182
-\pgf@pt@y=\dimen183
-\pgf@pt@temp=\dimen184
+\pgf@pt@x=\dimen199
+\pgf@pt@y=\dimen256
+\pgf@pt@temp=\dimen257
 )
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -482,13 +610,13 @@ File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 "
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen185
+\pgfarrowsep=\dimen258
 )
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen186
-\pgf@sys@shading@range@num=\count269
-\pgf@shadingcount=\count270
+\pgf@max=\dimen259
+\pgf@sys@shading@range@num=\count300
+\pgf@shadingcount=\count301
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreimage.code.te
 x"
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -496,7 +624,7 @@ File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreexternal.code.t
 ex"
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfexternal@startupbox=\box51
+\pgfexternal@startupbox=\box60
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 "
@@ -515,15 +643,15 @@ File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleshapes.code.
 tex"
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box52
+\pgfnodeparttextbox=\box61
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-0-65.
 sty"
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen187
-\pgf@nodesepend=\dimen188
+\pgf@nodesepstart=\dimen260
+\pgf@nodesepend=\dimen261
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-1-18.
 sty"
@@ -537,10 +665,10 @@ Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex")
-\pgffor@iter=\dimen189
-\pgffor@skip=\dimen190
-\pgffor@stack=\toks27
-\pgffor@toks=\toks28
+\pgffor@iter=\dimen262
+\pgffor@skip=\dimen263
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex"
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
@@ -548,33 +676,33 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryplothandlers.
 code.tex"
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count271
-\pgfplotmarksize=\dimen191
+\pgf@plot@mark@count=\count302
+\pgfplotmarksize=\dimen264
 )
-\tikz@lastx=\dimen192
-\tikz@lasty=\dimen193
-\tikz@lastxsaved=\dimen194
-\tikz@lastysaved=\dimen195
-\tikz@lastmovetox=\dimen196
-\tikz@lastmovetoy=\dimen197
-\tikzleveldistance=\dimen198
-\tikzsiblingdistance=\dimen199
-\tikz@figbox=\box53
-\tikz@figbox@bg=\box54
-\tikz@tempbox=\box55
-\tikz@tempbox@bg=\box56
-\tikztreelevel=\count272
-\tikznumberofchildren=\count273
-\tikznumberofcurrentchild=\count274
-\tikz@fig@count=\count275
+\tikz@lastx=\dimen265
+\tikz@lasty=\dimen266
+\tikz@lastxsaved=\dimen267
+\tikz@lastysaved=\dimen268
+\tikz@lastmovetox=\dimen269
+\tikz@lastmovetoy=\dimen270
+\tikzleveldistance=\dimen271
+\tikzsiblingdistance=\dimen272
+\tikz@figbox=\box62
+\tikz@figbox@bg=\box63
+\tikz@tempbox=\box64
+\tikz@tempbox@bg=\box65
+\tikztreelevel=\count303
+\tikznumberofchildren=\count304
+\tikznumberofcurrentchild=\count305
+\tikz@fig@count=\count306
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count276
-\pgfmatrixcurrentcolumn=\count277
-\pgf@matrix@numberofcolumns=\count278
+\pgfmatrixcurrentrow=\count307
+\pgfmatrixcurrentcolumn=\count308
+\pgf@matrix@numberofcolumns=\count309
 )
-\tikz@expandcount=\count279
+\tikz@expandcount=\count310
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 librarytopaths.code.tex"
@@ -606,68 +734,68 @@ Language: french 2020/01/30 v3.5g French support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
 File: babel.def 2020/03/22 3.42 Babel common definitions
-\babel@savecnt=\count280
-\U@D=\dimen256
+\babel@savecnt=\count311
+\U@D=\dimen273
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
-\bbl@readstream=\read3
-\bbl@dirlevel=\count281
+\bbl@readstream=\read5
+\bbl@dirlevel=\count312
 )
 Package babel Info: \l@acadian = using hyphenrules for french
 (babel)             (\language24) on input line 91.
 Package babel Info: \l@canadien = using hyphenrules for french
 (babel)             (\language24) on input line 92.
-\FB@nonchar=\count282
+\FB@nonchar=\count313
 Package babel Info: Making : an active character on input line 419.
 Package babel Info: Making ; an active character on input line 420.
 Package babel Info: Making ! an active character on input line 421.
 Package babel Info: Making ? an active character on input line 422.
-\FBguill@level=\count283
-\FBold@everypar=\toks29
-\FB@Mht=\dimen257
-\mc@charclass=\count284
-\mc@charfam=\count285
-\mc@charslot=\count286
-\std@mcc=\count287
-\dec@mcc=\count288
-\c@FBcaption@count=\count289
-\listindentFB=\dimen258
-\descindentFB=\dimen259
-\labelindentFB=\dimen260
-\labelwidthFB=\dimen261
-\leftmarginFB=\dimen262
-\parindentFFN=\dimen263
-\FBfnindent=\dimen264
+\FBguill@level=\count314
+\FBold@everypar=\toks33
+\FB@Mht=\dimen274
+\mc@charclass=\count315
+\mc@charfam=\count316
+\mc@charslot=\count317
+\std@mcc=\count318
+\dec@mcc=\count319
+\c@FBcaption@count=\count320
+\listindentFB=\dimen275
+\descindentFB=\dimen276
+\labelindentFB=\dimen277
+\labelwidthFB=\dimen278
+\leftmarginFB=\dimen279
+\parindentFFN=\dimen280
+\FBfnindent=\dimen281
 )))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/carlisle\scalefnt.sty")
 ("C:\Program Files\MiKTeX 2.9\tex/latex/enumitem\enumitem.sty"
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip50
-\enit@outerparindent=\dimen265
-\enit@toks=\toks30
-\enit@inbox=\box57
-\enit@count@id=\count290
-\enitdp@description=\count291
+\labelindent=\skip55
+\enit@outerparindent=\dimen282
+\enit@toks=\toks34
+\enit@inbox=\box66
+\enit@count@id=\count321
+\enitdp@description=\count322
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/booktabs\booktabs.sty"
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen266
-\lightrulewidth=\dimen267
-\cmidrulewidth=\dimen268
-\belowrulesep=\dimen269
-\belowbottomsep=\dimen270
-\aboverulesep=\dimen271
-\abovetopsep=\dimen272
-\cmidrulesep=\dimen273
-\cmidrulekern=\dimen274
-\defaultaddspace=\dimen275
-\@cmidla=\count292
-\@cmidlb=\count293
-\@aboverulesep=\dimen276
-\@belowrulesep=\dimen277
-\@thisruleclass=\count294
-\@lastruleclass=\count295
-\@thisrulewidth=\dimen278
+\heavyrulewidth=\dimen283
+\lightrulewidth=\dimen284
+\cmidrulewidth=\dimen285
+\belowrulesep=\dimen286
+\belowbottomsep=\dimen287
+\aboverulesep=\dimen288
+\abovetopsep=\dimen289
+\cmidrulesep=\dimen290
+\cmidrulekern=\dimen291
+\defaultaddspace=\dimen292
+\@cmidla=\count323
+\@cmidlb=\count324
+\@aboverulesep=\dimen293
+\@belowrulesep=\dimen294
+\@thisruleclass=\count325
+\@lastruleclass=\count326
+\@thisrulewidth=\dimen295
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\pifont.sty"
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
@@ -685,36 +813,27 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\multicol.sty"
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count296
-\mult@box=\box58
-\multicol@leftmargin=\dimen279
-\c@unbalance=\count297
-\c@collectmore=\count298
-\doublecol@number=\count299
-\multicoltolerance=\count300
-\multicolpretolerance=\count301
-\full@width=\dimen280
-\page@free=\dimen281
-\premulticols=\dimen282
-\postmulticols=\dimen283
-\multicolsep=\skip51
-\multicolbaselineskip=\skip52
-\partial@page=\box59
-\last@line=\box60
-\maxbalancingoverflow=\dimen284
-\mult@rightbox=\box61
-\mult@grightbox=\box62
-\mult@gfirstbox=\box63
-\mult@firstbox=\box64
-\@tempa=\box65
-\@tempa=\box66
-\@tempa=\box67
-\@tempa=\box68
-\@tempa=\box69
-\@tempa=\box70
-\@tempa=\box71
-\@tempa=\box72
-\@tempa=\box73
+\c@tracingmulticols=\count327
+\mult@box=\box67
+\multicol@leftmargin=\dimen296
+\c@unbalance=\count328
+\c@collectmore=\count329
+\doublecol@number=\count330
+\multicoltolerance=\count331
+\multicolpretolerance=\count332
+\full@width=\dimen297
+\page@free=\dimen298
+\premulticols=\dimen299
+\postmulticols=\dimen300
+\multicolsep=\skip56
+\multicolbaselineskip=\skip57
+\partial@page=\box68
+\last@line=\box69
+\maxbalancingoverflow=\dimen301
+\mult@rightbox=\box70
+\mult@grightbox=\box71
+\mult@gfirstbox=\box72
+\mult@firstbox=\box73
 \@tempa=\box74
 \@tempa=\box75
 \@tempa=\box76
@@ -743,32 +862,38 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box99
 \@tempa=\box100
 \@tempa=\box101
-\c@minrows=\count302
-\c@columnbadness=\count303
-\c@finalcolumnbadness=\count304
-\last@try=\dimen285
-\multicolovershoot=\dimen286
-\multicolundershoot=\dimen287
-\mult@nat@firstbox=\box102
-\colbreak@box=\box103
-\mc@col@check@num=\count305
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\c@minrows=\count333
+\c@columnbadness=\count334
+\c@finalcolumnbadness=\count335
+\last@try=\dimen302
+\multicolovershoot=\dimen303
+\multicolundershoot=\dimen304
+\mult@nat@firstbox=\box111
+\colbreak@box=\box112
+\mc@col@check@num=\count336
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen288
-\ar@mcellbox=\box104
-\extrarowheight=\dimen289
-\NC@list=\toks31
-\extratabsurround=\skip53
-\backup@length=\skip54
-\ar@cellbox=\box105
+\col@sep=\dimen305
+\ar@mcellbox=\box113
+\extrarowheight=\dimen306
+\NC@list=\toks35
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box114
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/schemabloc\schemabloc.sty"
 Package: schemabloc 2006/12/29
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 libraryshapes.code.tex"
 File: tikzlibraryshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -816,26 +941,26 @@ File: tikzlibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries/shapes\pgflibraryshapes
 .multipart.code.tex"
 File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodepartlowerbox=\box106
-\pgfnodeparttwobox=\box107
-\pgfnodepartthreebox=\box108
-\pgfnodepartfourbox=\box109
-\pgfnodeparttwentybox=\box110
-\pgfnodepartnineteenbox=\box111
-\pgfnodeparteighteenbox=\box112
-\pgfnodepartseventeenbox=\box113
-\pgfnodepartsixteenbox=\box114
-\pgfnodepartfifteenbox=\box115
-\pgfnodepartfourteenbox=\box116
-\pgfnodepartthirteenbox=\box117
-\pgfnodeparttwelvebox=\box118
-\pgfnodepartelevenbox=\box119
-\pgfnodeparttenbox=\box120
-\pgfnodepartninebox=\box121
-\pgfnodeparteightbox=\box122
-\pgfnodepartsevenbox=\box123
-\pgfnodepartsixbox=\box124
-\pgfnodepartfivebox=\box125
+\pgfnodepartlowerbox=\box115
+\pgfnodeparttwobox=\box116
+\pgfnodepartthreebox=\box117
+\pgfnodepartfourbox=\box118
+\pgfnodeparttwentybox=\box119
+\pgfnodepartnineteenbox=\box120
+\pgfnodeparteighteenbox=\box121
+\pgfnodepartseventeenbox=\box122
+\pgfnodepartsixteenbox=\box123
+\pgfnodepartfifteenbox=\box124
+\pgfnodepartfourteenbox=\box125
+\pgfnodepartthirteenbox=\box126
+\pgfnodeparttwelvebox=\box127
+\pgfnodepartelevenbox=\box128
+\pgfnodeparttenbox=\box129
+\pgfnodepartninebox=\box130
+\pgfnodeparteightbox=\box131
+\pgfnodepartsevenbox=\box132
+\pgfnodepartsixbox=\box133
+\pgfnodepartfivebox=\box134
 )))
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 libraryarrows.code.tex"
@@ -844,7 +969,7 @@ File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryarrows.code.t
 ex"
 File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\arrowsize=\dimen290
+\arrowsize=\dimen307
 ))) ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\bm.sty"
 Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
@@ -861,52 +986,52 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks32
-\ex@=\dimen291
+\@emptytoks=\toks36
+\ex@=\dimen308
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/l3keys2e\l3keys2e.sty"
 Package: l3keys2e 2020-03-06 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box126
-\l__siunitx_tmp_dim=\dimen292
-\l__siunitx_tmp_int=\count306
-\l__siunitx_number_mantissa_length_int=\count307
-\l__siunitx_number_uncert_length_int=\count308
-\l__siunitx_round_int=\count309
-\l__siunitx_process_decimal_int=\count310
-\l__siunitx_process_uncertainty_int=\count311
-\l__siunitx_process_fixed_int=\count312
-\l__siunitx_process_integer_min_int=\count313
-\l__siunitx_process_precision_int=\count314
-\l__siunitx_group_min_int=\count315
-\l__siunitx_angle_marker_box=\box127
-\l__siunitx_angle_unit_box=\box128
-\l__siunitx_angle_marker_dim=\dimen293
-\l__siunitx_angle_unit_dim=\dimen294
-\l__siunitx_unit_int=\count316
-\l__siunitx_unit_denominator_int=\count317
-\l__siunitx_unit_numerator_int=\count318
-\l__siunitx_unit_prefix_int=\count319
-\l__siunitx_unit_prefix_base_int=\count320
-\l__siunitx_unit_prefix_gram_int=\count321
-\l__siunitx_number_product_int=\count322
-\c__siunitx_one_fill_skip=\skip55
-\l__siunitx_table_unit_align_skip=\skip56
-\l__siunitx_table_exponent_dim=\dimen295
-\l__siunitx_table_integer_dim=\dimen296
-\l__siunitx_table_mantissa_dim=\dimen297
-\l__siunitx_table_marker_dim=\dimen298
-\l__siunitx_table_result_dim=\dimen299
-\l__siunitx_table_uncert_dim=\dimen300
-\l__siunitx_table_fill_pre_dim=\dimen301
-\l__siunitx_table_fill_post_dim=\dimen302
-\l__siunitx_table_fill_mid_dim=\dimen303
-\l__siunitx_table_pre_box=\box129
-\l__siunitx_table_post_box=\box130
-\l__siunitx_table_mantissa_box=\box131
-\l__siunitx_table_result_box=\box132
-\l__siunitx_table_number_align_skip=\skip57
-\l__siunitx_table_text_align_skip=\skip58
+\l__siunitx_tmp_box=\box135
+\l__siunitx_tmp_dim=\dimen309
+\l__siunitx_tmp_int=\count337
+\l__siunitx_number_mantissa_length_int=\count338
+\l__siunitx_number_uncert_length_int=\count339
+\l__siunitx_round_int=\count340
+\l__siunitx_process_decimal_int=\count341
+\l__siunitx_process_uncertainty_int=\count342
+\l__siunitx_process_fixed_int=\count343
+\l__siunitx_process_integer_min_int=\count344
+\l__siunitx_process_precision_int=\count345
+\l__siunitx_group_min_int=\count346
+\l__siunitx_angle_marker_box=\box136
+\l__siunitx_angle_unit_box=\box137
+\l__siunitx_angle_marker_dim=\dimen310
+\l__siunitx_angle_unit_dim=\dimen311
+\l__siunitx_unit_int=\count347
+\l__siunitx_unit_denominator_int=\count348
+\l__siunitx_unit_numerator_int=\count349
+\l__siunitx_unit_prefix_int=\count350
+\l__siunitx_unit_prefix_base_int=\count351
+\l__siunitx_unit_prefix_gram_int=\count352
+\l__siunitx_number_product_int=\count353
+\c__siunitx_one_fill_skip=\skip60
+\l__siunitx_table_unit_align_skip=\skip61
+\l__siunitx_table_exponent_dim=\dimen312
+\l__siunitx_table_integer_dim=\dimen313
+\l__siunitx_table_mantissa_dim=\dimen314
+\l__siunitx_table_marker_dim=\dimen315
+\l__siunitx_table_result_dim=\dimen316
+\l__siunitx_table_uncert_dim=\dimen317
+\l__siunitx_table_fill_pre_dim=\dimen318
+\l__siunitx_table_fill_post_dim=\dimen319
+\l__siunitx_table_fill_mid_dim=\dimen320
+\l__siunitx_table_pre_box=\box138
+\l__siunitx_table_post_box=\box139
+\l__siunitx_table_mantissa_box=\box140
+\l__siunitx_table_result_box=\box141
+\l__siunitx_table_number_align_skip=\skip62
+\l__siunitx_table_text_align_skip=\skip63
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/translator\translator.sty"
 Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
@@ -1066,10 +1191,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex"
 ("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
-\XKV@toks=\toks33
-\XKV@tempa@toks=\toks34
+\XKV@toks=\toks37
+\XKV@tempa@toks=\toks38
 )
-\XKV@depth=\count323
+\XKV@depth=\count354
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 LaTeX Font Info:    Trying to load font information for OT1+mdput on input line
@@ -1094,7 +1219,7 @@ LaTeX Font Info:    Overwriting symbol font `mathdesignB' in version `bold'
 (Font)                  MDB/mdput/m/n --> MDB/mdput/b/n on input line 498.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 532.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
-\rulethickness=\skip59
+\rulethickness=\skip64
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
@@ -1109,19 +1234,19 @@ LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/microtype\microtype.sty"
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks35
-\MT@count=\count324
+\MT@toks=\toks39
+\MT@count=\count355
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen304
+\MT@outer@kern=\dimen321
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count325
+\MT@listname@count=\count356
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/microtype\microtype-pdftex.def"
 File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 914.
 LaTeX Info: Redefining \lslig on input line 914.
-\MT@outer@space=\skip60
+\MT@outer@space=\skip65
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -1130,8 +1255,8 @@ File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks36
-\inpenc@posthook=\toks37
+\inpenc@prehook=\toks40
+\inpenc@posthook=\toks41
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
@@ -1139,72 +1264,68 @@ Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.sty"
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count326
-)
 ("C:\Program Files\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count327
+\lrq@indent=\count357
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count328
-\c@listtotal=\count329
-\c@listcount=\count330
-\c@liststart=\count331
-\c@liststop=\count332
-\c@citecount=\count333
-\c@citetotal=\count334
-\c@multicitecount=\count335
-\c@multicitetotal=\count336
-\c@instcount=\count337
-\c@maxnames=\count338
-\c@minnames=\count339
-\c@maxitems=\count340
-\c@minitems=\count341
-\c@citecounter=\count342
-\c@maxcitecounter=\count343
-\c@savedcitecounter=\count344
-\c@uniquelist=\count345
-\c@uniquename=\count346
-\c@refsection=\count347
-\c@refsegment=\count348
-\c@maxextratitle=\count349
-\c@maxextratitleyear=\count350
-\c@maxextraname=\count351
-\c@maxextradate=\count352
-\c@maxextraalpha=\count353
-\c@abbrvpenalty=\count354
-\c@highnamepenalty=\count355
-\c@lownamepenalty=\count356
-\c@maxparens=\count357
-\c@parenlevel=\count358
-\blx@tempcnta=\count359
-\blx@tempcntb=\count360
-\blx@tempcntc=\count361
-\blx@maxsection=\count362
-\blx@maxsegment@0=\count363
-\blx@notetype=\count364
-\blx@parenlevel@text=\count365
-\blx@parenlevel@foot=\count366
-\blx@sectionciteorder@0=\count367
-\blx@entrysetcounter=\count368
-\labelnumberwidth=\skip61
-\labelalphawidth=\skip62
-\biblabelsep=\skip63
-\bibitemsep=\skip64
-\bibnamesep=\skip65
-\bibinitsep=\skip66
-\bibparsep=\skip67
-\bibhang=\skip68
-\blx@bcfin=\read4
-\blx@bcfout=\write4
+\c@tabx@nest=\count358
+\c@listtotal=\count359
+\c@listcount=\count360
+\c@liststart=\count361
+\c@liststop=\count362
+\c@citecount=\count363
+\c@citetotal=\count364
+\c@multicitecount=\count365
+\c@multicitetotal=\count366
+\c@instcount=\count367
+\c@maxnames=\count368
+\c@minnames=\count369
+\c@maxitems=\count370
+\c@minitems=\count371
+\c@citecounter=\count372
+\c@maxcitecounter=\count373
+\c@savedcitecounter=\count374
+\c@uniquelist=\count375
+\c@uniquename=\count376
+\c@refsection=\count377
+\c@refsegment=\count378
+\c@maxextratitle=\count379
+\c@maxextratitleyear=\count380
+\c@maxextraname=\count381
+\c@maxextradate=\count382
+\c@maxextraalpha=\count383
+\c@abbrvpenalty=\count384
+\c@highnamepenalty=\count385
+\c@lownamepenalty=\count386
+\c@maxparens=\count387
+\c@parenlevel=\count388
+\blx@tempcnta=\count389
+\blx@tempcntb=\count390
+\blx@tempcntc=\count391
+\blx@maxsection=\count392
+\blx@maxsegment@0=\count393
+\blx@notetype=\count394
+\blx@parenlevel@text=\count395
+\blx@parenlevel@foot=\count396
+\blx@sectionciteorder@0=\count397
+\blx@entrysetcounter=\count398
+\labelnumberwidth=\skip66
+\labelalphawidth=\skip67
+\biblabelsep=\skip68
+\bibitemsep=\skip69
+\bibnamesep=\skip70
+\bibinitsep=\skip71
+\bibparsep=\skip72
+\bibhang=\skip73
+\blx@bcfin=\read6
+\blx@bcfout=\write6
 \blx@langwohyphens=\language82
-\c@mincomprange=\count369
-\c@maxcomprange=\count370
-\c@mincompwidth=\count371
+\c@mincomprange=\count399
+\c@maxcomprange=\count400
+\c@mincompwidth=\count401
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1215,88 +1336,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'alphabetic.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count372
-\c@savedafterword=\count373
-\c@annotator=\count374
-\c@savedannotator=\count375
-\c@author=\count376
-\c@savedauthor=\count377
-\c@bookauthor=\count378
-\c@savedbookauthor=\count379
-\c@commentator=\count380
-\c@savedcommentator=\count381
-\c@editor=\count382
-\c@savededitor=\count383
-\c@editora=\count384
-\c@savededitora=\count385
-\c@editorb=\count386
-\c@savededitorb=\count387
-\c@editorc=\count388
-\c@savededitorc=\count389
-\c@foreword=\count390
-\c@savedforeword=\count391
-\c@holder=\count392
-\c@savedholder=\count393
-\c@introduction=\count394
-\c@savedintroduction=\count395
-\c@namea=\count396
-\c@savednamea=\count397
-\c@nameb=\count398
-\c@savednameb=\count399
-\c@namec=\count400
-\c@savednamec=\count401
-\c@translator=\count402
-\c@savedtranslator=\count403
-\c@shortauthor=\count404
-\c@savedshortauthor=\count405
-\c@shorteditor=\count406
-\c@savedshorteditor=\count407
-\c@labelname=\count408
-\c@savedlabelname=\count409
-\c@institution=\count410
-\c@savedinstitution=\count411
-\c@lista=\count412
-\c@savedlista=\count413
-\c@listb=\count414
-\c@savedlistb=\count415
-\c@listc=\count416
-\c@savedlistc=\count417
-\c@listd=\count418
-\c@savedlistd=\count419
-\c@liste=\count420
-\c@savedliste=\count421
-\c@listf=\count422
-\c@savedlistf=\count423
-\c@location=\count424
-\c@savedlocation=\count425
-\c@organization=\count426
-\c@savedorganization=\count427
-\c@origlocation=\count428
-\c@savedoriglocation=\count429
-\c@origpublisher=\count430
-\c@savedorigpublisher=\count431
-\c@publisher=\count432
-\c@savedpublisher=\count433
-\c@language=\count434
-\c@savedlanguage=\count435
-\c@origlanguage=\count436
-\c@savedoriglanguage=\count437
-\c@pageref=\count438
-\c@savedpageref=\count439
-\shorthandwidth=\skip69
-\shortjournalwidth=\skip70
-\shortserieswidth=\skip71
-\shorttitlewidth=\skip72
-\shortauthorwidth=\skip73
-\shorteditorwidth=\skip74
-\locallabelnumberwidth=\skip75
-\locallabelalphawidth=\skip76
-\localshorthandwidth=\skip77
-\localshortjournalwidth=\skip78
-\localshortserieswidth=\skip79
-\localshorttitlewidth=\skip80
-\localshortauthorwidth=\skip81
-\localshorteditorwidth=\skip82
+\c@afterword=\count402
+\c@savedafterword=\count403
+\c@annotator=\count404
+\c@savedannotator=\count405
+\c@author=\count406
+\c@savedauthor=\count407
+\c@bookauthor=\count408
+\c@savedbookauthor=\count409
+\c@commentator=\count410
+\c@savedcommentator=\count411
+\c@editor=\count412
+\c@savededitor=\count413
+\c@editora=\count414
+\c@savededitora=\count415
+\c@editorb=\count416
+\c@savededitorb=\count417
+\c@editorc=\count418
+\c@savededitorc=\count419
+\c@foreword=\count420
+\c@savedforeword=\count421
+\c@holder=\count422
+\c@savedholder=\count423
+\c@introduction=\count424
+\c@savedintroduction=\count425
+\c@namea=\count426
+\c@savednamea=\count427
+\c@nameb=\count428
+\c@savednameb=\count429
+\c@namec=\count430
+\c@savednamec=\count431
+\c@translator=\count432
+\c@savedtranslator=\count433
+\c@shortauthor=\count434
+\c@savedshortauthor=\count435
+\c@shorteditor=\count436
+\c@savedshorteditor=\count437
+\c@labelname=\count438
+\c@savedlabelname=\count439
+\c@institution=\count440
+\c@savedinstitution=\count441
+\c@lista=\count442
+\c@savedlista=\count443
+\c@listb=\count444
+\c@savedlistb=\count445
+\c@listc=\count446
+\c@savedlistc=\count447
+\c@listd=\count448
+\c@savedlistd=\count449
+\c@liste=\count450
+\c@savedliste=\count451
+\c@listf=\count452
+\c@savedlistf=\count453
+\c@location=\count454
+\c@savedlocation=\count455
+\c@organization=\count456
+\c@savedorganization=\count457
+\c@origlocation=\count458
+\c@savedoriglocation=\count459
+\c@origpublisher=\count460
+\c@savedorigpublisher=\count461
+\c@publisher=\count462
+\c@savedpublisher=\count463
+\c@language=\count464
+\c@savedlanguage=\count465
+\c@origlanguage=\count466
+\c@savedoriglanguage=\count467
+\c@pageref=\count468
+\c@savedpageref=\count469
+\shorthandwidth=\skip74
+\shortjournalwidth=\skip75
+\shortserieswidth=\skip76
+\shorttitlewidth=\skip77
+\shortauthorwidth=\skip78
+\shorteditorwidth=\skip79
+\locallabelnumberwidth=\skip80
+\locallabelalphawidth=\skip81
+\localshorthandwidth=\skip82
+\localshortjournalwidth=\skip83
+\localshortserieswidth=\skip84
+\localshorttitlewidth=\skip85
+\localshortauthorwidth=\skip86
+\localshorteditorwidth=\skip87
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1308,19 +1429,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.def"
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count440
-\c@textcitetotal=\count441
-\c@textcitemaxnames=\count442
-\c@biburlbigbreakpenalty=\count443
-\c@biburlbreakpenalty=\count444
-\c@biburlnumpenalty=\count445
-\c@biburlucpenalty=\count446
-\c@biburllcpenalty=\count447
+\c@textcitecount=\count470
+\c@textcitetotal=\count471
+\c@textcitemaxnames=\count472
+\c@biburlbigbreakpenalty=\count473
+\c@biburlbreakpenalty=\count474
+\c@biburlnumpenalty=\count475
+\c@biburlucpenalty=\count476
+\c@biburllcpenalty=\count477
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count448
+\c@smartand=\count478
 )
 Package biblatex Info: Trying to load bibliography style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.bbx' found.
@@ -1332,8 +1453,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/bbx\standard.bbx"
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count449
-\c@bbx:relatedtotal=\count450
+\c@bbx:relatedcount=\count479
+\c@bbx:relatedtotal=\count480
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1358,125 +1479,112 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.cfg"
 File: biblatex.cfg 
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count451
-\calc@Bcount=\count452
-\calc@Adimen=\dimen305
-\calc@Bdimen=\dimen306
-\calc@Askip=\skip83
-\calc@Bskip=\skip84
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count453
-\calc@Cskip=\skip85
-)
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\makeidx.sty"
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-\@indexfile=\write5
-\openout5 = `Cy_01_Ch_01_Introduction_Cours_PDF.idx'.
+\@indexfile=\write7
+\openout7 = `TD_Classique_02_Iris_PDF.idx'.
 
 
-Writing index file Cy_01_Ch_01_Introduction_Cours_PDF.idx
+Writing index file TD_Classique_02_Iris_PDF.idx
 ("C:\Program Files\MiKTeX 2.9\tex/latex/titlesec\titletoc.sty"
 Package: titletoc 2019/10/16 v2.13 TOC entries
-\ttl@leftsep=\dimen307
+\ttl@leftsep=\dimen322
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip86
-\f@nch@O@elh=\skip87
-\f@nch@O@erh=\skip88
-\f@nch@O@olh=\skip89
-\f@nch@O@orh=\skip90
-\f@nch@O@elf=\skip91
-\f@nch@O@erf=\skip92
-\f@nch@O@olf=\skip93
-\f@nch@O@orf=\skip94
+\f@nch@headwidth=\skip88
+\f@nch@O@elh=\skip89
+\f@nch@O@erh=\skip90
+\f@nch@O@olh=\skip91
+\f@nch@O@orh=\skip92
+\f@nch@O@elf=\skip93
+\f@nch@O@erf=\skip94
+\f@nch@O@olf=\skip95
+\f@nch@O@orf=\skip96
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
 Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip95
+\@mathmargin=\skip97
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 LaTeX Info: Redefining \boldsymbol on input line 28.
-\pmbraise@=\dimen308
+\pmbraise@=\dimen323
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count454
+\inf@bad=\count481
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count455
-\leftroot@=\count456
+\uproot@=\count482
+\leftroot@=\count483
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count457
-\DOTSCASE@=\count458
+\classnum@=\count484
+\DOTSCASE@=\count485
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box133
-\strutbox@=\box134
-\big@size=\dimen309
+\Mathstrutbox@=\box142
+\strutbox@=\box143
+\big@size=\dimen324
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count459
-\c@MaxMatrixCols=\count460
+\macc@depth=\count486
+\c@MaxMatrixCols=\count487
 \dotsspace@=\muskip21
-\c@parentequation=\count461
-\dspbrk@lvl=\count462
-\tag@help=\toks38
-\row@=\count463
-\column@=\count464
-\maxfields@=\count465
-\andhelp@=\toks39
-\eqnshift@=\dimen310
-\alignsep@=\dimen311
-\tagshift@=\dimen312
-\tagwidth@=\dimen313
-\totwidth@=\dimen314
-\lineht@=\dimen315
-\@envbody=\toks40
-\multlinegap=\skip96
-\multlinetaggap=\skip97
-\mathdisplay@stack=\toks41
+\c@parentequation=\count488
+\dspbrk@lvl=\count489
+\tag@help=\toks42
+\row@=\count490
+\column@=\count491
+\maxfields@=\count492
+\andhelp@=\toks43
+\eqnshift@=\dimen325
+\alignsep@=\dimen326
+\tagshift@=\dimen327
+\tagwidth@=\dimen328
+\totwidth@=\dimen329
+\lineht@=\dimen330
+\@envbody=\toks44
+\multlinegap=\skip98
+\multlinetaggap=\skip99
+\mathdisplay@stack=\toks45
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amscls\amsthm.sty"
 Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks42
-\thm@bodyfont=\toks43
-\thm@headfont=\toks44
-\thm@notefont=\toks45
-\thm@headpunct=\toks46
-\thm@preskip=\skip98
-\thm@postskip=\skip99
-\thm@headsep=\skip100
-\dth@everypar=\toks47
+\thm@style=\toks46
+\thm@bodyfont=\toks47
+\thm@headfont=\toks48
+\thm@notefont=\toks49
+\thm@headpunct=\toks50
+\thm@preskip=\skip100
+\thm@postskip=\skip101
+\thm@headsep=\skip102
+\dth@everypar=\toks51
 )
-\c@notation=\count466
-\c@dummy=\count467
-\c@problem=\count468
-\c@exerciseT=\count469
-\c@exempleT=\count470
-\c@termT=\count471
-\c@pyT=\count472
-\c@sciT=\count473
-\c@pseudoT=\count474
-\c@sqlT=\count475
-\c@vocabulary=\count476
-\c@definitionT=\count477
-\c@propT=\count478
-\c@rappelT=\count479
-\c@demoT=\count480
-\c@hypoT=\count481
-\c@titrepartieT=\count482
-\c@titrechapitreT=\count483
+\c@notation=\count493
+\c@dummy=\count494
+\c@problem=\count495
+\c@exerciseT=\count496
+\c@exempleT=\count497
+\c@termT=\count498
+\c@pyT=\count499
+\c@sciT=\count500
+\c@pseudoT=\count501
+\c@sqlT=\count502
+\c@vocabulary=\count503
+\c@definitionT=\count504
+\c@propT=\count505
+\c@rappelT=\count506
+\c@demoT=\count507
+\c@hypoT=\count508
+\c@titrepartieT=\count509
+\c@titrechapitreT=\count510
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/mdframed\mdframed.sty"
 Package: mdframed 2013/07/01 1.9b: mdframed
@@ -1490,99 +1598,99 @@ Package zref Info: New property list: main on input line 763.
 Package zref Info: New property: default on input line 764.
 Package zref Info: New property: page on input line 765.
 )
-\c@abspage=\count484
+\c@abspage=\count511
 Package zref Info: New property: abspage on input line 66.
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/needspace\needspace.sty"
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip101
-\c@mdf@globalstyle@cnt=\count485
-\mdf@skipabove@length=\skip102
-\mdf@skipbelow@length=\skip103
-\mdf@leftmargin@length=\skip104
-\mdf@rightmargin@length=\skip105
-\mdf@innerleftmargin@length=\skip106
-\mdf@innerrightmargin@length=\skip107
-\mdf@innertopmargin@length=\skip108
-\mdf@innerbottommargin@length=\skip109
-\mdf@splittopskip@length=\skip110
-\mdf@splitbottomskip@length=\skip111
-\mdf@outermargin@length=\skip112
-\mdf@innermargin@length=\skip113
-\mdf@linewidth@length=\skip114
-\mdf@innerlinewidth@length=\skip115
-\mdf@middlelinewidth@length=\skip116
-\mdf@outerlinewidth@length=\skip117
-\mdf@roundcorner@length=\skip118
-\mdf@footenotedistance@length=\skip119
-\mdf@userdefinedwidth@length=\skip120
-\mdf@needspace@length=\skip121
-\mdf@frametitleaboveskip@length=\skip122
-\mdf@frametitlebelowskip@length=\skip123
-\mdf@frametitlerulewidth@length=\skip124
-\mdf@frametitleleftmargin@length=\skip125
-\mdf@frametitlerightmargin@length=\skip126
-\mdf@shadowsize@length=\skip127
-\mdf@extratopheight@length=\skip128
-\mdf@subtitleabovelinewidth@length=\skip129
-\mdf@subtitlebelowlinewidth@length=\skip130
-\mdf@subtitleaboveskip@length=\skip131
-\mdf@subtitlebelowskip@length=\skip132
-\mdf@subtitleinneraboveskip@length=\skip133
-\mdf@subtitleinnerbelowskip@length=\skip134
-\mdf@subsubtitleabovelinewidth@length=\skip135
-\mdf@subsubtitlebelowlinewidth@length=\skip136
-\mdf@subsubtitleaboveskip@length=\skip137
-\mdf@subsubtitlebelowskip@length=\skip138
-\mdf@subsubtitleinneraboveskip@length=\skip139
-\mdf@subsubtitleinnerbelowskip@length=\skip140
+\mdf@templength=\skip103
+\c@mdf@globalstyle@cnt=\count512
+\mdf@skipabove@length=\skip104
+\mdf@skipbelow@length=\skip105
+\mdf@leftmargin@length=\skip106
+\mdf@rightmargin@length=\skip107
+\mdf@innerleftmargin@length=\skip108
+\mdf@innerrightmargin@length=\skip109
+\mdf@innertopmargin@length=\skip110
+\mdf@innerbottommargin@length=\skip111
+\mdf@splittopskip@length=\skip112
+\mdf@splitbottomskip@length=\skip113
+\mdf@outermargin@length=\skip114
+\mdf@innermargin@length=\skip115
+\mdf@linewidth@length=\skip116
+\mdf@innerlinewidth@length=\skip117
+\mdf@middlelinewidth@length=\skip118
+\mdf@outerlinewidth@length=\skip119
+\mdf@roundcorner@length=\skip120
+\mdf@footenotedistance@length=\skip121
+\mdf@userdefinedwidth@length=\skip122
+\mdf@needspace@length=\skip123
+\mdf@frametitleaboveskip@length=\skip124
+\mdf@frametitlebelowskip@length=\skip125
+\mdf@frametitlerulewidth@length=\skip126
+\mdf@frametitleleftmargin@length=\skip127
+\mdf@frametitlerightmargin@length=\skip128
+\mdf@shadowsize@length=\skip129
+\mdf@extratopheight@length=\skip130
+\mdf@subtitleabovelinewidth@length=\skip131
+\mdf@subtitlebelowlinewidth@length=\skip132
+\mdf@subtitleaboveskip@length=\skip133
+\mdf@subtitlebelowskip@length=\skip134
+\mdf@subtitleinneraboveskip@length=\skip135
+\mdf@subtitleinnerbelowskip@length=\skip136
+\mdf@subsubtitleabovelinewidth@length=\skip137
+\mdf@subsubtitlebelowlinewidth@length=\skip138
+\mdf@subsubtitleaboveskip@length=\skip139
+\mdf@subsubtitlebelowskip@length=\skip140
+\mdf@subsubtitleinneraboveskip@length=\skip141
+\mdf@subsubtitleinnerbelowskip@length=\skip142
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/mdframed\md-frame-1.mdf"
 File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 )
-\mdf@frametitlebox=\box135
-\mdf@footnotebox=\box136
-\mdf@splitbox@one=\box137
-\mdf@splitbox@two=\box138
-\mdf@splitbox@save=\box139
-\mdfsplitboxwidth=\skip141
-\mdfsplitboxtotalwidth=\skip142
-\mdfsplitboxheight=\skip143
-\mdfsplitboxdepth=\skip144
-\mdfsplitboxtotalheight=\skip145
-\mdfframetitleboxwidth=\skip146
-\mdfframetitleboxtotalwidth=\skip147
-\mdfframetitleboxheight=\skip148
-\mdfframetitleboxdepth=\skip149
-\mdfframetitleboxtotalheight=\skip150
-\mdffootnoteboxwidth=\skip151
-\mdffootnoteboxtotalwidth=\skip152
-\mdffootnoteboxheight=\skip153
-\mdffootnoteboxdepth=\skip154
-\mdffootnoteboxtotalheight=\skip155
-\mdftotallinewidth=\skip156
-\mdfboundingboxwidth=\skip157
-\mdfboundingboxtotalwidth=\skip158
-\mdfboundingboxheight=\skip159
-\mdfboundingboxdepth=\skip160
-\mdfboundingboxtotalheight=\skip161
-\mdf@freevspace@length=\skip162
-\mdf@horizontalwidthofbox@length=\skip163
-\mdf@verticalmarginwhole@length=\skip164
-\mdf@horizontalspaceofbox=\skip165
-\mdfsubtitleheight=\skip166
-\mdfsubsubtitleheight=\skip167
-\c@mdfcountframes=\count486
+\mdf@frametitlebox=\box144
+\mdf@footnotebox=\box145
+\mdf@splitbox@one=\box146
+\mdf@splitbox@two=\box147
+\mdf@splitbox@save=\box148
+\mdfsplitboxwidth=\skip143
+\mdfsplitboxtotalwidth=\skip144
+\mdfsplitboxheight=\skip145
+\mdfsplitboxdepth=\skip146
+\mdfsplitboxtotalheight=\skip147
+\mdfframetitleboxwidth=\skip148
+\mdfframetitleboxtotalwidth=\skip149
+\mdfframetitleboxheight=\skip150
+\mdfframetitleboxdepth=\skip151
+\mdfframetitleboxtotalheight=\skip152
+\mdffootnoteboxwidth=\skip153
+\mdffootnoteboxtotalwidth=\skip154
+\mdffootnoteboxheight=\skip155
+\mdffootnoteboxdepth=\skip156
+\mdffootnoteboxtotalheight=\skip157
+\mdftotallinewidth=\skip158
+\mdfboundingboxwidth=\skip159
+\mdfboundingboxtotalwidth=\skip160
+\mdfboundingboxheight=\skip161
+\mdfboundingboxdepth=\skip162
+\mdfboundingboxtotalheight=\skip163
+\mdf@freevspace@length=\skip164
+\mdf@horizontalwidthofbox@length=\skip165
+\mdf@verticalmarginwhole@length=\skip166
+\mdf@horizontalspaceofbox=\skip167
+\mdfsubtitleheight=\skip168
+\mdfsubsubtitleheight=\skip169
+\c@mdfcountframes=\count513
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count487
-\c@mdf@env@i=\count488
-\c@mdf@env@ii=\count489
-\c@mdf@zref@counter=\count490
+\mdf@envdepth=\count514
+\c@mdf@env@i=\count515
+\c@mdf@env@ii=\count516
+\c@mdf@zref@counter=\count517
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 
@@ -1609,57 +1717,64 @@ Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/bookmark\bkm-pdftex.def"
 File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
-\BKM@id=\count491
+\BKM@id=\count518
 ))
-\c@exo=\count492
+\c@exo=\count519
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\textcomp.sty"
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ))
 (../../style/macros_SII.tex) (../../style/Cycle_00_IA.tex)
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > TD
+_Classique_02_Iris_PDF.aex <nul: /p x=^%~$PATH:i>> TD_Classique_02_Iris_PDF.aex
+)...executed.
+
+runsystem(del TD_Classique_02_Iris_PDF.aex)...executed.
+
+
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count493
-\@quotereset=\count494
-(Cy_01_Ch_01_Introduction_Cours_PDF.aux)
-\openout1 = `Cy_01_Ch_01_Introduction_Cours_PDF.aux'.
+\@quotelevel=\count520
+\@quotereset=\count521
+(TD_Classique_02_Iris_PDF.aux)
+\openout1 = `TD_Classique_02_Iris_PDF.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 1
-8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 2
+0.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign\mdacmr.fd"
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 1
-8.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 2
+0.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign\mdbcmr.fd"
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 18.
-\AtBeginShipoutBox=\box140
-Package hyperref Info: Link coloring OFF on input line 18.
+LaTeX Font Info:    ... okay on input line 20.
+\AtBeginShipoutBox=\box149
+Package hyperref Info: Link coloring OFF on input line 20.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1670,11 +1785,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/gettitlestring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count495
+\c@section@level=\count522
 )
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1712,26 +1827,26 @@ LaTeX Info: Redefining \nameref on input line 18.
 
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count496
-\scratchdimen=\dimen316
-\scratchbox=\box141
-\nofMPsegments=\count497
-\nofMParguments=\count498
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count499
-\MPscratchDim=\dimen317
-\MPnumerator=\count500
-\makeMPintoPDFobject=\count501
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count523
+\scratchdimen=\dimen331
+\scratchbox=\box150
+\nofMPsegments=\count524
+\nofMParguments=\count525
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count526
+\MPscratchDim=\dimen332
+\MPnumerator=\count527
+\makeMPintoPDFobject=\count528
+\everyMPtoPDFconversion=\toks53
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \degres on input line 18.
-LaTeX Info: Redefining \dots on input line 18.
-LaTeX Info: Redefining \up on input line 18.
+LaTeX Info: Redefining \degres on input line 20.
+LaTeX Info: Redefining \dots on input line 20.
+LaTeX Info: Redefining \up on input line 20.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/translator\translator-basic-dictionary-
 English.dict"
@@ -1740,14 +1855,14 @@ Dictionary: translator-basic-dictionary, Language: English
 ("C:\Program Files\MiKTeX 2.9\tex/latex/siunitx\siunitx-abbreviations.cfg"
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-LaTeX Info: Redefining \microtypecontext on input line 18.
+LaTeX Info: Redefining \microtypecontext on input line 20.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 18.
+LaTeX Info: Redefining \showhyphens on input line 20.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1760,7 +1875,7 @@ Package biblatex Info: ... file 'francais.lbx' not found.
 
 
 Package biblatex Warning: Language 'francais' not supported.
-(biblatex)                Using fallback language 'english' on input line 18.
+(biblatex)                Using fallback language 'english' on input line 20.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1776,95 +1891,94 @@ File: french.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `Cy_01_Ch_01_Introduction_Cours_PDF.bcf'.
+\openout6 = `TD_Classique_02_Iris_PDF.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Cy_01_Ch_01_Introduction_Cours_PDF.bbl' not fo
-und.
+Package biblatex Info: ... file 'TD_Classique_02_Iris_PDF.bbl' not found.
 
-No file Cy_01_Ch_01_Introduction_Cours_PDF.bbl.
-Package biblatex Info: Reference section=0 on input line 18.
-Package biblatex Info: Reference segment=0 on input line 18.
+No file TD_Classique_02_Iris_PDF.bbl.
+Package biblatex Info: Reference section=0 on input line 20.
+Package biblatex Info: Reference segment=0 on input line 20.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `mdput' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 18.
+(Font)              scaled to size 6.58002pt on input line 20.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 18.
+(Font)              scaled to size 4.70001pt on input line 20.
 LaTeX Font Info:    Trying to load font information for OML+mdput on input line
- 18.
+ 20.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdput\omlmdput.fd"
 File: omlmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdput.
 )
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 9.40002pt on input line 18.
+(Font)              scaled to size 9.40002pt on input line 20.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 6.58002pt on input line 18.
+(Font)              scaled to size 6.58002pt on input line 20.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 4.70001pt on input line 18.
+(Font)              scaled to size 4.70001pt on input line 20.
 LaTeX Font Info:    Trying to load font information for OMS+mdput on input line
- 18.
+ 20.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdput\omsmdput.fd"
 File: omsmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdput.
 )
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 18.
+(Font)              scaled to size 9.40002pt on input line 20.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 18.
+(Font)              scaled to size 6.58002pt on input line 20.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 18.
+(Font)              scaled to size 4.70001pt on input line 20.
 LaTeX Font Info:    Trying to load font information for OMX+mdput on input line
- 18.
+ 20.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdput\omxmdput.fd"
 File: omxmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdput.
 )
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 18.
+(Font)              scaled to size 9.40002pt on input line 20.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 18.
+(Font)              scaled to size 6.58002pt on input line 20.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 18.
+(Font)              scaled to size 4.70001pt on input line 20.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/microtype\mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 18.
+(Font)              scaled to size 9.40002pt on input line 20.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 18.
+(Font)              scaled to size 6.58002pt on input line 20.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 18.
+(Font)              scaled to size 4.70001pt on input line 20.
 LaTeX Font Info:    Trying to load font information for MDA+mdput on input line
- 18.
+ 20.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdput\mdamdput.fd"
 File: mdamdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdput.
 )
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 18.
+(Font)              scaled to size 9.40002pt on input line 20.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 18.
+(Font)              scaled to size 6.58002pt on input line 20.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 18.
+(Font)              scaled to size 4.70001pt on input line 20.
 LaTeX Font Info:    Trying to load font information for MDB+mdput on input line
- 18.
+ 20.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdput\mdbmdput.fd"
 File: mdbmdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdput.
 )
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 18.
+(Font)              scaled to size 9.40002pt on input line 20.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 18.
+(Font)              scaled to size 6.58002pt on input line 20.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 18.
-LaTeX Font Info:    Trying to load font information for OT1+pag on input line 1
-8.
+(Font)              scaled to size 4.70001pt on input line 20.
+LaTeX Font Info:    Trying to load font information for OT1+pag on input line 2
+0.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1pag.fd"
 File: ot1pag.fd 2001/06/04 font definitions for OT1/pag.
@@ -1874,26 +1988,21 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/cmtt/m/n' will be
-(Font)              scaled to size 10.70007pt on input line 18.
+(Font)              scaled to size 10.70007pt on input line 20.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/cmtt/m/n' will be
-(Font)              scaled to size 7.49005pt on input line 18.
+(Font)              scaled to size 7.49005pt on input line 20.
 LaTeX Font Info:    Font shape `OT1/cmtt/m/n' will be
-(Font)              scaled to size 5.35004pt on input line 18.
+(Font)              scaled to size 5.35004pt on input line 20.
 
-(Cy_01_Ch_01_Introduction_Cours.tex (../../style/new_pagegarde.tex
-<../../style/png/Fond_IA.png, id=6, 231.264pt x 130.086pt>
-File: ../../style/png/Fond_IA.png Graphic file (type png)
-<use ../../style/png/Fond_IA.png>
-Package pdftex.def Info: ../../style/png/Fond_IA.png  used on input line 10.
-(pdftex.def)             Requested size: 597.50787pt x 336.11748pt.
+(TD_Classique_02_Iris.tex (../../style/new_pagegarde.tex
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 19.49565pt on input line 12.
-LaTeX Font Info:    Trying to load font information for T1+pag on input line 12
-.
+(Font)              scaled to size 19.49565pt on input line 144.
+LaTeX Font Info:    Trying to load font information for T1+pag on input line 14
+4.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\t1pag.fd"
 File: t1pag.fd 2001/06/04 font definitions for T1/pag.
@@ -1903,214 +2012,278 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <20.74> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 12.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 144.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <17.28> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 14.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 147.
 
 
 LaTeX Font Warning: Font shape `T1/pag/b/fsc' undefined
-(Font)              using `T1/pag/b/n' instead on input line 14.
+(Font)              using `T1/pag/b/n' instead on input line 147.
 
-LaTeX Font Info:    Font shape `T1/pag/b/fsc' in size <17.28> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 14.
+<images/fig_01.png, id=6, 96.36pt x 120.45pt>
+File: images/fig_01.png Graphic file (type png)
+<use images/fig_01.png>
+Package pdftex.def Info: images/fig_01.png  used on input line 150.
+(pdftex.def)             Requested size: 71.13188pt x 88.91472pt.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 19.49565pt on input line 15.
+(Font)              scaled to size 19.49565pt on input line 154.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 13.53603pt on input line 15.
+(Font)              scaled to size 13.53603pt on input line 154.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 15.
+(Font)              scaled to size 11.28003pt on input line 154.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 19.49565pt on input line 15.
+(Font)              scaled to size 19.49565pt on input line 154.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 13.53603pt on input line 15.
+(Font)              scaled to size 13.53603pt on input line 154.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 11.28003pt on input line 15.
+(Font)              scaled to size 11.28003pt on input line 154.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 19.49565pt on input line 15.
+(Font)              scaled to size 19.49565pt on input line 154.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 13.53603pt on input line 15.
+(Font)              scaled to size 13.53603pt on input line 154.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 15.
+(Font)              scaled to size 11.28003pt on input line 154.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 19.49565pt on input line 15.
+(Font)              scaled to size 19.49565pt on input line 154.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 13.53603pt on input line 15.
+(Font)              scaled to size 13.53603pt on input line 154.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 15.
+(Font)              scaled to size 11.28003pt on input line 154.
 LaTeX Font Info:    Font shape `OT1/cmtt/m/n' will be
-(Font)              scaled to size 22.19196pt on input line 15.
+(Font)              scaled to size 22.19196pt on input line 154.
 LaTeX Font Info:    Font shape `OT1/cmtt/m/n' will be
-(Font)              scaled to size 15.4081pt on input line 15.
+(Font)              scaled to size 15.4081pt on input line 154.
 LaTeX Font Info:    Font shape `OT1/cmtt/m/n' will be
-(Font)              scaled to size 12.84009pt on input line 15.
+(Font)              scaled to size 12.84009pt on input line 154.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 19.49565pt on input line 15.
+(Font)              scaled to size 19.49565pt on input line 154.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 13.53603pt on input line 15.
+(Font)              scaled to size 13.53603pt on input line 154.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 15.
+(Font)              scaled to size 11.28003pt on input line 154.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 19.49565pt on input line 15.
+(Font)              scaled to size 19.49565pt on input line 154.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 13.53603pt on input line 15.
+(Font)              scaled to size 13.53603pt on input line 154.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 15.
+(Font)              scaled to size 11.28003pt on input line 154.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 19.49565pt on input line 15.
+(Font)              scaled to size 19.49565pt on input line 154.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 13.53603pt on input line 15.
+(Font)              scaled to size 13.53603pt on input line 154.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 15.
+(Font)              scaled to size 11.28003pt on input line 154.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 17.
+(mdframed)              on input line 156.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 18.
+(Font)              scaled to size 8.46002pt on input line 157.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 8.46002pt on input line 18.
+(Font)              scaled to size 8.46002pt on input line 157.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <9> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 18.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 157.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 13.53603pt on input line 20.
-
-LaTeX Font Warning: Font shape `T1/pag/m/fsc' undefined
-(Font)              using `T1/pag/m/n' instead on input line 20.
-
-LaTeX Font Info:    Font shape `T1/pag/b/fsc' in size <14.4> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 20.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 23.
+(Font)              scaled to size 11.28003pt on input line 158.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 26.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 158.
 LaTeX Font Info:    Font shape `T1/pag/b/fsc' in size <12> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 26.
-LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 9.40002pt on input line 43.
-LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 13.53603pt on input line 43.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 43.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 59.
-LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
-(Font)              scaled to size 9.40002pt on input line 68.
-LaTeX Font Info:    Font shape `T1/mdput/b/sl' will be
-(Font)              scaled to size 9.40002pt on input line 68.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 158.
+LaTeX Font Info:    Font shape `T1/pag/b/it' in size <9> not available
+(Font)              Font shape `T1/pag/db/it' tried instead on input line 160.
+LaTeX Font Info:    Font shape `T1/pag/db/it' in size <9> not available
+(Font)              Font shape `T1/pag/db/sl' tried instead on input line 160.
+LaTeX Font Info:    Font shape `T1/cmtt/bx/it' in size <9> not available
+(Font)              Font shape `T1/cmtt/m/it' tried instead on input line 160.
+LaTeX Font Info:    Font shape `T1/cmtt/m/it' will be
+(Font)              scaled to size 9.63007pt on input line 160.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
+(Font)              scaled to size 8.46002pt on input line 160.
+LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
+(Font)              scaled to size 5.64001pt on input line 160.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 8.46002pt on input line 160.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 5.64001pt on input line 160.
+LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
+(Font)              scaled to size 8.46002pt on input line 160.
+LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
+(Font)              scaled to size 5.64001pt on input line 160.
+LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
+(Font)              scaled to size 8.46002pt on input line 160.
+LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
+(Font)              scaled to size 5.64001pt on input line 160.
+LaTeX Font Info:    Font shape `OT1/cmtt/m/n' will be
+(Font)              scaled to size 9.63007pt on input line 160.
+LaTeX Font Info:    Font shape `OT1/cmtt/m/n' will be
+(Font)              scaled to size 6.42004pt on input line 160.
+LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
+(Font)              scaled to size 8.46002pt on input line 160.
+LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
+(Font)              scaled to size 5.64001pt on input line 160.
+LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
+(Font)              scaled to size 8.46002pt on input line 160.
+LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
+(Font)              scaled to size 5.64001pt on input line 160.
+LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
+(Font)              scaled to size 8.46002pt on input line 160.
+LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
+(Font)              scaled to size 5.64001pt on input line 160.
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
+[][][]$\T1/cmtt/m/it/9 https : / / makina-[]corpus . com / blog / metier / 2017
+ /
+ []
+
+LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
+(Font)              scaled to size 9.40002pt on input line 165.
+LaTeX Font Info:    Font shape `T1/mdput/b/sl' will be
+(Font)              scaled to size 9.40002pt on input line 165.
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 
  []
 
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 69.
-\c@ttl@toc@default=\count502
-(Cy_01_Ch_01_Introduction_Cours_PDF.ptc
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 4.
-)
-<../../style/png/logoCC.png, id=10, 88.33pt x 31.11626pt>
-File: ../../style/png/logoCC.png Graphic file (type png)
-<use ../../style/png/logoCC.png>
-Package pdftex.def Info: ../../style/png/logoCC.png  used on input line 91.
-(pdftex.def)             Requested size: 56.9055pt x 20.04631pt.
- [1
+ mdframed uses option nobreak mdframed on input line 166.
+LaTeX Font Info:    Font shape `T1/pag/b/fsc' in size <17.28> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 184.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 187.
 
-{C:/Users/xpess/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-design size mismatch in local font md-utbo8t in virtual font mdputbo8t.vf ignor
-ed.
-design size mismatch in local font md-utro8t in virtual font mdputro8t.vf ignor
-ed. <../../style/png/Fond_IA.png> <../../style/png/logoCC.png>])
+LaTeX Font Warning: Font shape `T1/pag/m/fsc' undefined
+(Font)              using `T1/pag/m/n' instead on input line 190.
+
+LaTeX Font Info:    Font shape `T1/pag/b/fsc' in size <10> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 194.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 197.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 228.
+LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
+(Font)              scaled to size 7.52002pt on input line 228.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 7.52002pt on input line 228.
+LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
+(Font)              scaled to size 7.52002pt on input line 228.
+LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
+(Font)              scaled to size 7.52002pt on input line 228.
+LaTeX Font Info:    Font shape `OT1/cmtt/m/n' will be
+(Font)              scaled to size 8.56006pt on input line 228.
+LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
+(Font)              scaled to size 7.52002pt on input line 228.
+LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
+(Font)              scaled to size 7.52002pt on input line 228.
+LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
+(Font)              scaled to size 7.52002pt on input line 228.
+)
+<images/fig_02.jpg, id=9, 602.25pt x 903.375pt>
+File: images/fig_02.jpg Graphic file (type jpg)
+<use images/fig_02.jpg>
+Package pdftex.def Info: images/fig_02.jpg  used on input line 49.
+(pdftex.def)             Requested size: 71.13188pt x 106.69106pt.
+\openout3 = `TD_Classique_02_Iris_PDF.pyg'.
+
+ (_minted-TD_Classique_02_Iris_PDF/default-pyg-prefix.pygstyle)
+(_minted-TD_Classique_02_Iris_PDF/default.pygstyle)
+(_minted-TD_Classique_02_Iris_PDF/1E913908088C1AF6F92BF6DA0B9A438300AF68FF7B5D4
+890475B01A1CD53128B.pygtex
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 44.
+(Font)              scaled to size 7.52002pt on input line 1.
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 8.56006pt on input line 1.
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 8.56006pt on input line 2.
+)
+\openout3 = `TD_Classique_02_Iris_PDF.pyg'.
+
+
+(_minted-TD_Classique_02_Iris_PDF/9E66B6A50FBC7780FD0FC9B54EF9EF8500AF68FF7B5D4
+890475B01A1CD53128B.pygtex
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+3.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1cmtt.fd"
+File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
 LaTeX Font Info:    Trying to load font information for TS1+mdput on input line
- 47.
+ 75.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdput\ts1mdput.fd"
 File: ts1mdput.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdput.
 )
 LaTeX Font Info:    Font shape `TS1/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 47.
+(Font)              scaled to size 9.40002pt on input line 75.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `mdput' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 63.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 72.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 10.70007pt on input line 88.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Overfull \hbox (108.16803pt too wide) in paragraph at lines 87--89
-[]\T1/mdput/m/n/10 (-20) Exemples : []$\T1/cmtt/m/n/10 https : / / makina-[]cor
-pus . com / blog / metier / 2017 / initiation-[]au-[]machine-[]learning-[]avec-
-[]python-[]pratique$[] 
- []
-
-LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 9.40002pt on input line 91.
+(Font)              scaled to size 10.70007pt on input line 75.
 )
-\tf@ptc=\write6
-\openout6 = `Cy_01_Ch_01_Introduction_Cours_PDF.ptc'.
-
-LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 24.
 LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
-(Font)              scaled to size 7.52002pt on input line 24.
+(Font)              scaled to size 7.52002pt on input line 28.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 7.52002pt on input line 24.
- [2
-design size mismatch in local font md-utro8t in virtual font mdputro8t.vf ignor
-ed.]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 24.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
- (Cy_01_Ch_01_Introduction_Cours_PDF.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 24.
+(Font)              scaled to size 7.52002pt on input line 28.
 
+[1
+
+{C:/Users/xpess/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+design size mismatch in local font md-utbo8t in virtual font mdputbo8t.vf ignor
+ed.
+design size mismatch in local font md-utro8t in virtual font mdputro8t.vf ignor
+ed.
+design size mismatch in local font md-utro8t in virtual font mdputro8t.vf ignor
+ed. <./images/fig_01.png> <./images/fig_02.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
+ (TD_Classique_02_Iris_PDF.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 28.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+runsystem(del TD_Classique_02_Iris_PDF.pyg)...executed.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package logreq Info: Writing requests to 'TD_Classique_02_Iris_PDF.run.xml'.
+\openout1 = `TD_Classique_02_Iris_PDF.run.xml'.
 
-Package logreq Info: Writing requests to 'Cy_01_Ch_01_Introduction_Cours_PDF.ru
-n.xml'.
-\openout1 = `Cy_01_Ch_01_Introduction_Cours_PDF.run.xml'.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
  ) 
 Here is how much of TeX's memory you used:
- 36437 strings out of 480896
- 719995 string characters out of 2908245
- 1522811 words of memory out of 3000000
- 51478 multiletter control sequences out of 15000+200000
- 722061 words of font info for 222 fonts, out of 3000000 for 9000
+ 39238 strings out of 480896
+ 780692 string characters out of 2908245
+ 1623822 words of memory out of 3000000
+ 54210 multiletter control sequences out of 15000+200000
+ 704983 words of font info for 251 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,17n,79p,1031b,1981s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,17n,79p,957b,1943s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/ly1/texnansi.enc} <C:\Users\xpes
-s\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi642\ectt1000.pk>{C:/P
-rogram Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.
-9/fonts/type1/mathdesign/mdput/md-utr8t.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/mathdesign/mdput/md-utri7m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/a
-dobe/utopia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/pu
-tb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/a
-vantgar/uagko8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.
-pfb>
-Output written on Cy_01_Ch_01_Introduction_Cours_PDF.pdf (2 pages, 968162 bytes
-).
+s\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi642\ectt1000.pk> <C:\
+Users\xpess\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tctt080
+0.pk> <C:\Users\xpess\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
+42\ectt0800.pk> <C:\Users\xpess\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknapp
+en/ec/dpi642\ectt0900.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.e
+nc}<C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-utri7m.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe
+/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagd8a
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on TD_Classique_02_Iris_PDF.pdf (1 page, 480426 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 72223 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 152 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
+ 75815 words of extra memory for PDF output out of 89155 (max. 10000000)
 

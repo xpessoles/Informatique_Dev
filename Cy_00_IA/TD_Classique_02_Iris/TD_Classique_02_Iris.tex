@@ -1,0 +1,80 @@
+%%%% Paramétrage du TF %%%%
+\def\xxactivite{TD}
+\def\xxauteur{\textsl{Xavier Pessoles}}
+
+\def\xxnumchapitre{Chapitre 1 \vspace{.2cm}}
+\def\xxchapitre{\hspace{.12cm} Introduction}
+
+
+\def\xxtitreexo{Classification des Iris}
+\def\xxsourceexo{\url{https://makina-corpus.com/blog/metier/2017/initiation-au-machine-learning-avec-python-pratique}}
+
+\def\xxcompetences{%
+\textsl{%
+\textbf{Savoirs et compétences :}\\
+\begin{itemize}[label=\ding{112},font=\color{ocre}] 
+\item A voir
+%\item \textit{Mod2.C17} : torseur dynamique
+%\item \textit{Mod2.C17.SF1} : déterminer le torseur dynamique d’un solide, ou d’un ensemble de solides, par rapport à un autre solide
+%\item \textit{Mod2.C15} : matrice d'inertie
+%\item \textit{Res1.C2} : principe fondamental de la dynamique
+%\item \textit{Res1.C1.SF1} : proposer une démarche permettant la détermination de la loi de mouvement
+%\item \textit{Res1.C2.SF1} : proposer une méthode permettant la détermination d’une inconnue de liaison
+\end{itemize}
+}}
+
+
+
+\def\xxfigures{
+\includegraphics[width=2.5cm]{fig_01}
+}%figues de la page de garde
+
+\iflivret
+\input{../../style/new_pagegarde}
+\else
+\input{../../style/new_pagegarde}
+\fi
+\setlength{\columnseprule}{.1pt}
+
+\vspace{4cm}
+\pagestyle{fancy}
+\thispagestyle{plain}
+
+
+\section{Introduction}
+
+La base des Iris utilisée est celle réalisée par un botaniste, Ronald Fisher, en 1936 à l'aide d'une clef d'identification des plantes (type de pétales, sépale, type des feuilles, forme des feuilles, ...). Puis, pour chaque fleur classée il a mesuré les longueurs et largeurs des sépales et pétales.
+
+\begin{center}
+\includegraphics[width=2.5cm]{fig_02}
+\end{center}
+
+L'idée qui nous vient alors, consiste à demander à l'ordinateur de déterminer automatiquement l'espèce d'une nouvelle plante en fonction de la mesure des dimensions de ses sépales et pétales que nous aurions réalisée sur le terrain. Pour cela nous lui demanderons de construire sa décision à partir de la connaissance extraite des mesures réalisées par M. Fisher.
+
+Autrement dit, nous allons donner à l'ordinateur un jeu de données déjà classées et lui demander de classer de nouvelles données à partir de celui-ci. C'est un cas d'apprentissage supervisé (mais nous le transformerons aussi en non supervisé).
+Une fois alimentés avec les observations connues, nos prédicteurs vont chercher à identifier des groupes parmi les plantes déjà connues et détermineront quel est le groupe duquel se rapproche le plus notre observation.
+
+
+\section{Visualisation des données}
+Dans ce TD pour s'affranchir de l'acquisition et de la gestion des données, nous utiliserons un set de données directement disponible dans la bibliothèque sklearn.
+
+\begin{minted}[frame=lines,framesep=2mm,baselinestretch=1.2,fontsize=\footnotesize]{python}
+from sklearn import datasets
+iris = datasets.load_iris()
+\end{minted}
+
+L'objet iris contient plusieurs attributs que l'on peut lister avec l'instruction 
+
+\begin{minted}[frame=lines,framesep=2mm,baselinestretch=1.2,fontsize=\footnotesize]{python}
+>>> print(dir(iris))
+        ['DESCR', 'data', 'feature_names', 'target', 'target_names']
+\end{minted}
+
+Ainsi, on a :
+\begin{itemize}
+\item \texttt{DESCR} (str) contient les caractéristiques du set de données;
+\item \texttt{data} :
+\item \texttt{feature\_names} :
+\item \texttt{target} :
+\item \texttt{target\_names} :
+\end{itemize}
