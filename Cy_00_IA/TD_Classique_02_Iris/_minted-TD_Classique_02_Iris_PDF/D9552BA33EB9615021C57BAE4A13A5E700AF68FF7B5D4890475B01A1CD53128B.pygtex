@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{seaborn} \PYG{k}{as} \PYG{n+nn}{sns}
+\PYG{k+kn}{import} \PYG{n+nn}{pandas} \PYG{k}{as} \PYG{n+nn}{pd}
+\PYG{n}{sns}\PYG{o}{.}\PYG{n}{set}\PYG{p}{()}
+\PYG{n}{df} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{DataFrame}\PYG{p}{(}\PYG{n}{data}\PYG{p}{,} \PYG{n}{columns}\PYG{o}{=}\PYG{n}{iris}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}feature\PYGZus{}names\PYGZsq{}}\PYG{p}{]} \PYG{p}{)}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}target\PYGZsq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{target}
+\PYG{n}{df}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}label\PYGZsq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{df}\PYG{o}{.}\PYG{n}{apply}\PYG{p}{(}\PYG{k}{lambda} \PYG{n}{x}\PYG{p}{:} \PYG{n}{iris}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}target\PYGZus{}names\PYGZsq{}}\PYG{p}{][}\PYG{n+nb}{int}\PYG{p}{(}\PYG{n}{x}\PYG{o}{.}\PYG{n}{target}\PYG{p}{)],} \PYG{n}{axis}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{)}
+\PYG{n}{df}\PYG{o}{.}\PYG{n}{head}\PYG{p}{()}
+\end{Verbatim}

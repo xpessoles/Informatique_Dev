@@ -73,8 +73,22 @@ L'objet iris contient plusieurs attributs que l'on peut lister avec l'instructio
 Ainsi, on a :
 \begin{itemize}
 \item \texttt{DESCR} (str) contient les caractéristiques du set de données;
-\item \texttt{data} :
-\item \texttt{feature\_names} :
-\item \texttt{target} :
-\item \texttt{target\_names} :
+\item \texttt{data} (numpy.ndarray) contient un tableau de 150 lignes et 4 colonnes correspondant au \texttt{feature\_names};
+\item \texttt{feature\_names} (list de str) contient le nom des caractéristiques (sepal length (cm), sepal width (cm), petal length (cm), petal width (cm));
+\item \texttt{target} (numpy.ndarray) contient un tableau de 150 lignes (1 colonne) correspondant à l'espèce de chaque iris contenu dans \texttt{data};
+\item \texttt{target\_names} (numpy.ndarray de str) contient un tableau de 3 lignes contenant les noms des espèces d'iris (setosa, versicolor, virginica).
 \end{itemize}
+
+\subsection{Observation des données}
+Une des premières étapes peut être de visualiser les données et d'avoir un aperçu des éventuelles corrélations entre les données. Pour cela, il est intéressant de visualiser sur des graphes comment sont réparties les espèces en fonction des différents critères. 
+Pour cela, il serait possible de réaliser une << matrice de graphiques >> avec matplotlib. Cependant les bibliothèques panda (manipulation de données) et seaborn (visualisation de données) permettent de gérer plus efficacement les set de données. 
+
+\begin{minted}[frame=lines,framesep=2mm,baselinestretch=1.2,fontsize=\footnotesize]{python}
+import seaborn as sns
+import pandas as pd
+sns.set()
+df = pd.DataFrame(data, columns=iris['feature_names'] )
+df['target'] = target
+df['label'] = df.apply(lambda x: iris['target_names'][int(x.target)], axis=1)
+df.head()
+\end{minted}
