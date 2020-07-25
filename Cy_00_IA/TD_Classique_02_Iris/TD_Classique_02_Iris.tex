@@ -83,6 +83,7 @@ Ainsi, on a :
 Une des premières étapes peut être de visualiser les données et d'avoir un aperçu des éventuelles corrélations entre les données. Pour cela, il est intéressant de visualiser sur des graphes comment sont réparties les espèces en fonction des différents critères. 
 Pour cela, il serait possible de réaliser une << matrice de graphiques >> avec matplotlib. Cependant les bibliothèques panda (manipulation de données) et seaborn (visualisation de données) permettent de gérer plus efficacement les set de données. 
 
+On va commencer à créer un set de données en ajoutant aux données les cibles (target) et les étiquettes. 
 \begin{minted}[frame=lines,framesep=2mm,baselinestretch=1.2,fontsize=\footnotesize]{python}
 import seaborn as sns
 import pandas as pd
@@ -91,4 +92,6 @@ df = pd.DataFrame(data, columns=iris['feature_names'] )
 df['target'] = target
 df['label'] = df.apply(lambda x: iris['target_names'][int(x.target)], axis=1)
 df.head()
+plt.show()
 \end{minted}
+On visualise ensuite les graphiques.
