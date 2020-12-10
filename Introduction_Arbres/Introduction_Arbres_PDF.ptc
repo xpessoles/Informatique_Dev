@@ -3,5 +3,6 @@
 \ttl@starttoc {default@1}
 \contentsline {section}{\numberline {1}Les graphes ? Où ça ?}{2}{section.1}%
 \contentsline {section}{\numberline {2}Arbres binaires}{2}{section.2}%
-\contentsline {section}{\numberline {3}}{2}{section.3}%
+\contentsline {subsection}{\numberline {2.1}Une première implémentation}{2}{subsection.2.1}%
+\contentsline {section}{\numberline {3}}{3}{section.3}%
 \contentsfinish 
