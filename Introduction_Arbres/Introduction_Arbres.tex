@@ -35,7 +35,7 @@ Fiche 1 -- \xxactivite%
 \def\xxsourceexo{\hspace{.2cm} \footnotesize{Concours Centrale Supelec TSI 2013}}
 
 \def\xxfigures{
-\includegraphics[width=.55\textwidth]{fig_00}
+%\includegraphics[width=.55\textwidth]{fig_00}
 }%figues de la page de garde
 
 
@@ -70,6 +70,9 @@ réseaux sociaux, bio-informatique.
 
 \section{Arbres binaires}
 
+\begin{rem}
+Les arbres binaires ne sont pas au programme. Il faudrait en faire un TD ou un exercice.  Froidevaux P117
+\end{rem}
 \begin{defi}[Arbres]\cite{ref_01}
 Un arbre est un ensemble de \textbf{n\oe{}uds}, organisés de façon hiérarchique, à partir d'un n\oe{}ud distingué appelé racine. Les n\oe{}uds sont reliés entre eux par des arcs ou par des arrêtes. 
 \end{defi}
@@ -176,14 +179,19 @@ Un arbre binaire (ou binaire-unaire) est un arbre avec une racine dans lequel ch
 
 Un arbre binaire strict ou localement complet est un arbre dont tous les nœuds possèdent zéro ou deux fils.
 
-Un arbre binaire dégénéré est un arbre dans lequel tous les noeuds internes n'ont qu'un seul fils. Ce type d'arbre n'a qu'une unique feuille et peut être vu comme une liste chaînée.
+Un arbre binaire dégénéré est un arbre dans lequel tous les n\oe{}uds internes n'ont qu'un seul fils. Ce type d'arbre n'a qu'une unique feuille et peut être vu comme une liste chaînée.
 
-Un arbre binaire parfait est un arbre binaire strict dans lequel toutes les feuilles (nœuds n'ayant aucun fils) sont à la même distance de la racine (c'est-à-dire à la même profondeur). Il s'agit d'un arbre dont tous les niveaux sont remplis: où tous les noeuds internes ont deux fils et où tous les noeuds externes ont la même hauteur.
+Un arbre binaire parfait est un arbre binaire strict dans lequel toutes les feuilles (nœuds n'ayant aucun fils) sont à la même distance de la racine (c'est-à-dire à la même profondeur). Il s'agit d'un arbre dont tous les niveaux sont remplis: où tous les noeuds internes ont deux fils et où tous les n\oe{}uds externes ont la même hauteur.
 
 Un arbre binaire complet ou presque complet, à ne pas confondre avec localement complet (ci-dessus), est un arbre dans lequel tous les niveaux sont remplis à l'exception éventuelle du dernier, dans lequel les feuilles sont alignées à gauche. On peut le voir comme un arbre parfait dont le dernier niveau aurait été privé de certaines de ses feuilles en partant de la plus à droite. Une autre façon de le voir serait un arbre binaire strict dans lequel les feuilles ont pour profondeur n ou n-1 pour un n donné. Le caractère éventuel est important: un arbre parfait est nécessairement presque complet tandis qu'un arbre presque complet peut être parfait.
 \end{defi}
 
 \subsection{Une première implémentation}
+\subsubsection{Les dictionnaires}
+
+\begin{defi}[Dictionnaires]
+Les dictionnaires sont des des types de données \textit{composites} qui permettent d'y enregistrer des données. Chaque donnée (appelée aussi valeur) est stockée de façon non ordonnée. Cependant, on associe un index (ou clé) à ces valeurs afin de pouvoir y accéder.
+\end{defi}
 
 \begin{figure}[H]
 \centering
@@ -235,13 +243,78 @@ level/.style={sibling distance=60mm/#1},
     
 \end{lstlisting}
 
-\section{}
-\begin{defi}[Graphe orienté]
+\section{Les graphes}
 
+\begin{defi}[Graphe]\cite{ref_01}
+Un graphe est un ensemble de \textbf{sommets} et  \textbf{relations} entre ces sommets.
+
+Lorsque deux sommets sont en relation, on dit qu'il existe une \textbf{arête} entre ces sommets.
 \end{defi}
 
-\begin{defi}[Graphe non orienté]
+\definecolor{lavander}{cmyk}{0,0.48,0,0}
+\definecolor{violet}{cmyk}{0.79,0.88,0,0}
+\definecolor{burntorange}{cmyk}{0,0.52,1,0}
 
+\def\lav{lavander!90}
+\def\oran{orange!30}
+
+\tikzstyle{peers}=[draw,circle,violet,bottom color=\lav,
+                  top color= white, text=black,minimum width=10pt]
+\tikzstyle{superpeers}=[draw,circle,burntorange, left color=\oran,
+                       text=black,minimum width=.5cm]
+
+                        
+\tikzstyle{arete}=[very thick]   
+\tikzstyle{areteb}=[line width=.2mm]   
+ 
+\begin{tikzpicture}%[auto, thick]
+ 
+\node[superpeers] (ndA) at (0,0) {$A$};
+\node[superpeers] (ndB) at (2,0) {$B$};
+\node[superpeers] (ndC) at (1,-1.33) {$C$};
+\node[superpeers] (ndD) at (3,-1.33) {$D$};
+  
+\draw[arete] (ndA)--(ndB);
+\draw[arete] (ndC)--(ndB);
+\draw[arete] (ndA)--(ndC);
+\draw[arete] (ndA)--(ndC);
+\draw[arete] (ndB)--(ndD);
+\draw[arete] (ndC)--(ndD);
+
+\node[peers] (nda) at (.26,-1.89) {};
+\node[peers] (ndb) at (1,-2.26) {};
+\node[peers] (ndc) at (1.74,-1.89) {};
+
+\draw[areteb] (ndC)--(nda);
+\draw[areteb] (ndC)--(ndb);
+\draw[areteb] (ndC)--(ndc);
+
+\end{tikzpicture}
+
+
+
+\begin{defi}[Graphe orienté -- Arcs]\cite{ref_01}
+Un graphe orienté $G$ est un couple $G=(S,A)$, où $S$ est un ensemble fini de sommets et où $A$ est un ensemble fini de paires ordonnées de sommets, appelées arcs.
+
+On note $x\to y$ l'arc $(x,y)$. $x$ est l'extrémité initiale de l'arc, $y$ est son extrémité terminale. On dit que $y$ est successeur de $x$ et que $x$ est prédécesseur de $y$. 
+\end{defi}
+
+
+
+
+\begin{defi}[Graphe non orienté -- Arêtes]
+Un graphe non orienté $G$ est un couple $G=(S,A)$, où $S$ est un ensemble fini de sommets et où $A$ est un ensemble fini de paires ordonnées de sommets, appelées arêtes.
+
+On note $x - y$ l'arête $\{x,y\}$. $x$ et $y$ sont les deux extrémités de l'arête.
+\end{defi}
+
+
+\begin{defi}[Adjacence]
+Deux arcs (resp. arêtes) d'un graphe orienté (resp. non orienté) sont dits adjacents s'ils ont au moins une extrémité commune. 
+
+Deux sommets d'un graphe non orienté sont dits adjacents s'il existe une arête les joignant. 
+
+Dans un graphe orienté, le sommet $y$ est dit adjacent au sommet $x$ s'il existe un arc $x\to y$.
 \end{defi}
 
 \begin{defi}[Sommet -- n\oe{}ud]
