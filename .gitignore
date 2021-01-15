@@ -3,3 +3,15 @@
 *.log
 *.log
 *.aux
+*.h
+*.c
+*.mk
+*.eep
+*.o
+*.elf
+*.hex
+*.tlc
+*.tmw
+*.rtw
+*.mat
+*.tlc
