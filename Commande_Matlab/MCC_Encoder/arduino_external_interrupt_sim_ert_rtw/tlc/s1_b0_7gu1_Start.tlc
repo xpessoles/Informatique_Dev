@@ -1,0 +1,42 @@
+%implements s1_b0_7gu1_Start "C"
+
+%function Start(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%assign tlcSetupRuntimeResourcesFcnOfS1B3 = OpaqueTLCBlockFcn("SetupRuntimeResources", 1, 3, 1, 1, 0)
+%assign tlcStartFcnOfS1B2 = OpaqueTLCBlockFcn("Start", 1, 2, 1, 1, 1)
+%if !WHITE_SPACE(tlcSetupRuntimeResourcesFcnOfS1B3)
+/* SetupRuntimeResources for Scope: '<Root>/Scope' */
+%<tlcSetupRuntimeResourcesFcnOfS1B3>\
+%endif
+%assign   Start_open_dlcyj0b2mp_1_3 = ""
+%openfile Start_open_dlcyj0b2mp_1_3
+
+/* Start for S-Function (arduinoextint_sfcn): '<Root>/External Interrupt' */
+%closefile Start_open_dlcyj0b2mp_1_3
+
+%assign    Start_body_dlcyj0b2mp_1_3 = ""
+%openfile  Start_body_dlcyj0b2mp_1_3
+
+%<tlcStartFcnOfS1B2>\
+%closefile Start_body_dlcyj0b2mp_1_3
+
+%assign    Start_close_dlcyj0b2mp_1_3 = ""
+%openfile  Start_close_dlcyj0b2mp_1_3
+
+/* End of Start for S-Function (arduinoextint_sfcn): '<Root>/External Interrupt' */
+%closefile Start_close_dlcyj0b2mp_1_3
+%<SLibCG_DumpSSCode(Start_open_dlcyj0b2mp_1_3, Start_body_dlcyj0b2mp_1_3, Start_close_dlcyj0b2mp_1_3)>
+
+%closefile cfgTxt
+%<cfgTxt>
+%endfunction
+%function StartFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Start(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(1, 1, fcnProtoType)>
+%endfunction
