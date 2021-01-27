@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.26)  17 DEC 2020 22:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.26)  27 JAN 2021 22:09
 entering extended mode
 **./Introduction_Arbres_PDF.tex
 (Introduction_Arbres_PDF.tex
@@ -1721,7 +1721,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count509
 \@quotereset=\count510
-(Introduction_Arbres_PDF.aux)
+No file Introduction_Arbres_PDF.aux.
 \openout1 = `Introduction_Arbres_PDF.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -1743,7 +1743,6 @@ LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 48.
 LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 4
 8.
-
 ("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign\mdacmr.fd"
 File: mdacmr.fd 
 )
@@ -2196,47 +2195,52 @@ LaTeX Warning: Citation 'ref_01' on page 3 undefined on input line 248.
 
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 296.
+(mdframed)              on input line 295.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 301.
 
-LaTeX Warning: Citation 'ref_01' on page 3 undefined on input line 296.
+LaTeX Warning: Citation 'ref_01' on page 3 undefined on input line 301.
 
+<images/fig_02.png, id=53, 172.0026pt x 121.8954pt>
+File: images/fig_02.png Graphic file (type png)
+<use images/fig_02.png>
+Package pdftex.def Info: images/fig_02.png  used on input line 314.
+(pdftex.def)             Requested size: 189.47946pt x 134.2825pt.
+<images/fig_03.png, id=54, 172.0026pt x 121.8954pt>
+File: images/fig_03.png Graphic file (type png)
+<use images/fig_03.png>
+Package pdftex.def Info: images/fig_03.png  used on input line 321.
+(pdftex.def)             Requested size: 189.47946pt x 134.2825pt.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 305.
+(mdframed)              on input line 328.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 312.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 320.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 324.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 329.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 334.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 339.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 345.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 350.
-Package mdframed Info: Not enough space on this page on input line 352.
-<style/png/logo_lycee.png, id=57, 329.23pt x 265.99374pt>
+(mdframed)              on input line 336.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <5> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 337.
+
+LaTeX Warning: Reference `fig_02' on page 3 undefined on input line 337.
+
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 4.70001pt on input line 339.
+
+Package mdframed Warning: You got a bad break
+(mdframed)                because the last box will be empty
+(mdframed)                you have to change it manually
+(mdframed)                by changing the text, the space
+(mdframed)                or something else on input line 339.
+
+<style/png/logo_lycee.png, id=55, 329.23pt x 265.99374pt>
 File: style/png/logo_lycee.png Graphic file (type png)
 <use style/png/logo_lycee.png>
-Package pdftex.def Info: style/png/logo_lycee.png  used on input line 352.
+Package pdftex.def Info: style/png/logo_lycee.png  used on input line 339.
 (pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 7.52002pt on input line 352.
+(Font)              scaled to size 7.52002pt on input line 339.
 LaTeX Font Info:    Font shape `T1/pag/m/it' in size <8> not available
-(Font)              Font shape `T1/pag/m/sl' tried instead on input line 352.
+(Font)              Font shape `T1/pag/m/sl' tried instead on input line 339.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 17.13193pt.
@@ -2244,27 +2248,65 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 11.28003pt on input line 352.
-[3 <./style/png/logo_lycee.png>]
-Package mdframed Info: Not enough space on this page on input line 352.
+(Font)              scaled to size 11.28003pt on input line 339.
+[3 <./style/png/logo_lycee.png> <./images/fig_02.png> <./images/fig_03.png>]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 355.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 360.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 364.
+LaTeX Font Info:    Trying to load font information for TS1+mdput on input line
+ 367.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdput\ts1mdput.fd"
+File: ts1mdput.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdput.
+)
+LaTeX Font Info:    Font shape `TS1/mdput/m/n' will be
+(Font)              scaled to size 9.40002pt on input line 367.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `mdput' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 375.
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+
+ []
+
+<images/fig_04.png, id=80, 77.5698pt x 132.495pt>
+File: images/fig_04.png Graphic file (type png)
+<use images/fig_04.png>
+Package pdftex.def Info: images/fig_04.png  used on input line 380.
+(pdftex.def)             Requested size: 91.93796pt x 157.05032pt.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 395.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 400.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 405.
+
+LaTeX Warning: Reference `01' on page 4 undefined on input line 415.
 
 
-LaTeX Warning: Reference `01' on page 4 undefined on input line 365.
-
-
-LaTeX Warning: Reference `02' on page 4 undefined on input line 367.
+LaTeX Warning: Reference `02' on page 4 undefined on input line 417.
 
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 10.70007pt on input line 367.
+(Font)              scaled to size 10.70007pt on input line 417.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-LaTeX Warning: Reference `03' on page 4 undefined on input line 369.
+LaTeX Warning: Reference `03' on page 4 undefined on input line 419.
 
 )
 \tf@ptc=\write6
@@ -2274,7 +2316,7 @@ File: style/png/logo_lycee.png Graphic file (type png)
 <use style/png/logo_lycee.png>
 Package pdftex.def Info: style/png/logo_lycee.png  used on input line 58.
 (pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
- [4]
+ [4 <./images/fig_04.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
  (Introduction_Arbres_PDF.aux)
@@ -2288,6 +2330,9 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                Introduction_Arbres_PDF
 (biblatex)                and rerun LaTeX afterwards.
@@ -2299,10 +2344,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
  41457 strings out of 481165
- 810441 string characters out of 2912171
- 1694586 words of memory out of 3000000
- 56052 multiletter control sequences out of 15000+200000
- 778498 words of font info for 314 fonts, out of 3000000 for 9000
+ 810145 string characters out of 2912171
+ 1706486 words of memory out of 3000000
+ 56029 multiletter control sequences out of 15000+200000
+ 791001 words of font info for 332 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,17n,97p,5161b,2012s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\xpess\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi642\
@@ -2312,16 +2357,17 @@ rogram Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.
 type1/mathdesign/mdput/md-utr7v.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ma
 thdesign/mdput/md-utr7y.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign
 /mdput/md-utr8t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdput/m
-d-utri7m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ad
-obe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/ua
-gd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagk8a.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagko8a.pfb>
-Output written on Introduction_Arbres_PDF.pdf (4 pages, 1002708 bytes).
+d-utri7m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdpgd/md-utrma
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utop
+ia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagd8a.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/urw/avantgar/uagko8a.pfb>
+Output written on Introduction_Arbres_PDF.pdf (4 pages, 1079609 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 104008 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 192 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 105547 words of extra memory for PDF output out of 106986 (max. 10000000)
 

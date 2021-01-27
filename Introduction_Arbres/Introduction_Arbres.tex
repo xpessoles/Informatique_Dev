@@ -264,34 +264,39 @@ Lorsque deux sommets sont en relation, on dit qu'il existe une \textbf{arête} e
                        text=black,minimum width=.5cm]
 
                         
-\tikzstyle{arete}=[very thick]   
-\tikzstyle{areteb}=[line width=.2mm]   
- 
-\begin{tikzpicture}%[auto, thick]
- 
-\node[superpeers] (ndA) at (0,0) {$A$};
-\node[superpeers] (ndB) at (2,0) {$B$};
-\node[superpeers] (ndC) at (1,-1.33) {$C$};
-\node[superpeers] (ndD) at (3,-1.33) {$D$};
-  
-\draw[arete] (ndA)--(ndB);
-\draw[arete] (ndC)--(ndB);
-\draw[arete] (ndA)--(ndC);
-\draw[arete] (ndA)--(ndC);
-\draw[arete] (ndB)--(ndD);
-\draw[arete] (ndC)--(ndD);
+%\tikzstyle{arete}=[very thick]   
+%\tikzstyle{areteb}=[line width=.2mm]   
+% 
+%\begin{tikzpicture}%[auto, thick]
+% 
+%\node[superpeers] (ndA) at (0,0) {$A$};
+%\node[superpeers] (ndB) at (2,0) {$B$};
+%\node[superpeers] (ndC) at (1,-1.33) {$C$};
+%\node[superpeers] (ndD) at (3,-1.33) {$D$};
+%  
+%\draw[arete] (ndA)--(ndB);
+%\draw[arete] (ndC)--(ndB);
+%\draw[arete] (ndA)--(ndC);
+%\draw[arete] (ndA)--(ndC);
+%\draw[arete] (ndB)--(ndD);
+%\draw[arete] (ndC)--(ndD);
+%
+%\node[peers] (nda) at (.26,-1.89) {};
+%\node[peers] (ndb) at (1,-2.26) {};
+%\node[peers] (ndc) at (1.74,-1.89) {};
+%
+%\draw[areteb] (ndC)--(nda);
+%\draw[areteb] (ndC)--(ndb);
+%\draw[areteb] (ndC)--(ndc);
+%
+%\end{tikzpicture}
 
-\node[peers] (nda) at (.26,-1.89) {};
-\node[peers] (ndb) at (1,-2.26) {};
-\node[peers] (ndc) at (1.74,-1.89) {};
 
-\draw[areteb] (ndC)--(nda);
-\draw[areteb] (ndC)--(ndb);
-\draw[areteb] (ndC)--(ndc);
+\begin{defi}[Graphe non orienté -- Arêtes]
+Un graphe non orienté $G$ est un couple $G=(S,A)$, où $S$ est un ensemble fini de sommets (appelés aussi n\oe uds)  et où $A$ est un ensemble fini de paires ordonnées de sommets, appelées arêtes.
 
-\end{tikzpicture}
-
-
+On note $x - y$ l'arête $\{x,y\}$. $x$ et $y$ sont les deux extrémités de l'arête.
+\end{defi}
 
 \begin{defi}[Graphe orienté -- Arcs]\cite{ref_01}
 Un graphe orienté $G$ est un couple $G=(S,A)$, où $S$ est un ensemble fini de sommets et où $A$ est un ensemble fini de paires ordonnées de sommets, appelées arcs.
@@ -302,11 +307,22 @@ On note $x\to y$ l'arc $(x,y)$. $x$ est l'extrémité initiale de l'arc, $y$ est
 
 
 
-\begin{defi}[Graphe non orienté -- Arêtes]
-Un graphe non orienté $G$ est un couple $G=(S,A)$, où $S$ est un ensemble fini de sommets et où $A$ est un ensemble fini de paires ordonnées de sommets, appelées arêtes.
+\begin{multicols}{2}
 
-On note $x - y$ l'arête $\{x,y\}$. $x$ et $y$ sont les deux extrémités de l'arête.
-\end{defi}
+
+\begin{figure}[H]
+\includegraphics[width=.8\linewidth]{fig_02}
+\captionsetup{justification=centering}
+\caption{Graphe non orienté \label{fig_02}}
+\end{figure}
+
+
+\begin{figure}[H]
+\includegraphics[width=.8\linewidth]{fig_03}
+\captionsetup{justification=centering}
+\caption{Graphe orienté}
+\end{figure}
+\end{multicols}
 
 
 \begin{defi}[Adjacence]
@@ -317,29 +333,63 @@ Deux sommets d'un graphe non orienté sont dits adjacents s'il existe une arête
 Dans un graphe orienté, le sommet $y$ est dit adjacent au sommet $x$ s'il existe un arc $x\to y$.
 \end{defi}
 
-\begin{defi}[Sommet -- n\oe{}ud]
+ \begin{exemple}
+ Dans le cas de la figure \autoref{fig_02}, les sommets suivants sont adjacents : $\left(S_1;S_2 \right)$, $\left(S_1;S_3 \right)$, $\left(S_1;S_4 \right)$, $\left(S_1;S_5 \right)$ et $\left(S_1;S_6 \right)$ (liste non exhaustive). 
 
-\end{defi}
+ \end{exemple}
 
-\begin{defi}[Arc]
-
-\end{defi}
-
-
-\begin{defi}[Arête]
-
-\end{defi}
-
+%\begin{defi}[Sommet -- n\oe{}ud]
+%
+%\end{defi}
+%
+%\begin{defi}[Arc]
+%
+%\end{defi}
+%
+%
+%\begin{defi}[Arête]
+%
+%\end{defi}
+%
 
 \begin{defi}[Boucle]
 
 \end{defi}
 
 
-\begin{defi}[Degré entrant et sortant]
-
+\begin{defi}[Degré d'un sommet]
+On appelle degré d'un sommet $s$ et on note $d\left(s\right)$ le nombres d'arcs (ou d'arêtes) dont $s$ est une extrémité.
 \end{defi}
 
+\begin{defi}[Degré entrant et sortant]
+On note $s$ le sommet d'un graphe orienté. On note : 
+\begin{itemize}
+\item $d_{+}\left(s\right)$ le demi-degré extérieur de $s$, c'est-à-dire le nombre d'arcs ayant leur extrémité initiale en $s$ (ces arcs sont dits incidents à $s$ vers l'extérieur);
+\item $d_{-}\left(s\right)$ le demi-degré intérieur de $s$, c'est-à-dire le nombre d'arcs ayant leur extrémité finale en $s$ (ces arcs sont dits incidents à $s$ vers l'intérieur).
+\end{itemize}
+
+Dans ce cas, on a  $d\degres\left(s\right)=d_{-}\left(s\right)+d_{+}\left(s\right)$.
+\end{defi}
+
+
+\begin{exemple}~\\
+
+\begin{multicols}{2}
+\begin{figure}[H]
+\centering
+\includegraphics[width=.4\linewidth]{fig_04}
+\captionsetup{justification=centering}
+\caption{Graphe orienté \label{fig_04}}
+\end{figure}
+
+\begin{itemize}
+\item $d_{-}\left(S_1\right)=3$.
+\item $d_{+}\left(S_1\right)=4$.
+\item $d\degres\left(S_1\right)=7$.
+\end{itemize}
+\end{multicols}
+
+\end{exemple}
 
 
 \begin{defi}[Chemin d'un sommet à un autre]
