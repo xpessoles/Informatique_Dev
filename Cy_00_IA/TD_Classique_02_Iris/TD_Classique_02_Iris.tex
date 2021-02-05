@@ -26,7 +26,7 @@
 
 
 \def\xxfigures{
-\includegraphics[width=2.5cm]{fig_01}
+\includegraphics[width=1.5cm]{fig_01}
 }%figues de la page de garde
 
 \iflivret
@@ -41,18 +41,21 @@
 \thispagestyle{plain}
 
 
+% A COMPILER AVEC PDFLATEX dans CMD
 \section{Introduction}
 
-La base des Iris utilisée est celle réalisée par un botaniste, Ronald Fisher, en 1936 à l'aide d'une clef d'identification des plantes (type de pétales, sépale, type des feuilles, forme des feuilles, ...). Puis, pour chaque fleur classée il a mesuré les longueurs et largeurs des sépales et pétales.
 
+\begin{minipage}[c]{.75\linewidth}
+La base des Iris utilisée est celle réalisée par le botaniste Ronald Fisher en 1936 à l'aide d'une clef d'identification des plantes (type de pétales, sépale, type des feuilles, forme des feuilles, ...). Pour chaque fleur classée les longueurs et largeurs des sépales et pétales ont été mesurées.
+
+En utilisant des algorithmes d'IA, nous allons chercher à classer automatiquement l'espèce d'une nouvelle plante en fonction de la mesure des dimensions de ses sépales et pétales.
+
+\end{minipage}\hfill
+\begin{minipage}[c]{.2\linewidth}
 \begin{center}
 \includegraphics[width=2.5cm]{fig_02}
 \end{center}
-
-L'idée qui nous vient alors, consiste à demander à l'ordinateur de déterminer automatiquement l'espèce d'une nouvelle plante en fonction de la mesure des dimensions de ses sépales et pétales que nous aurions réalisée sur le terrain. Pour cela nous lui demanderons de construire sa décision à partir de la connaissance extraite des mesures réalisées par M. Fisher.
-
-Autrement dit, nous allons donner à l'ordinateur un jeu de données déjà classées et lui demander de classer de nouvelles données à partir de celui-ci. C'est un cas d'apprentissage supervisé (mais nous le transformerons aussi en non supervisé).
-Une fois alimentés avec les observations connues, nos prédicteurs vont chercher à identifier des groupes parmi les plantes déjà connues et détermineront quel est le groupe duquel se rapproche le plus notre observation.
+\end{minipage}
 
 
 \section{Visualisation des données}
@@ -63,7 +66,7 @@ from sklearn import datasets
 iris = datasets.load_iris()
 \end{minted}
 
-L'objet iris contient plusieurs attributs que l'on peut lister avec l'instruction 
+L'objet iris contient plusieurs attributs que l'on peut lister avec l'instruction suivante. 
 
 \begin{minted}[frame=lines,framesep=2mm,baselinestretch=1.2,fontsize=\footnotesize]{python}
 >>> print(dir(iris))
@@ -72,11 +75,11 @@ L'objet iris contient plusieurs attributs que l'on peut lister avec l'instructio
 
 Ainsi, on a :
 \begin{itemize}
-\item \texttt{DESCR} (str) contient les caractéristiques du set de données;
-\item \texttt{data} (numpy.ndarray) contient un tableau de 150 lignes et 4 colonnes correspondant au \texttt{feature\_names};
-\item \texttt{feature\_names} (list de str) contient le nom des caractéristiques (sepal length (cm), sepal width (cm), petal length (cm), petal width (cm));
-\item \texttt{target} (numpy.ndarray) contient un tableau de 150 lignes (1 colonne) correspondant à l'espèce de chaque iris contenu dans \texttt{data};
-\item \texttt{target\_names} (numpy.ndarray de str) contient un tableau de 3 lignes contenant les noms des espèces d'iris (setosa, versicolor, virginica).
+\item \texttt{DESCR} (\texttt{str}) contient les caractéristiques du set de données;
+\item \texttt{data} (\texttt{numpy.ndarray}) contient un tableau de 150 lignes et 4 colonnes correspondant au \texttt{feature\_names};
+\item \texttt{feature\_names} (\texttt{list} de \texttt{str}) contient le nom des caractéristiques (sepal length (cm), sepal width (cm), petal length (cm), petal width (cm));
+\item \texttt{target} (\texttt{numpy.ndarray}) contient un tableau de 150 lignes (1 colonne) correspondant à l'espèce de chaque iris contenu dans \texttt{data};
+\item \texttt{target\_names} (\texttt{numpy.ndarray} de \texttt{str}) contient un tableau de 3 lignes contenant les noms des espèces d'iris (setosa, versicolor, virginica).
 \end{itemize}
 
 \subsection{Observation des données}
@@ -85,13 +88,19 @@ Pour cela, il serait possible de réaliser une << matrice de graphiques >> avec 
 
 On va commencer à créer un set de données en ajoutant aux données les cibles (target) et les étiquettes. 
 \begin{minted}[frame=lines,framesep=2mm,baselinestretch=1.2,fontsize=\footnotesize]{python}
+import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 sns.set()
-df = pd.DataFrame(data, columns=iris['feature_names'] )
-df['target'] = target
+
+# Conversion des données en DataFrame Panda pour les afficher avec seaborn
+df = pd.DataFrame(iris.data, columns=iris['feature_names'] )
+df['target'] = iris.target
 df['label'] = df.apply(lambda x: iris['target_names'][int(x.target)], axis=1)
 df.head()
+
+sns.pairplot(df, hue='Etiquettes', vars=iris['feature_names'], height=2)
 plt.show()
 \end{minted}
+
 On visualise ensuite les graphiques.
