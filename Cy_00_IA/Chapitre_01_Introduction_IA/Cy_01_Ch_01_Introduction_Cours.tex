@@ -41,6 +41,178 @@
 \thispagestyle{plain}
 
 
+
+
+
+
+
+
+\section{L'Intelligence Artificielle, qu'est ce que c'est, à quoi ça sert ?}
+
+%\subsection{Première approche. Que veut-on ? Qu'obtient-on ?}
+\begin{defi}[Intelligence Artificielle]
+Wikipedia -- L'intelligence artificielle (IA) est « l'ensemble des théories et des techniques mises en œuvre en vue de réaliser des machines capables de simuler l'intelligence ». 
+\end{defi}
+
+En première approche, l'IA peut être assimilée à un ensemble d'algorithmes permettant de réaliser des tris, des classifications.
+\begin{exemple}~\\
+\\
+\vspace{-1cm}
+
+\begin{multicols}{2}
+\begin{center}
+\includegraphics[width=.8\linewidth]{fig_01}
+\end{center}
+Identification d'objets, en temps réel, dans une vidéo.
+
+\begin{center}
+\includegraphics[width=.95\linewidth]{fig_02_a}
+\end{center}
+
+
+Comparaison du résultats d'algorithmes de classification permettant de classifier un nuage de points bleus et rouges de transparences différentes.
+\end{multicols}
+
+On remarquera sur l'exemple de gauche que l'algorithme parvient à identifier sur l'image des zones puis à identifier à quoi elles correspondent. On remarquera aussi que la flamme est identifiée comme étant un donut...
+
+
+\begin{flushright}
+\footnotesize
+\url{exploring-opencvs-deep-learning-object-detection-library} \&  \url{https://scikit-learn.org/}.
+\normalsize
+
+\end{flushright}
+\end{exemple}
+
+
+
+Pour utiliser un algorithme d'IA il est nécessaire de disposer de données... en général beaucoup de données. 
+\begin{defi}[Données]
+Les données utilisées par un algorithme d'IA peuvent être sous différentes formes : 
+\begin{itemize}
+\item des données quantitatives continues qui peuvent prendre n'importe quelles valeurs dans un ensemble de valeurs (par exemple la température);
+\item des données quantitatives discrètes qui peuvent prendre un nombre limité de valeurs dans un ensemble de valeurs (par exemple nombre de pièces d'un logement);
+\item des données qualitatives (ordinales ou nominales suivant qu'on puissent les classer ou non, par exemple des couleurs, des notes à un test d'opinion ...).
+\end{itemize}
+
+\end{defi}
+
+Pour pouvoir traiter ces données, il peut être nécessaire qu'elles soient organisées sous une certaine forme. On peut par exemple identifier : 
+\begin{itemize}
+\item les données structurées, dans une base de données par exemple;
+\item les données semi-structurées, dans un fichier csv, xml ou json par exemple;
+\item les données non structurées comme un image, du texte, ou une vidéo.
+\end{itemize}
+
+
+\begin{defi}[Big data -- Wikipedia]
+Mégadonnées ou données massives. Le big data désigne les ressources d’informations dont les caractéristiques en termes de volume, de vélocité et de variété imposent l’utilisation de technologies et de méthodes analytiques particulières pour générer de la valeur, et qui dépassent en général les capacités d'une seule et unique machine et nécessitent des traitements parallélisés.
+\end{defi}
+
+
+Que fait-on avec ces données ? En général les algorithmes vont chercher un lien entre ces données. Dans le cas où il existe un lien connu par le \textit{Data Scientist} on parle d'apprentissage supervisé. 
+
+Si ce lien n'est pas connu, on parle d'apprentissage non supervisé ou de clustering. 
+
+
+
+
+\begin{defi}[Apprentissage automatique -- Machine learning]
+L'apprentissage automatique est un champ de l'intelligence artificielle dont l'objectif est d'analyser un grand volume de
+données afin de déterminer des motifs et de réaliser un modèle prédictif. 
+
+L'apprentissage comprend deux phases : 
+\begin{itemize}
+\item l’entraînement (ou apprentissage) est une phase d'estimation du modèle à partir de données d'observations; 
+\item la mise en production du modèle est une phase pendant laquelle de nouvelles données sont traitées dans le but d'obtenir le résultat souhaité. 
+\end{itemize}
+
+L’entraînement peut être poursuivi même en phase de production.
+
+\end{defi}
+
+
+\begin{exemple}~\\
+
+\begin{center}
+\includegraphics[width=.6\linewidth]{fig_05}
+\end{center}
+\end{exemple}
+
+
+\begin{defi}[Apprentissage supervisé]
+Tâche d'apprentissage au cours duquel l'algorithme (ou fonction de prédiction) va, à partir d'un ensemble de données \textbf{étiquetées}, déterminer un lien entre un ensemble les données et les étiquettes. 
+
+Dans un second temps, l'algorithme devra être capable de prédire l'étiquette (sans la connaître) à partir de données originales.
+
+\end{defi}
+
+
+
+\begin{exemple}~\\
+
+\begin{center}
+\includegraphics[width=.8\linewidth]{fig_06}
+\end{center}
+\end{exemple}
+
+
+\begin{exemple}
+Soit un ensemble d'images en noir et blanc représentant des chiffres de 0 à 9. L'algorithme doit dans un premier temps \textit{apprendre} le lien entre l'image et le chiffre. 
+Dans un second temps, l'algorithme devra déterminer le chiffre en fonction d'une image seule.
+\end{exemple}
+
+\begin{defi}[Apprentissage non supervisé]
+Tâche d'apprentissage au cours duquel l'algorithme (ou fonction de prédiction) va, à partir d'un ensemble de données \textbf{non étiquetées}, déterminer un lien entre les données (et les regrouper). 
+\end{defi}
+
+
+
+\begin{exemple} ~\\
+
+
+\begin{center}
+\includegraphics[width=.8\linewidth]{fig_07}
+\end{center}
+
+
+Classification d'iris en utilisant un algorithme d'apprentissage non supervisé.
+\begin{center}
+\includegraphics[width=.8\linewidth]{fig_03}
+\end{center}
+
+On remarque (sur l'image en couleur) que sur des mesures sur 150 iris, l'algorithme a réussi à retrouver les 3 différentes espèces, sans les connaître, à 3 erreurs près.
+
+\end{exemple}
+
+
+\begin{defi}[Apprentissage par renforcement]
+Si au cours de l'apprentissage supervisé, un mécanisme de récompense est mis en \oe{}uvre pour améliorer les performances du modèle, on parle d'apprentissage par renforcement.
+\end{defi}
+
+
+
+On peut donc faire une synthèse des méthodes d'apprentissage dont nous avons pris connaissance (il en existe d'autres).
+
+\begin{center}
+\includegraphics[width=.8\linewidth]{fig_08}
+\end{center}
+
+\textit{Comment situer le deep learning parmi ces méthodes d'apprentissage ? -- NDLR (ie XP) pour moi l'utilisation du terme << deep learning >> apparaît lorsqu'on commence à utiliser des réseaux de neurones... mais les réseaux de neurones peuvent être utilisés dans chacune des méthodes d'apprentissage sus-citées...}
+
+
+\section{Mécanismes d'apprentissages}
+
+\subsection{Classification des algorithmes d'apprentissage}
+
+\subsection{Séparation des données}
+
+\subsection{Validation du modèle}
+
+\section{Algorithmes d'apprentissage}
+
+\section{Réseaux de neurones}
+
 \section{Définitions}
 
 \begin{itemize}
@@ -55,10 +227,6 @@
 
 \end{itemize}
 
-
-\begin{defi}[Intelligence Artificielle]
-Wikipedia -- Larousse -- L'intelligence artificielle (IA) est « l'ensemble des théories et des techniques mises en œuvre en vue de réaliser des machines capables de simuler l'intelligence »
-\end{defi}
 
 \begin{itemize}
 \item algorithmes supervisés, non supervisés
@@ -90,7 +258,6 @@ Dans le cas le plus général, sans étiquette, on cherche à déterminer la str
 \end{defi}
 
 
-\section{L'IA, qu'est ce que c'est, à quoi ça sert ?}
 
 \subsection{Quelques définitions}
 \begin{defi}{Intelligence Artificielle, première approche}

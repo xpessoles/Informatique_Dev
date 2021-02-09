@@ -1,10 +1,16 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {french}{}
 \ttl@starttoc {default@1}
-\contentsline {section}{\numberline {1}Définitions}{2}{section.1}%
-\contentsline {section}{\numberline {2}L'IA, qu'est ce que c'est, à quoi ça sert ?}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Quelques définitions}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Le nerf de la guerre, les données}{2}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Méthode de résolution de problèmes d'apprentissage supervisé}{2}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Méthode de résolution d'un }{2}{section.3}%
+\contentsline {section}{\numberline {1}L'Intelligence Artificielle, qu'est ce que c'est, à quoi ça sert ?}{2}{section.1}%
+\contentsline {section}{\numberline {2}Mécanismes d'apprentissages}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Classification des algorithmes d'apprentissage}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Séparation des données}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Validation du modèle}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Algorithmes d'apprentissage}{4}{section.3}%
+\contentsline {section}{\numberline {4}Réseaux de neurones}{4}{section.4}%
+\contentsline {section}{\numberline {5}Définitions}{4}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Quelques définitions}{5}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Le nerf de la guerre, les données}{5}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Méthode de résolution de problèmes d'apprentissage supervisé}{5}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Méthode de résolution d'un }{5}{section.6}%
 \contentsfinish 
