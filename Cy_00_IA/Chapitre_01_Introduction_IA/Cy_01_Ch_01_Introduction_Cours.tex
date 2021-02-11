@@ -104,6 +104,26 @@ Pour pouvoir traiter ces données, il peut être nécessaire qu'elles soient org
 \item les données non structurées comme un image, du texte, ou une vidéo.
 \end{itemize}
 
+\begin{defi}[Observations -- Caractéristiques]
+
+On appelle observation (ou individu ou objet) une << ligne de donnée >> qui va être utilisée par un algorithme d'apprentissage. 
+
+Une observation est composée de caractéristiques qui varient pour chacun des observations. 
+\end{defi}
+
+\begin{exemple}~\\
+
+\begin{minipage}[c]{.65\linewidth}
+Dans le cas de la base de donnée des Iris, présente par exemple dans \texttt{scikit-learn}, les données sont composées de 150 observations, chacune composée de 4 caractéristiques : longueur et largeur du sépale ainsi que longueur et largeur du pétale.
+\end{minipage} \hfill
+\begin{minipage}[c]{.3\linewidth}
+\begin{center}
+\includegraphics[width=.6\linewidth]{fig_10}
+\end{center}
+\end{minipage} 
+
+\end{exemple}
+
 
 \begin{defi}[Big data -- Wikipedia]
 Mégadonnées ou données massives. Le big data désigne les ressources d’informations dont les caractéristiques en termes de volume, de vélocité et de variété imposent l’utilisation de technologies et de méthodes analytiques particulières pour générer de la valeur, et qui dépassent en général les capacités d'une seule et unique machine et nécessitent des traitements parallélisés.
@@ -140,7 +160,7 @@ L’entraînement peut être poursuivi même en phase de production.
 \end{exemple}
 
 
-\begin{defi}[Apprentissage supervisé]
+\begin{defi}[Apprentissage supervisé -- Induction]
 Tâche d'apprentissage au cours duquel l'algorithme (ou fonction de prédiction) va, à partir d'un ensemble de données \textbf{étiquetées}, déterminer un lien entre un ensemble les données et les étiquettes. 
 
 Dans un second temps, l'algorithme devra être capable de prédire l'étiquette (sans la connaître) à partir de données originales.
@@ -162,7 +182,7 @@ Soit un ensemble d'images en noir et blanc représentant des chiffres de 0 à 9.
 Dans un second temps, l'algorithme devra déterminer le chiffre en fonction d'une image seule.
 \end{exemple}
 
-\begin{defi}[Apprentissage non supervisé]
+\begin{defi}[Apprentissage non supervisé -- Clustering]
 Tâche d'apprentissage au cours duquel l'algorithme (ou fonction de prédiction) va, à partir d'un ensemble de données \textbf{non étiquetées}, déterminer un lien entre les données (et les regrouper). 
 \end{defi}
 
@@ -181,7 +201,7 @@ Classification d'iris en utilisant un algorithme d'apprentissage non supervisé.
 \includegraphics[width=.8\linewidth]{fig_03}
 \end{center}
 
-On remarque (sur l'image en couleur) que sur des mesures sur 150 iris, l'algorithme a réussi à retrouver les 3 différentes espèces, sans les connaître, à 3 erreurs près.
+On remarque (lorsque l'image est en couleur) que sur des mesures sur 150 iris, l'algorithme a réussi à retrouver les 3 différentes espèces, sans les connaître, à 3 erreurs près.
 
 \end{exemple}
 
@@ -205,13 +225,44 @@ On peut donc faire une synthèse des méthodes d'apprentissage dont nous avons p
 
 \subsection{Classification des algorithmes d'apprentissage}
 
-\subsection{Séparation des données}
+\begin{center}
+\includegraphics[width=\linewidth]{fig_09}
+\end{center}
 
+\subsection{Données et séparation des données/Gestion des données ?}
+Lorsque l'on souhaite disposer d'un modèle défini par un algorithme d'IA, il faut en premier lieu disposer de données. 
+
+\subsubsection{Cas de l'apprentissage supervisé}
+
+En apprentissage supervisé, il est nécessaire de connaître des données d'entrées ainsi que les sorties correspondantes (appelées aussi \texttt{cibles} ou \texttt{target}).
+
+Dans le cadre d'une programmation \texttt{Python} avec la bibliothèque \texttt{scikit-learn} les données d'entées et de sorties peuvent être implémentées en utilisant des \texttt{numpy.ndarray}.
+
+Ainsi, si les données d'entrées, stockées dans la variable \texttt{data} sont composées de \texttt{n} observations elles mêmes composées de \texttt{p} catégories, le \text{shape} de \texttt{data} sera \texttt{(n,p)}.
+
+La donnée cible sera quant à elle un vecteur de \texttt{n} valeurs. 
+
+\begin{exemple}~\\
+\begin{center}
+\includegraphics[width=.5\linewidth]{fig_11}
+\end{center}
+\end{exemple}
+
+\subsubsection{Séparation des données}
+
+\url{https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation}
+
+\subsubsection{Normalisation des données - Preprocessing ?}
+
+\url{https://scikit-learn.org/stable/modules/preprocessing.html}
 \subsection{Validation du modèle}
 
 \section{Algorithmes d'apprentissage}
 
 \section{Réseaux de neurones}
+
+
+\newpage
 
 \section{Définitions}
 
