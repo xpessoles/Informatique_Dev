@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.26)  12 FEB 2021 13:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.26)  12 FEB 2021 21:02
 entering extended mode
 **./Cy_01_Ch_01_Introduction_Cours_PDF.tex
 (Cy_01_Ch_01_Introduction_Cours_PDF.tex
@@ -2253,21 +2253,21 @@ Package pdftex.def Info: ../../style/png/logo_lycee.png  used on input line 258
 [5 <./images/fig_09.png> <./images/fig_11.png>]
 File: ../../style/png/logo_lycee.png Graphic file (type png)
 <use ../../style/png/logo_lycee.png>
-Package pdftex.def Info: ../../style/png/logo_lycee.png  used on input line 274
+Package pdftex.def Info: ../../style/png/logo_lycee.png  used on input line 286
 .
 (pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
  [6]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 296.
+(mdframed)              on input line 308.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 305.
+(mdframed)              on input line 317.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 323.
+(mdframed)              on input line 335.
 
-Overfull \hbox (108.16803pt too wide) in paragraph at lines 347--349
+Overfull \hbox (108.16803pt too wide) in paragraph at lines 359--361
 []\T1/mdput/m/n/10 (-20) Exemples : []$\T1/cmtt/m/n/10 https : / / makina-[]cor
 pus . com / blog / metier / 2017 / initiation-[]au-[]machine-[]learning-[]avec-
 []python-[]pratique$[] 
@@ -2296,9 +2296,6 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                Cy_01_Ch_01_Introduction_Cours_PDF
 (biblatex)                and rerun LaTeX afterwards.
@@ -2310,11 +2307,11 @@ n.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
  ) 
 Here is how much of TeX's memory you used:
- 37047 strings out of 481165
- 731251 string characters out of 2912171
- 1550674 words of memory out of 3000000
- 51682 multiletter control sequences out of 15000+200000
- 774638 words of font info for 318 fonts, out of 3000000 for 9000
+ 37059 strings out of 481165
+ 731360 string characters out of 2912171
+ 1550721 words of memory out of 3000000
+ 51680 multiletter control sequences out of 15000+200000
+ 775558 words of font info for 329 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,17n,81p,1031b,1997s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/ly1/texnansi.enc} <C:\Users\xpes
@@ -2331,7 +2328,7 @@ putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:
 onts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /avantgar/uagk8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagk
 o8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Cy_01_Ch_01_Introduction_Cours_PDF.pdf (7 pages, 3009637 byte
+Output written on Cy_01_Ch_01_Introduction_Cours_PDF.pdf (7 pages, 3010259 byte
 s).
 PDF statistics:
  308 PDF objects out of 1000 (max. 8388607)
