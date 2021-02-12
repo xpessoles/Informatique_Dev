@@ -243,12 +243,31 @@ Ainsi, si les données d'entrées, stockées dans la variable \texttt{data} sont
 La donnée cible sera quant à elle un vecteur de \texttt{n} valeurs. 
 
 \begin{exemple}~\\
+
+Données d'entrées  : matrice  \texttt{X} de \texttt{n} observations avec 4 caractéristiques. 
+
+Données de sortie : vecteur \texttt{Y} de \texttt{n} résultats. 
 \begin{center}
 \includegraphics[width=.5\linewidth]{fig_11}
 \end{center}
+
+Dans le cadre d'une classification, où \texttt{r} résultats sont possibles. On peut attribuer une valeur (entière) entre 1 et \texttt{r} à chacun des résultats, notamment si ceux-ci sont des données qualitatives.
+
+\textcolor{red}{\textbf{Problème de l'identification d'un système : quelles sont les données d'entrées ? Quelles sont surtout les données de sorties ? Un vecteur aussi ?}}
+
 \end{exemple}
 
 \subsubsection{Séparation des données}
+
+Lors du démarrage d'un apprentissage, on dispose d'un jeu de données. Il est d'usage de séparer ces données en deux parties :
+\begin{itemize}
+\item les données d’entraînement permettant... d’entraîner le modèle. Dans la pratique on utilise entre 70 et 80\,\% des données de base;
+\item les données de te test, permettant de valider l'apprentissage (ou le modèle), dans la pratique entre 20 et 30\,\% des données de base.
+\end{itemize}
+
+On peut ensuite comparer la performance réalisée par l'algorithme sur les données d’entraînement et les données de tests. Se pose alors le problème de comment sélectionner ces données ? En effet, les données de base pouvant potentiellement être triées, sélectionner une part pourrait créer un biais dans l'apprentissage.
+% QQ éléments supplémentaires P207 de data science et etudes de cas.
+
 
 \url{https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation}
 

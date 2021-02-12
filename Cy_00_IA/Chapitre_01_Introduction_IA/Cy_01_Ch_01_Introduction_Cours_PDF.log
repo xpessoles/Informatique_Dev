@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.26)  11 FEB 2021 22:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.26)  12 FEB 2021 13:42
 entering extended mode
 **./Cy_01_Ch_01_Introduction_Cours_PDF.tex
 (Cy_01_Ch_01_Introduction_Cours_PDF.tex
@@ -2243,7 +2243,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--246
 <images/fig_11.png, id=115, 200.6697pt x 105.5142pt>
 File: images/fig_11.png Graphic file (type png)
 <use images/fig_11.png>
-Package pdftex.def Info: images/fig_11.png  used on input line 247.
+Package pdftex.def Info: images/fig_11.png  used on input line 251.
 (pdftex.def)             Requested size: 234.84843pt x 123.49298pt.
 File: ../../style/png/logo_lycee.png Graphic file (type png)
 <use ../../style/png/logo_lycee.png>
@@ -2253,21 +2253,21 @@ Package pdftex.def Info: ../../style/png/logo_lycee.png  used on input line 258
 [5 <./images/fig_09.png> <./images/fig_11.png>]
 File: ../../style/png/logo_lycee.png Graphic file (type png)
 <use ../../style/png/logo_lycee.png>
-Package pdftex.def Info: ../../style/png/logo_lycee.png  used on input line 265
+Package pdftex.def Info: ../../style/png/logo_lycee.png  used on input line 274
 .
 (pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
  [6]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 287.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
 (mdframed)              on input line 296.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 314.
+(mdframed)              on input line 305.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 323.
 
-Overfull \hbox (108.16803pt too wide) in paragraph at lines 338--340
+Overfull \hbox (108.16803pt too wide) in paragraph at lines 347--349
 []\T1/mdput/m/n/10 (-20) Exemples : []$\T1/cmtt/m/n/10 https : / / makina-[]cor
 pus . com / blog / metier / 2017 / initiation-[]au-[]machine-[]learning-[]avec-
 []python-[]pratique$[] 
@@ -2310,13 +2310,13 @@ n.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
  ) 
 Here is how much of TeX's memory you used:
- 37043 strings out of 481165
- 731165 string characters out of 2912171
- 1549485 words of memory out of 3000000
- 51678 multiletter control sequences out of 15000+200000
+ 37047 strings out of 481165
+ 731251 string characters out of 2912171
+ 1550674 words of memory out of 3000000
+ 51682 multiletter control sequences out of 15000+200000
  774638 words of font info for 318 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,17n,79p,1031b,1997s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,17n,81p,1031b,1997s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/ly1/texnansi.enc} <C:\Users\xpes
 s\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi642\ectt1000.pk> <C:\
 Users\xpess\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi642\ectt080
@@ -2331,10 +2331,10 @@ putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:
 onts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /avantgar/uagk8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagk
 o8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Cy_01_Ch_01_Introduction_Cours_PDF.pdf (7 pages, 3004996 byte
+Output written on Cy_01_Ch_01_Introduction_Cours_PDF.pdf (7 pages, 3009637 byte
 s).
 PDF statistics:
- 306 PDF objects out of 1000 (max. 8388607)
+ 308 PDF objects out of 1000 (max. 8388607)
  51 named destinations out of 1000 (max. 500000)
  89774 words of extra memory for PDF output out of 106986 (max. 10000000)
 
