@@ -259,16 +259,41 @@ Dans le cadre d'une classification, où \texttt{r} résultats sont possibles. On
 
 \subsubsection{Séparation des données}
 
-Lors du démarrage d'un apprentissage, on dispose d'un jeu de données. Il est d'usage de séparer ces données en deux parties :
+Lors du démarrage d'un apprentissage supervisé, on dispose d'un jeu de données comprenant les données d'entrée et les cibles correspondantes. Il est d'usage de séparer ces données en deux parties :
 \begin{itemize}
 \item les données d’entraînement permettant... d’entraîner le modèle. Dans la pratique on utilise entre 60 et 80\,\% des données de base;
 \item les données de te test, permettant de valider l'apprentissage (ou le modèle), dans la pratique entre 20 et 40\,\% des données de base.
 \end{itemize}
 
-On peut ensuite comparer la performance réalisée par l'algorithme sur les données d’entraînement et les données de tests. Se pose alors le problème de comment sélectionner ces données. En effet, les données de base pouvant potentiellement être triées (ordonnées par rapport à une des caractéristiques), sélectionner une partie pourrait créer un biais dans l'apprentissage.
-% QQ éléments supplémentaires P207 de data science et etudes de cas.
+On commence donc par réaliser un apprentissage sur les données d’entraînement. Cet entraînement produit des résultats. Connaissant les cibles correspondant aux données d'entraînement, on peut donc en déduire une performance du modèle sur le traitement des données d’entraînement. 
+
+On utilise alors le modèle en lui donnant les données de test. De même, on peut donc en déduire une performance du modèle sur le traitement des données de test.  
+
+\begin{center}
+\includegraphics[width=.8\linewidth]{fig_12}
+\end{center}
+
+ Se pose alors le problème de comment séparer les données. En effet, les données de base pouvant potentiellement être triées (ordonnées par rapport à une des caractéristiques), et sélectionner une partie pourrait créer un biais dans l'apprentissage. 
+
+\texttt{scikit-learn} permet de séparer aléatoirement des données en fixant le pourcentage de données de validation.
 
 
+\begin{lstlisting}
+from sklearn.model_selection import train_test_split
+# X(numpy.ndarray) : données d'entrées
+# Y(numpy.ndarray) : données cibles correspondantes
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.33)
+\end{lstlisting}
+
+
+On perçoit donc que la qualité de l'apprentissage peut dépendre du choix utilisé lors de la séparation des données. De plus, certains choix de paramètres permettant d’affiner le modèle sont aussi liés aux données d’entraînement sélectionnées. 
+Une des solutions pour résoudre ce problème est d'avoir recours à la validation croisée. 
+
+
+
+%Il est parfois possible de séparer en faisant en sorte que les valeurs moyennes et écarts types des données cibles des données d’entraînement et des données de test soient les mêmes.
+
+La séparation des donné
 Afin de palier ce problème il est possible (conseillé) d'avoir recours à la validation croisée.  
 
 \url{https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation}

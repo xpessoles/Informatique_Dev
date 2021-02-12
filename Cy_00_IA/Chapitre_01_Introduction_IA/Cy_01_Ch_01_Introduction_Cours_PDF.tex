@@ -15,6 +15,30 @@
 %
 
 
+\usepackage{listings}
+\definecolor{darkgray}{rgb}{.4,.4,.4}
+
+% Default fixed font does not support bold face
+%\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
+%\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
+
+\lstset{language=Python,
+%  inputencoding=utf8/latin1,
+  breaklines=true,
+  basicstyle=\footnotesize\ttfamily, 
+  columns=fullflexible,
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\color{purple!40!black}\itshape,
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+  frame = tb}  
+
+\lstset{
+     literate=%
+         {é}{{\'e}}1    
+         {à}{{\`a}}1    
+}
+
 \begin{document}
 \graphicspath{{../../style/png/}{images/}}
 
