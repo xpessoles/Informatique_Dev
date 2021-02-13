@@ -229,10 +229,14 @@ On peut donc faire une synthèse des méthodes d'apprentissage dont nous avons p
 \includegraphics[width=\linewidth]{fig_09}
 \end{center}
 
+
+\subsection{Validation du modèle}
+Une fois un algorithme d'apprentissage choisi, on se pose la question de la validation du modèle. Quels critères et outils vont nous permettre de considérer que notre apprentissage est << bon >> ?
+
 \subsection{Données et séparation des données/Gestion des données ?}
 Lorsque l'on souhaite disposer d'un modèle défini par un algorithme d'IA, il faut en premier lieu disposer de données. 
 
-\subsubsection{Cas de l'apprentissage supervisé}
+\subsubsection{Types de données -- Apprentissage supervisé}
 
 En apprentissage supervisé, il est nécessaire de connaître des données d'entrées ainsi que les sorties correspondantes (appelées aussi \texttt{cibles} ou \texttt{target}).
 
@@ -256,6 +260,9 @@ Dans le cadre d'une classification, où \texttt{r} résultats sont possibles. On
 \textcolor{red}{\textbf{Problème de l'identification d'un système : quelles sont les données d'entrées ? Quelles sont surtout les données de sorties ? Un vecteur aussi ?}}
 
 \end{exemple}
+
+
+\subsubsection{Normalisation des données}
 
 \subsubsection{Séparation des données}
 
@@ -289,19 +296,19 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.33)
 On perçoit donc que la qualité de l'apprentissage peut dépendre du choix utilisé lors de la séparation des données. De plus, certains choix de paramètres permettant d’affiner le modèle sont aussi liés aux données d’entraînement sélectionnées. 
 Une des solutions pour résoudre ce problème est d'avoir recours à la validation croisée. 
 
-
+\textcolor{red}{\textbf{À creuser}}
 
 %Il est parfois possible de séparer en faisant en sorte que les valeurs moyennes et écarts types des données cibles des données d’entraînement et des données de test soient les mêmes.
 
-La séparation des donné
-Afin de palier ce problème il est possible (conseillé) d'avoir recours à la validation croisée.  
+%La séparation des donné
+%Afin de palier ce problème il est possible (conseillé) d'avoir recours à la validation croisée.  
 
 \url{https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation}
 
 \subsubsection{Normalisation des données - Preprocessing ?}
 
 \url{https://scikit-learn.org/stable/modules/preprocessing.html}
-\subsection{Validation du modèle}
+
 
 \section{Algorithmes d'apprentissage}
 

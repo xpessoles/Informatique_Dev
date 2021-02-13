@@ -4,16 +4,17 @@
 \contentsline {section}{\numberline {1}L'Intelligence Artificielle, qu'est ce que c'est, à quoi ça sert ?}{2}{section.1}%
 \contentsline {section}{\numberline {2}Mécanismes d'apprentissages}{5}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Classification des algorithmes d'apprentissage}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Données et séparation des données/Gestion des données ?}{5}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Cas de l'apprentissage supervisé}{5}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Séparation des données}{6}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Normalisation des données - Preprocessing ?}{6}{subsubsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.3}Validation du modèle}{6}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Algorithmes d'apprentissage}{6}{section.3}%
-\contentsline {section}{\numberline {4}Réseaux de neurones}{6}{section.4}%
-\contentsline {section}{\numberline {5}Définitions}{7}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Quelques définitions}{7}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Le nerf de la guerre, les données}{7}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Méthode de résolution de problèmes d'apprentissage supervisé}{7}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Méthode de résolution d'un }{7}{section.6}%
+\contentsline {subsection}{\numberline {2.2}Validation du modèle}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Données et séparation des données/Gestion des données ?}{5}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Types de données -- Apprentissage supervisé}{5}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Normalisation des données}{6}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Séparation des données}{6}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Normalisation des données - Preprocessing ?}{6}{subsubsection.2.3.4}%
+\contentsline {section}{\numberline {3}Algorithmes d'apprentissage}{7}{section.3}%
+\contentsline {section}{\numberline {4}Réseaux de neurones}{7}{section.4}%
+\contentsline {section}{\numberline {5}Définitions}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Quelques définitions}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Le nerf de la guerre, les données}{8}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Méthode de résolution de problèmes d'apprentissage supervisé}{8}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Méthode de résolution d'un }{8}{section.6}%
 \contentsfinish 
