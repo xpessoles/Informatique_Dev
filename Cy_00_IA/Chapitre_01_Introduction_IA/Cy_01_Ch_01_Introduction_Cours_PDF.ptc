@@ -5,11 +5,13 @@
 \contentsline {section}{\numberline {2}Mécanismes d'apprentissages}{5}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Classification des algorithmes d'apprentissage}{5}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Validation du modèle}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Critères de validation des problèmes de classification}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Critères de validation des problèmes de régression}{5}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Critères de validation des problèmes d'apprentissage non supervisé}{5}{subsubsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.3}Données et séparation des données/Gestion des données ?}{5}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Types de données -- Apprentissage supervisé}{5}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2}Normalisation des données}{6}{subsubsection.2.3.2}%
 \contentsline {subsubsection}{\numberline {2.3.3}Séparation des données}{6}{subsubsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.4}Normalisation des données - Preprocessing ?}{6}{subsubsection.2.3.4}%
 \contentsline {section}{\numberline {3}Algorithmes d'apprentissage}{7}{section.3}%
 \contentsline {section}{\numberline {4}Réseaux de neurones}{7}{section.4}%
 \contentsline {section}{\numberline {5}Définitions}{8}{section.5}%
