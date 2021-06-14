@@ -63,6 +63,7 @@
 
 \section{L'Intelligence Artificielle, qu'est ce que c'est, à quoi ça sert ?}
 
+\subsection{Premières définitions -- IA, données}
 %\subsection{Première approche. Que veut-on ? Qu'obtient-on ?}
 \begin{defi}[Intelligence Artificielle]
 Wikipedia -- L'intelligence artificielle (IA) est « l'ensemble des théories et des techniques mises en œuvre en vue de réaliser des machines capables de simuler l'intelligence ». 
@@ -118,6 +119,9 @@ Pour pouvoir traiter ces données, il peut être nécessaire qu'elles soient org
 \item les données non structurées comme un image, du texte, ou une vidéo.
 \end{itemize}
 
+\begin{exemple}
+\end{exemple}
+
 \begin{defi}[Observations -- Caractéristiques]
 
 On appelle observation (ou individu ou objet) une << ligne de donnée >> qui va être utilisée par un algorithme d'apprentissage. 
@@ -144,10 +148,14 @@ Mégadonnées ou données massives. Le big data désigne les ressources d’info
 \end{defi}
 
 
+
+
 Que fait-on avec ces données ? En général les algorithmes vont chercher un lien entre ces données. Dans le cas où il existe un lien connu par le \textit{Data Scientist} on parle d'apprentissage supervisé. 
 
 Si ce lien n'est pas connu, on parle d'apprentissage non supervisé ou de clustering. 
 
+
+\subsection{Apprentissage automatisé -- Machine Learning}
 
 
 
@@ -158,7 +166,7 @@ données afin de déterminer des motifs et de réaliser un modèle prédictif.
 L'apprentissage comprend deux phases : 
 \begin{itemize}
 \item l’entraînement (ou apprentissage) est une phase d'estimation du modèle à partir de données d'observations; 
-\item la mise en production du modèle est une phase pendant laquelle de nouvelles données sont traitées dans le but d'obtenir le résultat souhaité. 
+\item la mise en production du modèle (inférence) est une phase pendant laquelle de nouvelles données sont traitées dans le but d'obtenir le résultat souhaité. 
 \end{itemize}
 
 L’entraînement peut être poursuivi même en phase de production.
@@ -174,10 +182,12 @@ L’entraînement peut être poursuivi même en phase de production.
 \end{exemple}
 
 
-\begin{defi}[Apprentissage supervisé -- Induction]
+\begin{defi}[Apprentissage supervisé -- Apprentissage]
 Tâche d'apprentissage au cours duquel l'algorithme (ou fonction de prédiction) va, à partir d'un ensemble de données \textbf{étiquetées}, déterminer un lien entre un ensemble les données et les étiquettes. 
+\end{defi}
 
-Dans un second temps, l'algorithme devra être capable de prédire l'étiquette (sans la connaître) à partir de données originales.
+\begin{defi}[Apprentissage supervisé -- Inférence]
+Tâche au cours duquel l'algorithme (ou fonction de prédiction) va, à partir d'un ensemble de données \textbf{non étiquetées}, prédire l'étiquette.
 
 \end{defi}
 
@@ -232,12 +242,41 @@ On peut donc faire une synthèse des méthodes d'apprentissage dont nous avons p
 \includegraphics[width=.8\linewidth]{fig_08}
 \end{center}
 
-\textit{Comment situer le deep learning parmi ces méthodes d'apprentissage ? -- NDLR (ie XP) pour moi l'utilisation du terme << deep learning >> apparaît lorsqu'on commence à utiliser des réseaux de neurones... mais les réseaux de neurones peuvent être utilisés dans chacune des méthodes d'apprentissage sus-citées...}
+\textit{Comment situer le deep learning parmi ces méthodes d'apprentissage ? --  Pour moi, XP,  l'utilisation du terme << deep learning >> apparaît lorsqu'on commence à utiliser des réseaux de neurones... mais les réseaux de neurones peuvent être utilisés dans chacune des méthodes d'apprentissage sus-citées...}
+
+\subsection{Encore des définitions...}
+
+\begin{defi}[Classification]
+En apprentissage automatique, on appelle problème de classification les problèmes ou les étiquettes sont discrètes.
+\end{defi}
+
+\begin{exemple} ~\\
+
+\begin{center}
+\includegraphics[width=.8\linewidth]{fig_06}
+\end{center}
+
+Dans le cas où nous souhaitons regrouper par forme, il s'agit d'un problème de classification. Les classes discrètes sont les formes (triangles, carrés, pentagones ...). 
+
+Il serait aussi possible d'opérer un regroupement par couleur. Les classes seraient donc différentes.
+\end{exemple}
+
+\begin{defi}[Régression]
+En apprentissage automatique, on appelle problème de régression les problèmes ou les étiquettes sont continues.
+\end{defi}
+
+\begin{exemple}
+Dans le cas où nous souhaiterions que l'algorithme détermine l'aire ou le périmètre de la forme, les étiquette seraient alors continues sur $\mathbb{R}^{+}_{*}$.
+
+\end{exemple}
 
 
 \section{Mécanismes d'apprentissages}
 
 \subsection{Classification des algorithmes d'apprentissage}
+
+La bibliothèque \texttt{scikit-learn} propose une classification de divers algorithmes en fonction des apprentissages automatiques (hors réseaux de neurones).
+
 
 \begin{center}
 \includegraphics[width=\linewidth]{fig_09}
@@ -250,6 +289,8 @@ Une fois un algorithme d'apprentissage choisi, on se pose la question de la vali
 Lors d'un problème de classification, il est par exemple possible de déterminer les écarts entre les valeurs prédites par l'algorithme et les valeurs cibles.
 
 \subsubsection{Critères de validation des problèmes de classification}
+
+
 
 \begin{defi}[Valeur prédictive positive]
 Valeur prédictive positive (\textit{accuracy classification score})
@@ -356,112 +397,112 @@ Une des solutions pour résoudre ce problème est d'avoir recours à la validati
 %%%%
 %\url{https://jonchar.net/notebooks/k-means/#:~:text=k%2Dmeans%20clustering%3A%20An%20example,3%20using%20numpy%20and%20matplotlib.&text=The%20k%2Dmeans%20algorithm%20is,user%20before%20starting%20the%20algorithm}
 
-\newpage
+%\newpage
 
 \section{Algorithmes d'apprentissage}
-
-\section{Réseaux de neurones}
-
-\url{https://playground.tensorflow.org/}
-
-
-
-\section{Définitions}
-
-\begin{itemize}
-\item Data scientist
-\item machine learning
-\item deep learning
-\item réseaux de neurons
-\item régression
-\item data mining
-\item bigdata
-\item données continues, données discrètes, données nominales, données ordinales, données (semi-)structurées et non structurées
-
-\end{itemize}
-
-
-\begin{itemize}
-\item algorithmes supervisés, non supervisés
-\item algorithmes de régression et de classification
-\end{itemize}
-
-\begin{defi}[Machine Learning -- Apprentissage automatique -- Wikipedia] 
-Champ d'étude de l'intelligence artificielle qui se fonde sur des approches mathématiques et statistiques pour donner aux ordinateurs la capacité d' « apprendre » à partir de données, c'est-à-dire d'améliorer leurs performances à résoudre des tâches sans être explicitement programmés pour chacune. 
-
-La première phase de l'apprentissage consiste à estimer un modèle à partir de données, appelées observations, qui sont disponibles et en nombre fini, lors de la phase de conception du système.
-
- La seconde phase correspond à la mise en production : le modèle étant déterminé, de nouvelles données peuvent alors être soumises afin d'obtenir le résultat correspondant à la tâche souhaitée.
-\end{defi}
-
-
-\begin{defi}[Apprentissage supervisé -- Apprentissage non supervisé -- Apprentissage par renforcement -- Wikipedia] 
-Si les données sont étiquetées (c'est-à-dire que la réponse à la tâche est connue pour ces données), il s'agit d'un apprentissage supervisé. On parle de :
-\begin{itemize}
-\item classification ou de classement si les étiquettes sont discrètes;
-\item régression si elles sont continues.
-\end{itemize}
-
-Si le modèle est appris de manière incrémentale en fonction d'une récompense reçue par le programme pour chacune des actions entreprises, on parle d'apprentissage par renforcement. 
-
-Dans le cas le plus général, sans étiquette, on cherche à déterminer la structure sous-jacente des données (qui peuvent être une densité de probabilité) et il s'agit alors d'apprentissage non supervisé.
-
-
-
-\end{defi}
-
-
-
-\subsection{Quelques définitions}
-\begin{defi}{Intelligence Artificielle, première approche}
-
-\end{defi}
-
-\subsection{Le nerf de la guerre, les données}
-
-
-
-\subsection{Méthode de résolution de problèmes d'apprentissage supervisé}
-
-\begin{enumerate}
-\item Choix des données.
-\item Normalisation des données. 
-\item Séparation des données ? (entraînement, test, validation)
-\item Choix de la méthode d’entraînement (choix d'un modèle, en fonction du type de données, choix des paramètres du modèle)
-\item Entraînement du modèle
-\item Test du modèle
-\item Observation des métriques et visualisation des résultats
-\end{enumerate}
-
-\section{Méthode de résolution d'un }
-
-\newpage
-
-
-1 cours Sur les réseau de neurones
-
-\section{TP : Synthèse d'un contrôleur piloté par réseau de neurones}
-
-TP identification de la boucle ouverte  
-\begin{itemize}
-\item Comparaison modèle (a)causal / réel
-\item Comparaison modèle ANN / réel
-\end{itemize}
-
-
-TP Synthèse du contrôleur PID 
-à partir du modèle
-To do XP
-
-TP synthèse du contrôleur et implémentation sur une cible. 
-Déploiement sur control X ?
-
-
-
-\newpage
-
-
-\newpage
+%
+%\section{Réseaux de neurones}
+%
+%\url{https://playground.tensorflow.org/}
+%
+%
+%
+%\section{Définitions}
+%
+%\begin{itemize}
+%\item Data scientist
+%\item machine learning
+%\item deep learning
+%\item réseaux de neurons
+%\item régression
+%\item data mining
+%\item bigdata
+%\item données continues, données discrètes, données nominales, données ordinales, données (semi-)structurées et non structurées
+%
+%\end{itemize}
+%
+%
+%\begin{itemize}
+%\item algorithmes supervisés, non supervisés
+%\item algorithmes de régression et de classification
+%\end{itemize}
+%
+%\begin{defi}[Machine Learning -- Apprentissage automatique -- Wikipedia] 
+%Champ d'étude de l'intelligence artificielle qui se fonde sur des approches mathématiques et statistiques pour donner aux ordinateurs la capacité d' « apprendre » à partir de données, c'est-à-dire d'améliorer leurs performances à résoudre des tâches sans être explicitement programmés pour chacune. 
+%
+%La première phase de l'apprentissage consiste à estimer un modèle à partir de données, appelées observations, qui sont disponibles et en nombre fini, lors de la phase de conception du système.
+%
+% La seconde phase correspond à la mise en production : le modèle étant déterminé, de nouvelles données peuvent alors être soumises afin d'obtenir le résultat correspondant à la tâche souhaitée.
+%\end{defi}
+%
+%
+%\begin{defi}[Apprentissage supervisé -- Apprentissage non supervisé -- Apprentissage par renforcement -- Wikipedia] 
+%Si les données sont étiquetées (c'est-à-dire que la réponse à la tâche est connue pour ces données), il s'agit d'un apprentissage supervisé. On parle de :
+%\begin{itemize}
+%\item classification ou de classement si les étiquettes sont discrètes;
+%\item régression si elles sont continues.
+%\end{itemize}
+%
+%Si le modèle est appris de manière incrémentale en fonction d'une récompense reçue par le programme pour chacune des actions entreprises, on parle d'apprentissage par renforcement. 
+%
+%Dans le cas le plus général, sans étiquette, on cherche à déterminer la structure sous-jacente des données (qui peuvent être une densité de probabilité) et il s'agit alors d'apprentissage non supervisé.
+%
+%
+%
+%\end{defi}
+%
+%
+%
+%\subsection{Quelques définitions}
+%\begin{defi}{Intelligence Artificielle, première approche}
+%
+%\end{defi}
+%
+%\subsection{Le nerf de la guerre, les données}
+%
+%
+%
+%\subsection{Méthode de résolution de problèmes d'apprentissage supervisé}
+%
+%\begin{enumerate}
+%\item Choix des données.
+%\item Normalisation des données. 
+%\item Séparation des données ? (entraînement, test, validation)
+%\item Choix de la méthode d’entraînement (choix d'un modèle, en fonction du type de données, choix des paramètres du modèle)
+%\item Entraînement du modèle
+%\item Test du modèle
+%\item Observation des métriques et visualisation des résultats
+%\end{enumerate}
+%
+%\section{Méthode de résolution d'un }
+%
+%\newpage
+%
+%
+%1 cours Sur les réseau de neurones
+%
+%\section{TP : Synthèse d'un contrôleur piloté par réseau de neurones}
+%
+%TP identification de la boucle ouverte  
+%\begin{itemize}
+%\item Comparaison modèle (a)causal / réel
+%\item Comparaison modèle ANN / réel
+%\end{itemize}
+%
+%
+%TP Synthèse du contrôleur PID 
+%à partir du modèle
+%To do XP
+%
+%TP synthèse du contrôleur et implémentation sur une cible. 
+%Déploiement sur control X ?
+%
+%
+%
+%\newpage
+%
+%
+%\newpage
 
 Exemples : 
 \url{https://makina-corpus.com/blog/metier/2017/initiation-au-machine-learning-avec-python-pratique}

@@ -1,0 +1,215 @@
+%%%% Paramétrage du cours %%%%
+\def\xxactivite{Cours}
+\def\xxauteur{\textsl{Xavier Pessoles \& Anthony Meurdefroid}}
+
+\fichefalse
+\proftrue
+\tdfalse
+\courstrue
+
+\def\xxnumchapitre{Chapitre 1 \vspace{.2cm}}
+\def\xxchapitre{\hspace{.12cm} Introduction}
+
+\def\xxcompetences{%
+\textsl{%
+\textbf{Savoirs et compétences :}\\
+\begin{itemize}[label=\ding{112},font=\color{ocre}] 
+\item Analyser les principes d'intelligence artificielle.
+\begin{itemize}
+\item Régression et classification, apprentissages supervisé et non supervisé.
+\item Phases d'apprentissage et d'inférence.
+\item Modèle linéaire monovariable ou multivariable.
+\item Réseaux de neurones (couches d'entrée, cachées et de sortie, neurones, biais, poids et fonction d'activation).
+\end{itemize}
+\item Interpréter et vérifier la cohérence des résultats obtenus expérimentalement, analytiquement : Ordre de grandeur. Matrice de confusion (tableau de contingence), sensibilité et spécificité d'un test.
+\item Résoudre un problème en utilisant une solution d'intelligence artificielle : 
+\begin{itemize}
+\item Apprentissage supervisé.
+\item Choix des données d'apprentissage. 
+\item Mise en œuvre des algorithmes (réseaux de neurones, $k$ plus proches voisins et régression linéaire multiple).
+\item Phases d'apprentissage et d'inférence.
+\end{itemize}
+%\item \textit{Mod2.C17} : torseur dynamique
+%\item \textit{Mod2.C17.SF1} : déterminer le torseur dynamique d’un solide, ou d’un ensemble de solides, par rapport à un autre solide
+%\item \textit{Mod2.C15} : matrice d'inertie
+%\item \textit{Res1.C2} : principe fondamental de la dynamique
+%\item \textit{Res1.C1.SF1} : proposer une démarche permettant la détermination de la loi de mouvement
+%\item \textit{Res1.C2.SF1} : proposer une méthode permettant la détermination d’une inconnue de liaison
+\end{itemize}
+}}
+
+
+
+\def\xxfigures{
+}%figues de la page de garde
+
+\iflivret
+\input{../../style/new_pagegarde}
+\else
+\input{../../style/new_pagegarde}
+\fi
+\setlength{\columnseprule}{.1pt}
+
+\vspace{2cm}
+\pagestyle{fancy}
+\thispagestyle{plain}
+
+
+
+\section{Le perceptron}
+
+\subsection{Bref historique}
+
+\subsection{Modèle de perceptron}
+
+\begin{defi}[Fonction d'activation]
+\end{defi}
+
+\subsection{Réseau de neurones}
+
+\begin{defi}[Couches]
+
+\begin{itemize}
+\item Couche d'entrée : .
+\item Couche cachée : .
+\item Couche de sortie : .
+\end{itemize}
+\end{defi}
+
+
+Même fonction d'activation chaque couche.
+
+
+
+\begin{defi}[Paramètres]
+
+Poids et biais
+\end{defi}
+
+\begin{defi}[Hyper paramètres]
+
+Nombre de couvhes
+\end{defi}
+
+
+\subsection{Propagation}
+
+\subsection{Rétropropagation}
+
+
+\begin{defi}[Quantification de l'erreur]
+\end{defi}
+
+
+\section{Algorithmes d'apprentissage}
+
+\section{Réseaux de neurones}
+
+\url{https://playground.tensorflow.org/}
+
+
+
+\section{Définitions}
+
+\begin{itemize}
+\item Data scientist
+\item machine learning
+\item deep learning
+\item réseaux de neurons
+\item régression
+\item data mining
+\item bigdata
+\item données continues, données discrètes, données nominales, données ordinales, données (semi-)structurées et non structurées
+
+\end{itemize}
+
+
+\begin{itemize}
+\item algorithmes supervisés, non supervisés
+\item algorithmes de régression et de classification
+\end{itemize}
+
+\begin{defi}[Machine Learning -- Apprentissage automatique -- Wikipedia] 
+Champ d'étude de l'intelligence artificielle qui se fonde sur des approches mathématiques et statistiques pour donner aux ordinateurs la capacité d' « apprendre » à partir de données, c'est-à-dire d'améliorer leurs performances à résoudre des tâches sans être explicitement programmés pour chacune. 
+
+La première phase de l'apprentissage consiste à estimer un modèle à partir de données, appelées observations, qui sont disponibles et en nombre fini, lors de la phase de conception du système.
+
+ La seconde phase correspond à la mise en production : le modèle étant déterminé, de nouvelles données peuvent alors être soumises afin d'obtenir le résultat correspondant à la tâche souhaitée.
+\end{defi}
+
+
+\begin{defi}[Apprentissage supervisé -- Apprentissage non supervisé -- Apprentissage par renforcement -- Wikipedia] 
+Si les données sont étiquetées (c'est-à-dire que la réponse à la tâche est connue pour ces données), il s'agit d'un apprentissage supervisé. On parle de :
+\begin{itemize}
+\item classification ou de classement si les étiquettes sont discrètes;
+\item régression si elles sont continues.
+\end{itemize}
+
+Si le modèle est appris de manière incrémentale en fonction d'une récompense reçue par le programme pour chacune des actions entreprises, on parle d'apprentissage par renforcement. 
+
+Dans le cas le plus général, sans étiquette, on cherche à déterminer la structure sous-jacente des données (qui peuvent être une densité de probabilité) et il s'agit alors d'apprentissage non supervisé.
+
+
+
+\end{defi}
+
+
+
+\subsection{Quelques définitions}
+\begin{defi}{Intelligence Artificielle, première approche}
+
+\end{defi}
+
+\subsection{Le nerf de la guerre, les données}
+
+
+
+\subsection{Méthode de résolution de problèmes d'apprentissage supervisé}
+
+\begin{enumerate}
+\item Choix des données.
+\item Normalisation des données. 
+\item Séparation des données ? (entraînement, test, validation)
+\item Choix de la méthode d’entraînement (choix d'un modèle, en fonction du type de données, choix des paramètres du modèle)
+\item Entraînement du modèle
+\item Test du modèle
+\item Observation des métriques et visualisation des résultats
+\end{enumerate}
+
+\section{Méthode de résolution d'un }
+
+\newpage
+
+
+1 cours Sur les réseau de neurones
+
+\section{TP : Synthèse d'un contrôleur piloté par réseau de neurones}
+
+TP identification de la boucle ouverte  
+\begin{itemize}
+\item Comparaison modèle (a)causal / réel
+\item Comparaison modèle ANN / réel
+\end{itemize}
+
+
+TP Synthèse du contrôleur PID 
+à partir du modèle
+To do XP
+
+TP synthèse du contrôleur et implémentation sur une cible. 
+Déploiement sur control X ?
+
+
+
+\newpage
+
+
+\newpage
+
+Exemples : 
+\url{https://makina-corpus.com/blog/metier/2017/initiation-au-machine-learning-avec-python-pratique}
+
+\begin{thebibliography}{2}
+   \bibitem[1]{ref1} Éric Biernat et Michel Lutz. {\it Data science : fondamentaux et études de cas.} Eyrolles.
+\end{thebibliography}
+
