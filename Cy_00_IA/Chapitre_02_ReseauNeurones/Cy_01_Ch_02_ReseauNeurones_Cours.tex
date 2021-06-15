@@ -56,35 +56,184 @@
 
 
 
-\section{Le perceptron}
+\section{Le neurone}
 
 \subsection{Bref historique}
 
-\subsection{Modèle de perceptron}
+\subsection{Modèle de neurone}
 
-\begin{defi}[Fonction d'activation]
+\begin{defi}[Neurone (ou perceptron)] ~\\
+
+
+\begin{minipage}[c]{.55\linewidth}
+Prenons la représentation suivante pour un neurone. On note :
+\begin{itemize}
+\item $x_i$ les données de la couche d'entrée;
+\item $w_i$ les poids (poids synaptiques);
+\item $b$ le biais;
+\item $z_0$ la somme pondérée des entrée;
+\item $f$ une fonction d'activation; 
+\item $\tilde{y}_0$ : la valeur de sortie du neurone.
+\end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{.4\linewidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{images/fig_01}
+\end{center}
+\end{minipage}
+
+On a donc, dans un premier temps  :
+$$z_0 = b+ \sum\limits_{i=0}^{n} w_i x_i. $$
+
+Après la fonction d'activation, on a donc en sortie du neurone :
+$$\tilde{y}_0 = f(z_0)=f \left( b+ \sum\limits_{i=0}^{n} w_i x_i\right).$$
+
+\begin{rem}
+\begin{enumerate}
+\item La notation tilde ($\tilde{y}_0$) vient du fait que la valeur de sortie d'une neurone est une valeur estimée qu'il faudra comparer à ${y}_0$ valeur de l'étiquette utilisée pour l'apprentissage supervisé.
+\item Par la suite, dans la représentation graphique on ne fera pas apparaître la somme pondérée et la fonction d'activation, mais seulement la valeur de sortie du neurone (notée par exemple $a_0$).
+\end{enumerate}
+\end{rem}
+
 \end{defi}
 
-\subsection{Réseau de neurones}
 
-\begin{defi}[Couches]
+
+
+\begin{defi}[Fonction d'activation]
+
+Les fonctions d'activation sont des fonctions mathématiques appliquées au signal de sortie ($z$). Il est alors possible d'ajouter des non linéarités à la somme pondérée. On donne ci-dessous quelques fonctions usuelles : 
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline 
+Identité & Heaviside & Logistique & Unité de rectification \\
+  &  & (sigmoïde) &  linéaire (ReLU) \\
+\hline 
+&&&\\
+\includegraphics[width=2cm]{images/fig_03_Identite} &
+\includegraphics[width=2cm]{images/fig_03_heaviside} &
+\includegraphics[width=2cm]{images/fig_03_Logistique} &
+\includegraphics[width=2cm]{images/fig_03_ReLU} \\
+&&&\\
+$f(x)=x$ & 
+$f(x)=\left\{
+\begin{array}{l} 
+0 \text{ si } x<0 \\ 1 \text{ si } x \geq 0 \\
+ \end{array}\right. $
+&
+$ f(x) = \dfrac{1}{1+\text{e}^{-x}}$ &
+$f(x)=\left\{
+\begin{array}{l} 
+0 \text{ si } x<0 \\ x \text{ si } x \geq 0 \\
+ \end{array}\right. $ \\
+\hline 
+\end{tabular}
+\end{center}
+
+\end{defi}
+
+
+\begin{defi}[Biais]
+\end{defi}
+
+
+\begin{exemple}~\\
+
+
+
+\begin{minipage}[c]{.4\linewidth}
+
+Prenons un neurone à deux entrées binaires. 
+Initialisation les poids et le biais avec des valeurs aléatoires : $w_0 = -0,3$, $w_1 = 0,8$ et $b=0,2$.
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{images/fig_02}
+\end{center}
+\hfill
+\end{minipage}
+\begin{minipage}[c]{.55\linewidth}
+
+
+On peut donc évaluer l'ensemble des sorties calculable par le neurone.
+
+\begin{center}
+\begin{tabular}{|c|c|| c || c| c|c|c|}
+\hline
+$x_0$ & $x_1$ & $z$ & Id. & H. & Sig. & ReLu \\
+\hline
+\hline
+0 & 0 & 0,2   &   0,2   &  1 & 0.549 & 0,2 \\
+0 & 1 & 1     &    1     &  1 & 0.731  & 1\\
+1 & 0 & -0.1  &    -0.1 &  0 &0.475 & 0 \\
+1 & 1 & 0.7  &     0.7  &  1 &0.668 & 0.7\\
+\hline
+\end{tabular}
+\end{center}
+\end{minipage}
+
+\end{exemple}
+
+
+\section{Réseaux de neurones}
+\url{https://playground.tensorflow.org/}
+%LSTM
+
+
+\subsection{Modélisation d'un réseau de neurones} 
+
+\begin{defi}[Couches] ~\\
+
+Un réseau de neurones va être un ensemble de neurones reliés, par couches, entre eux. 
+
+Dans un réseau de neurones \textbf{dense} tous les neurones de la couche $i$ seront reliés à tous les neurones de la couche $i+1$.
 
 \begin{itemize}
-\item Couche d'entrée : .
-\item Couche cachée : .
-\item Couche de sortie : .
+\item Couche d'entrée : cette couche est une copie de l'ensemble des données d'entrées. Le nombre de neurones de cette couche correspond donc aux nombre de données d'entrées.
+\item Couche cachée (ou couche intermédiaire) : il s'agit d'une couche qui a une utilité intrinsèque au réseau de neurones. Ajouter des neurone dans cette couche (ou ces couches) permet donc d'ajouter de nouveaux paramètres.  Pour une couche, la même fonction d'activation est utilisée pour tous les neurones. En revanche la fonction d'activation utilisée peut être différente pour deux couches différentes. Les fonctions d'activations des couches intermédiaires sont souvent non linéaires.
+\item Couche de sortie : le nombre de neurones de cette couche correspond au nombre de sorties attendues. La fonction d'activation de la couche de sortie est souvent linéaire.
+\end{itemize}
+%\begin{minipage}[c]{.5\linewidth}
+\begin{center}
+\includegraphics[width=.8\linewidth]{images/fig_04}
+\end{center}
+%\end{minipage}
+
+Notations : 
+\begin{itemize}
+\item on note $w^{[l]}_{jk}$ les poids permettant d'aller vers la couche $l$ depuis le neurone $k$ vers le neurone $j$;
+\item $b^{[l]}_{j}$ le biais permettant d'aller sur le neurone $j$ de la couche $l$.
 \end{itemize}
 \end{defi}
 
 
-Même fonction d'activation chaque couche.
-
-
-
 \begin{defi}[Paramètres]
 
-Poids et biais
+Les paramètres du réseau de neurones sont les poids et les biais, autant de valeurs que l’entraînement devra déterminer.
+
 \end{defi}
+\begin{methode}[Calcul du nombre de paramètres -- à vérifier]
+
+Soit un jeu de données étiquetées avec $n$ entrées et $p$ sorties.
+
+On construit un réseau possédant $\ell$ couches cachées et $a_\ell$ le nombre de neurones de la couche  $\ell$.
+
+\textbf{Nombre de poids :} $n_w = ...$.
+
+\textbf{Nombre de bais :} $n_b = \sum\limits_{i=1}^{\ell}\left( a_i  \right)+ p$.
+
+
+
+\end{methode}
+\begin{obj}
+Soit un jeu de données étiquetées avec $n$ entrées et $p$ sorties. .
+
+
+L'objectif de l'apprentissage d'un réseau de neurones est de déterminer l'ensemble des poids et des biais de telle sorte que, 
+\end{obj}
+
+
 
 \begin{defi}[Hyper paramètres]
 
@@ -103,11 +252,10 @@ Nombre de couvhes
 
 \section{Algorithmes d'apprentissage}
 
-\section{Réseaux de neurones}
-
-\url{https://playground.tensorflow.org/}
 
 
+
+\newpage
 
 \section{Définitions}
 
