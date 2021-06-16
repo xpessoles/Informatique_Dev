@@ -16,25 +16,19 @@
 \begin{itemize}[label=\ding{112},font=\color{ocre}] 
 \item Analyser les principes d'intelligence artificielle.
 \begin{itemize}
-\item Régression et classification, apprentissages supervisé et non supervisé.
+%\item Régression et classification, apprentissages supervisé et non supervisé.
 \item Phases d'apprentissage et d'inférence.
-\item Modèle linéaire monovariable ou multivariable.
+%\item Modèle linéaire monovariable ou multivariable.
 \item Réseaux de neurones (couches d'entrée, cachées et de sortie, neurones, biais, poids et fonction d'activation).
 \end{itemize}
-\item Interpréter et vérifier la cohérence des résultats obtenus expérimentalement, analytiquement : Ordre de grandeur. Matrice de confusion (tableau de contingence), sensibilité et spécificité d'un test.
+%\item Interpréter et vérifier la cohérence des résultats obtenus expérimentalement, analytiquement : Ordre de grandeur. Matrice de confusion (tableau de contingence), sensibilité et spécificité d'un test.
 \item Résoudre un problème en utilisant une solution d'intelligence artificielle : 
 \begin{itemize}
 \item Apprentissage supervisé.
 \item Choix des données d'apprentissage. 
-\item Mise en œuvre des algorithmes (réseaux de neurones, $k$ plus proches voisins et régression linéaire multiple).
+\item Mise en œuvre des algorithmes (réseaux de neurones).
 \item Phases d'apprentissage et d'inférence.
 \end{itemize}
-%\item \textit{Mod2.C17} : torseur dynamique
-%\item \textit{Mod2.C17.SF1} : déterminer le torseur dynamique d’un solide, ou d’un ensemble de solides, par rapport à un autre solide
-%\item \textit{Mod2.C15} : matrice d'inertie
-%\item \textit{Res1.C2} : principe fondamental de la dynamique
-%\item \textit{Res1.C1.SF1} : proposer une démarche permettant la détermination de la loi de mouvement
-%\item \textit{Res1.C2.SF1} : proposer une méthode permettant la détermination d’une inconnue de liaison
 \end{itemize}
 }}
 
@@ -68,7 +62,7 @@
 \begin{minipage}[c]{.55\linewidth}
 Prenons la représentation suivante pour un neurone. On note :
 \begin{itemize}
-\item $x_i$ les données de la couche d'entrée;
+\item $\mathbf{X}$ le vecteur d'entrée et $x_i$ les données de la couche d'entrée;
 \item $w_i$ les poids (poids synaptiques);
 \item $b$ le biais;
 \item $z_0$ la somme pondérée des entrée;
@@ -190,15 +184,19 @@ Un réseau de neurones va être un ensemble de neurones reliés, par couches, en
 Dans un réseau de neurones \textbf{dense} tous les neurones de la couche $i$ seront reliés à tous les neurones de la couche $i+1$.
 
 \begin{itemize}
-\item Couche d'entrée : cette couche est une copie de l'ensemble des données d'entrées. Le nombre de neurones de cette couche correspond donc aux nombre de données d'entrées.
+\item Couche d'entrée : cette couche est une copie de l'ensemble des données d'entrées. Le nombre de neurones de cette couche correspond donc aux nombre de données d'entrées. On note $\mathbf{X} = \left( x_0, ..., x_n\right)$ le vecteur d'entrées.
 \item Couche cachée (ou couche intermédiaire) : il s'agit d'une couche qui a une utilité intrinsèque au réseau de neurones. Ajouter des neurone dans cette couche (ou ces couches) permet donc d'ajouter de nouveaux paramètres.  Pour une couche, la même fonction d'activation est utilisée pour tous les neurones. En revanche la fonction d'activation utilisée peut être différente pour deux couches différentes. Les fonctions d'activations des couches intermédiaires sont souvent non linéaires.
-\item Couche de sortie : le nombre de neurones de cette couche correspond au nombre de sorties attendues. La fonction d'activation de la couche de sortie est souvent linéaire.
+\item Couche de sortie : le nombre de neurones de cette couche correspond au nombre de sorties attendues. La fonction d'activation de la couche de sortie est souvent linéaire. On note $\mathbf{Y} = \left( y_0, ..., y_y\right)$ le vecteur des sorties.
 \end{itemize}
 %\begin{minipage}[c]{.5\linewidth}
 \begin{center}
 \includegraphics[width=.8\linewidth]{images/fig_04}
 \end{center}
 %\end{minipage}
+
+En utilisant la loi de comportement du modèle de perceptron, on peut donc exprimer $\mathbf{Y}=\mathcal{F}\left(\mathbf{X}\right)$ 
+où $\mathcal{F}$ est une fonction dépendant des entrées, des poids et des biais.
+
 
 Notations : 
 \begin{itemize}
@@ -208,30 +206,86 @@ Notations :
 \end{defi}
 
 
+\begin{exemple}~\\
+
+\begin{minipage}[c]{.4\linewidth}
+
+Prenons un réseau de neurones à 3 couches : 
+\begin{itemize}
+\item 1 couche d'entrée à 2 neurones;
+\item 1 couche cachée à 2 neurones, de fonction d'activation $f_1$;
+\item 1 couche de sortie à 1 neurone, de fonction d'activation $f_2$; 
+\end{itemize}
+
+Initialisation les poids et le biais avec des valeurs aléatoires : $w_0 = -0,3$, $w_1 = 0,8$ et $b=0,2$.
+
+
+
+\end{minipage}\hfill
+\begin{minipage}[c]{.55\linewidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{images/fig_05}
+\end{center}
+%On peut donc évaluer l'ensemble des sorties calculable par le neurone.
+%
+%\begin{center}
+%\begin{tabular}{|c|c|| c || c| c|c|c|}
+%\hline
+%$x_0$ & $x_1$ & $z$ & Id. & H. & Sig. & ReLu \\
+%\hline
+%\hline
+%0 & 0 & 0,2   &   0,2   &  1 & 0.549 & 0,2 \\
+%0 & 1 & 1     &    1     &  1 & 0.731  & 1\\
+%1 & 0 & -0.1  &    -0.1 &  0 &0.475 & 0 \\
+%1 & 1 & 0.7  &     0.7  &  1 &0.668 & 0.7\\
+%\hline
+%\end{tabular}
+%\end{center}
+\end{minipage}
+
+Il est possible d'écrire que 
+$y_0 = a_0^{[1]}$ 
+$ = f_2\left(b_0^{[2]}+ w_{00}^{[2]} a_0^{[1]}+ w_{01}^{[2]} a_1^{[1]}\right)$.
+
+Par ailleurs : 
+ $  a_0^{[1]}$ 
+$ = f_1\left(b_0^{[1]}+ w_{00}^{[1]} a_0^{[0]}+ w_{01}^{[1]} a_1^{[0]}\right)$ et
+  $  a_1^{[1]}$ 
+$ = f_1\left(b_1^{[1]}+ w_{10}^{[1]} a_0^{[0]}+ w_{11}^{[1]} a_1^{[0]}\right)$.
+
+Au final, on a donc 
+
+$y_0 = a_0^{[1]}$
+$ =  f_2\left(b_0^{[2]}+ w_{00}^{[2]}\left(f_1\left(b_0^{[1]}+ w_{00}^{[1]} a_0^{[0]}+ w_{01}^{[1]} a_1^{[0]}\right)\right)+ w_{01}^{[2]} \left( f_1\left(b_1^{[1]}+ w_{10}^{[1]} a_0^{[0]}+ w_{11}^{[1]} a_1^{[0]}\right)\right)\right) $ 
+
+
+\end{exemple}
+
 \begin{defi}[Paramètres]
 
 Les paramètres du réseau de neurones sont les poids et les biais, autant de valeurs que l’entraînement devra déterminer.
 
 \end{defi}
-\begin{methode}[Calcul du nombre de paramètres -- à vérifier]
+\begin{methode}[Calcul du nombre de paramètres -- à vérifier] ~\\
 
 Soit un jeu de données étiquetées avec $n$ entrées et $p$ sorties.
 
-On construit un réseau possédant $\ell$ couches cachées et $a_\ell$ le nombre de neurones de la couche  $\ell$.
-
-\textbf{Nombre de poids :} $n_w = ...$.
-
-\textbf{Nombre de bais :} $n_b = \sum\limits_{i=1}^{\ell}\left( a_i  \right)+ p$.
+On construit un réseau possédant $\ell$ couches  et $a_\ell$ le nombre de neurones de la couche  $\ell$. Dans ce cas, la première couche est la couche d'entrée ($a_1 = n$) et la dernière couche et la couche de sortie ($a_\ell= p$).
 
 
+\textbf{Nombre de poids :} $n_w = \sum\limits_{i=1}^{\ell-1} \left(a_i \times a_{i+1}\right)$.
 
+\textbf{Nombre de bais :} $n_b = \sum\limits_{i=2}^{\ell}\left( a_i  \right)$.
+
+
+Au final, le nombre total de paramètre à calculer est donné par $N=n_w+n_b$.
 
 \end{methode}
 \begin{obj}
 Soit un jeu de données étiquetées avec $n$ entrées et $p$ sorties. .
 
 
-L'objectif de l'apprentissage d'un réseau de neurones est de déterminer l'ensemble des poids et des biais de telle sorte que, 
+L'objectif de l'apprentissage d'un réseau de neurones est de déterminer les valeurs de  l'ensemble des poids et des biais de telle sorte que, une fois que le réseau est entrainé, 
 \end{obj}
 
 
