@@ -200,9 +200,20 @@ où $\mathcal{F}$ est une fonction dépendant des entrées, des poids et des bia
 
 Notations : 
 \begin{itemize}
-\item on note $w^{[l]}_{jk}$ les poids permettant d'aller vers la couche $l$ depuis le neurone $k$ vers le neurone $j$;
-\item $b^{[l]}_{j}$ le biais permettant d'aller sur le neurone $j$ de la couche $l$.
+\item on note $w^{[\ell]}_{jk}$ les poids permettant d'aller vers la couche $\ell$ depuis le neurone $k$ vers le neurone $j$;
+\item $b^{[\ell]}_{j}$ le biais permettant d'aller sur le neurone $j$ de la couche $\ell$;
+\item $f^{[\ell]}$ la fonction d'activation de la couche $\ell$;
+\item $n^{[\ell]}$ le nombre de neurones de la couche $\ell$.
 \end{itemize}
+\end{defi}
+
+\begin{defi}[Équation de propagation]
+
+Pour chacun des neurones $a_j^{[\ell]}$ on peut donc écrire l'équation de propagation qui lui est associé : 
+$$
+a_j^{[\ell]} = f^{[\ell]}\left(\sum\limits_{k=0}^{n^{[\ell-1]}}\left( w^{[\ell]}_{jk} a_k^{[\ell-1]} \right) + b^{[\ell]}_{j}\right) = f^{[\ell]}\left(z_j^{[\ell]}\right).
+$$
+
 \end{defi}
 
 
@@ -282,21 +293,18 @@ Au final, le nombre total de paramètre à calculer est donné par $N=n_w+n_b$.
 
 \end{methode}
 \begin{obj}
-Soit un jeu de données étiquetées avec $n$ entrées et $p$ sorties. .
+Soit un jeu de données étiquetées. On note $\mathbf{X}$ le vecteur des données d'entrées. On note $\mathbf{Y}$ le vecteur des données de sorties. On note
+$\mathbf{\tilde{Y}}$ le vecteur de sortie calculé par le réseau de neurones.
 
 
-L'objectif de l'apprentissage d'un réseau de neurones est de déterminer les valeurs de  l'ensemble des poids et des biais de telle sorte que, une fois que le réseau est entrainé, 
+L'objectif de la phase d'apprentissage du réseau de neurones est de déterminer les valeurs de  l'ensemble des poids et des biais de telle sorte que l'écart entre $\mathbf{Y}$ 
+et $\mathbf{\tilde{Y}}$ soit minimale.
 \end{obj}
 
 
 
-\begin{defi}[Hyper paramètres]
 
-Nombre de couvhes
-\end{defi}
-
-
-\subsection{Propagation}
+\subsection{Fonction de coûts ?}
 
 \subsection{Rétropropagation}
 
