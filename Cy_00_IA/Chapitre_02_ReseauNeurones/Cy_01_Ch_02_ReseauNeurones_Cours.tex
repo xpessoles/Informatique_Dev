@@ -324,9 +324,22 @@ et $\mathbf{\tilde{Y}}$ soit minimale.
 
 
 
-\subsection{Fonction de coûts ?}
+\subsection{Fonction de coût}
+Dans le but de minimiser l'écart entre la sortie du réseau de neurones et la valeur réelle de la sortie, on utilise une fonction côut (ou fonction de perte). Il est possible de définir plusieurs types de fonctions, notamment en fonction du type de problème à traiter (classification ou régression par exemple).
 
-\subsection{Rétropropagation}
+\begin{defi}[Fonction coût régression]
+Notons $nb$ le nombre de données dans la base d'entraînement. Dans le cadre d'un problème de régression, on peut définir la fonction coût comme la moyenne des erreurs quadratique entre la valeur donnée par l'équation de propagation et la valeur de l'étiquette :
+$$
+C = \dfrac{1}{nb} \sum \limits_{i=1}^{nb} \left( \mathbf{\tilde{Y_i}} - \mathbf{Y_i}  \right)^2
+$$
+\end{defi}
+\begin{obj}
+L'objectif est dès lors de minimiser cette fonction.
+\end{obj}
+
+
+
+\subsection{Notion de rétropropagation}
 
 
 \begin{defi}[Quantification de l'erreur]
