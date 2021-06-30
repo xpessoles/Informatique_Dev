@@ -325,7 +325,7 @@ et $\mathbf{\tilde{Y}}$ soit minimale.
 
 
 \subsection{Fonction de coût}
-Dans le but de minimiser l'écart entre la sortie du réseau de neurones et la valeur réelle de la sortie, on utilise une fonction côut (ou fonction de perte). Il est possible de définir plusieurs types de fonctions, notamment en fonction du type de problème à traiter (classification ou régression par exemple).
+Dans le but de minimiser l'écart entre la sortie du réseau de neurones et la valeur réelle de la sortie, on utilise une fonction coût (ou fonction de perte). Il est possible de définir plusieurs types de fonctions, notamment en fonction du type de problème à traiter (classification ou régression par exemple).
 
 \begin{defi}[Fonction coût régression]
 Notons $nb$ le nombre de données dans la base d'entraînement. Dans le cadre d'un problème de régression, on peut définir la fonction coût comme la moyenne des erreurs quadratique entre la valeur donnée par l'équation de propagation et la valeur de l'étiquette :
@@ -334,14 +334,68 @@ C = \dfrac{1}{nb} \sum \limits_{i=1}^{nb} \left( \mathbf{\tilde{Y_i}} - \mathbf{
 $$
 \end{defi}
 \begin{obj}
-L'objectif est dès lors de minimiser cette fonction.
+L'objectif est dès lors de déterminer les poids et les biais qui minimisent la fonction coût.
 \end{obj}
 
 
 
 \subsection{Notion de rétropropagation}
 
+\begin{minipage}[c]{.55\linewidth}
+En réutilisant l'exemple ci-contre, nous allons présenter succinctement comment est minimisée la fonction coût.
+Pour cela, il va falloir dériver la fonction coût par rapport à chacune des variables. 
 
+Cherchons uniquement à déterminer le coût que par rapport à un seul vecteur d'entrée du jeu d'entraînement. On a alors : 
+\begin{itemize}
+\item $C = \left( \mathbf{\tilde{Y_i}} - \mathbf{Y_i}  \right)^2$ $= \left( a^{[2]}_{0} - y  \right)^2$;
+\item $ a^{[2]}_{0} = f^{[2]}\left(z_0^{[2]}\right)$;
+\item $z_0^{[2]} =\sum\limits_{k=0}^{1}\left( w^{[2]}_{0k} a_k^{[1]} \right) + b^{[2]}_{0}$.
+\end{itemize}
+
+\end{minipage}\hfill
+\begin{minipage}[c]{.4\linewidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{images/fig_05}
+\end{center}
+%On peut donc évaluer l'ensemble des sorties calculable par le neurone.
+%
+%\begin{center}
+%\begin{tabular}{|c|c|| c || c| c|c|c|}
+%\hline
+%$x_0$ & $x_1$ & $z$ & Id. & H. & Sig. & ReLu \\
+%\hline
+%\hline
+%0 & 0 & 0,2   &   0,2   &  1 & 0.549 & 0,2 \\
+%0 & 1 & 1     &    1     &  1 & 0.731  & 1\\
+%1 & 0 & -0.1  &    -0.1 &  0 &0.475 & 0 \\
+%1 & 1 & 0.7  &     0.7  &  1 &0.668 & 0.7\\
+%\hline
+%\end{tabular}
+%\end{center}
+\end{minipage}
+
+
+Commençons par déterminer la dérivée partielle par rapport à un poids de la couche de sortie : 
+
+$\dfrac{\partial C}{\partial w^{[2]}_{00}}=\dfrac{\partial C}{\partial a^{[2]}_{0}}\dfrac{\partial  a^{[2]}_{0}}{\partial z^{[2]}_{0}}\dfrac{\partial z^{[2]}_{0}}{\partial w^{[2]}_{00}}$.
+
+De même, on peut calculer la dérivée partielle du coût par rapport au biais : 
+$\dfrac{\partial C}{\partial b^{[2]}_{0}}=\dfrac{\partial C}{\partial a^{[2]}_{0}}\dfrac{\partial  a^{[2]}_{0}}{\partial z^{[2]}_{0}}\dfrac{\partial z^{[2]}_{0}}{\partial b^{[2]}_{0}}$.
+
+Calculons les dérivées nécessaires : 
+\begin{multicols}{4}
+\begin{itemize}
+\item $\dfrac{\partial C}{\partial a^{[2]}_{0}}$ $= 2\left( a^{[2]}_{0} - y  \right)$;
+\item $ \dfrac{\partial  a^{[2]}_{0}}{\partial z^{[2]}_{0}} = f'^{[2]}\left(z_0^{[2]}\right)$;
+\item $\dfrac{\partial z^{[2]}_{0}}{\partial w^{[2]}_{00}}  = a_0^{[1]} $.
+\item $\dfrac{\partial z^{[2]}_{0}}{\partial b^{[2]}_{0}} = 1$.
+\end{itemize}
+\end{multicols}
+
+On a donc, 
+$\dfrac{\partial C}{\partial w^{[2]}_{00}} = 2\left( a^{[2]}_{0} - y  \right)  f'^{[2]}\left(z_0^{[2]}\right) a_0^{[1]}$
+et 
+$\dfrac{\partial C}{\partial b^{[2]}_{0}} = 2\left( a^{[2]}_{0} - y  \right)  f'^{[2]}\left(z_0^{[2]}\right) $
 \begin{defi}[Quantification de l'erreur]
 \end{defi}
 
