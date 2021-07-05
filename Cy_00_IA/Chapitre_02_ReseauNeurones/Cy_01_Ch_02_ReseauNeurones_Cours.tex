@@ -339,7 +339,7 @@ L'objectif est dès lors de déterminer les poids et les biais qui minimisent la
 
 
 
-\subsection{Notion de rétropropagation}
+\subsection{Notion de rétropropagation -- Descente de gradient}
 
 \begin{minipage}[c]{.55\linewidth}
 En réutilisant l'exemple ci-contre, nous allons présenter succinctement comment est minimisée la fonction coût.
@@ -395,9 +395,24 @@ Calculons les dérivées nécessaires :
 On a donc, 
 $\dfrac{\partial C}{\partial w^{[2]}_{00}} = 2\left( a^{[2]}_{0} - y  \right)  f'^{[2]}\left(z_0^{[2]}\right) a_0^{[1]}$
 et 
-$\dfrac{\partial C}{\partial b^{[2]}_{0}} = 2\left( a^{[2]}_{0} - y  \right)  f'^{[2]}\left(z_0^{[2]}\right) $
-\begin{defi}[Quantification de l'erreur]
-\end{defi}
+$\dfrac{\partial C}{\partial b^{[2]}_{0}} = 2\left( a^{[2]}_{0} - y  \right)  f'^{[2]}\left(z_0^{[2]}\right) $.
+
+Prenons le cas ou la fonction d'activation est la fonction identité. 
+On a alors
+$\dfrac{\partial C}{\partial w^{[2]}_{00}} = 2\left( a^{[2]}_{0} - y  \right)   a_0^{[1]}$
+et 
+$\dfrac{\partial C}{\partial b^{[2]}_{0}} = 2\left( a^{[2]}_{0} - y  \right)   $...
+
+On va ainsi pouvoir exprimer $\dfrac{\partial C}{\partial w^{[2]}_{00}}$, $\dfrac{\partial C}{\partial w^{[2]}_{01}}$ , $\dfrac{\partial C}{\partial b^{[2]}_{0}}$, ... 
+On pourrait ici écrire 9 équations en fonction des différents poids, des biais et des entrées $x_0$ et $x_1$.  
+
+\'A partir de cela, on va modifier les poids comme suit : 
+\begin{itemize}
+\item $ w^{[2]}_{00,i+1}=w^{[2]}_{00,i}+\eta  $\dfrac{\partial C}{\partial w^{[2]}_{00,i}}$;
+\item $ b^{[2]}_{0,i+1}=b^{[2]}_{0,i}+\eta  $\dfrac{\partial C}{\partial b^{[2]}_{0,i}}$.
+\end{itemize}
+
+On réitère ensuite les opérations précédentes jusqu'à ce que la fonction coût ait été suffisamment réduite.
 
 
 \subsection{Suraprentissage}
