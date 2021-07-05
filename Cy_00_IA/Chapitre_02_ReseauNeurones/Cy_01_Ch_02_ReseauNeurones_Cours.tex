@@ -406,16 +406,33 @@ $\dfrac{\partial C}{\partial b^{[2]}_{0}} = 2\left( a^{[2]}_{0} - y  \right)   $
 On va ainsi pouvoir exprimer $\dfrac{\partial C}{\partial w^{[2]}_{00}}$, $\dfrac{\partial C}{\partial w^{[2]}_{01}}$ , $\dfrac{\partial C}{\partial b^{[2]}_{0}}$, ... 
 On pourrait ici écrire 9 équations en fonction des différents poids, des biais et des entrées $x_0$ et $x_1$.  
 
-\'A partir de cela, on va modifier les poids comme suit : 
+\`A partir de cela, on va modifier les poids comme suit : 
 \begin{itemize}
-\item $ w^{[2]}_{00,i+1}=w^{[2]}_{00,i}+\eta  $\dfrac{\partial C}{\partial w^{[2]}_{00,i}}$;
-\item $ b^{[2]}_{0,i+1}=b^{[2]}_{0,i}+\eta  $\dfrac{\partial C}{\partial b^{[2]}_{0,i}}$.
+\item $ w^{[2]}_{00,i+1}=w^{[2]}_{00,i}-\eta  \dfrac{\partial C}{\partial w^{[2]}_{00,i}}$;
+\item $ b^{[2]}_{0,i+1}=b^{[2]}_{0,i}-\eta  \dfrac{\partial C}{\partial b^{[2]}_{0,i}}$.
 \end{itemize}
 
 On réitère ensuite les opérations précédentes jusqu'à ce que la fonction coût ait été suffisamment réduite.
 
+\begin{defi}[Taux d'apprentissage]
+On définit l'hyperparamètre $\eta\in[0,1[$ comme étant le taux d'apprentissage. Si ce taux d'apprentissage est très grand, l'algorithme d'apprentissage mettra beaucoup de temps à trouver le minimum. S'il est trop grand, le minimum peut ne jamais être trouvé. 
+
+\end{defi}
+
+
+\begin{defi}[Gradient]
+
+
+\end{defi}
 
 \subsection{Suraprentissage}
+
+\subsection{Définitions supplémentaires}
+
+
+\begin{defi}[Epoch]
+
+\end{defi}
 
 \section{Pour aller plus loin...}
 
