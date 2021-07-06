@@ -51,8 +51,31 @@
 \section{Introduction}
 
 \subsection{Bref historique}
+Dans les années 40, les chercheurs tentent de fabriquer une machine capable d'apprendre à partir de données fournies, de mémoriser des informations et de traiter des informations incomplètes. Pour cela, ils essayent de réaliser des modèles mathématiques de neurones biologiques. S'en suit alors la naissance des premiers modèles de perceptrons. 
+
+L'apprentissage automatisé va alors connaître des hauts et des bas, au gré des avancées scientifiques et technologiques. Dans les années 60, un des premiers coups d'arrêt fût provoqué par la non-capacité des réseaux de neurones à traiter des problèmes non linéaires. Dans les années 80, la rétroproagation du gradient fut proposée. Mais devant le manque de capacité des ordinateurs, la recherche marquât un second coup d'arrêt. Dans les années 90/2000, l'apparition des réseaux convolutifs et leur capacité à analyser les données des images relançât alors les recherches dans ce domaine.
 
 \subsection{Exemples d'applications des réseaux de neurones}
+\url{https://fr.wikiversity.org/}
+\begin{itemize}
+\item Banque	 : prêts et scoring.
+\item Cartes de crédit	: détection des fraudes.
+\item Finance	 : analyse d'investissements et de fluctuations des taux de change.
+\item Assurance : couverture assurantielle et estimation des réserves.
+\item Marketing : ciblage des prospections, mesures et comparaisons des campagnes et des méthodes.
+\item Archéologie	 : identification et datation de fossiles et d'ossements.
+\item Défense : identification de cibles.
+\item Environnement : prévisions de la qualité de l'air et de l'eau.
+\item Production : contrôles qualité.
+\item Médecine : diagnostics médicaux.
+\item Energies : stimations des réserves, prévisions de prix.
+\item Pharmacie : efficacité de nouveaux médicaments.
+\item Psychologie	: prévisions comportementales.
+\item Immobilier : études de marchés.
+\item Recherche scientifique : identification de spécimens, séquençages de protéines.
+\item Télécommunication : détection des pannes de réseaux.
+\item Transport : maintenance des voies.
+\end{itemize}
 
 \section{Le neurone, les réseaux de neurones}
 
@@ -420,30 +443,71 @@ On définit l'hyperparamètre $\eta\in[0,1[$ comme étant le taux d'apprentissag
 \end{defi}
 
 
-\begin{defi}[Gradient]
-Dés lors, dans le cas présenté, un peu définir le gradient comme le vecteur 
+\begin{defi}[Gradient] ~\\
+Dés lors, dans le cas présenté, on peut définir le gradient comme le vecteur
+$\text{grad} C = \begin{bmatrix}
+\dfrac{\partial C}{w^{[1]}_{}} \\
+\dfrac{\partial C}{b^{[1]}_{}} \\
+\vdots
+\\
+\dfrac{\partial C}{w^{[l]}_{}} \\
+\dfrac{\partial C}{b^{[l]}_{}} \\
+
+\end{bmatrix}
+$.
 
 
 \end{defi}
 
-\subsection{Suraprentissage}
-
-\subsection{Définitions supplémentaires}
-
+\subsection{Fin d'apprentissage}
 
 \begin{defi}[Epoch]
-
+On appelle \textit{epoch} un cycle d'apprentissage où tous les poids et tous les biais ont été mis à jour en faisant passer toutes les données du jeu d’entraînement dans les algorithmes de propagation et de rétropropagation.
 \end{defi}
+
+Les méthodes pour stopper l'apprentissage sont essentiellement empiriques. On pourrait en effet fixer un nombre d'epoch ou une valeur d'erreur admissible et s'arrêter à ce moment là. Dans la pratique, se focaliser sur l'erreur n'est généralement pas satisfaisant. En effet, il y a risque de << suraprentissage >>.
+
+\begin{center}
+\includegraphics[width=.6\linewidth]{images/fig_06_overfitting}
+\end{center}
+
+Dans la figure suivante, on réalise un entraînement sur le jeu de données (une epoch) à la fin de l'epoch on dispose d'un premier modèle de réseau de neurones.  On détermine alors l'erreur commise en utilisant le jeu d'entraînement puis l'erreur commise sur le jeu de validation.  On calcule ensuite l'erreur commise par le modèle sur le jeu de validation. (On rappelle que le jeu de validation ne sert pas à modifier les poids et les biais.)
+
+On réalise de même à la fin de l'epoch suivante etc...
+
+<< Logiquement >> l'erreur décroît toujours avec le jeu d’entraînement car la descente du gradient a pour objectif de réduire cette erreur. 
+
+Sur le jeu de validation, l'erreur décroît pendant un certain nombre d'epoch puis augmente. 
+
+Il existe en fait un stade à partir duquel le réseau de neurones se spécialise sur le jeu d’entraînement et devient donc incapable de réaliser des prédictions fiables sur un nouveau je de données. On parle de surentraînement (ou d'overfitting).
+ 
+\begin{exemple} \textit{Wikipedia} ~\\
+\begin{minipage}[c]{.45\linewidth}
+La ligne verte représente un modèle sur-appris et la ligne noire représente un modèle régulier. La ligne verte classifie trop parfaitement les données d’entraînement, elle généralise mal et donnera de mauvaises prévisions futures avec de nouvelles données. Le modèle vert est donc au final moins bon que le noir.
+\end{minipage} \hfill
+\begin{minipage}[c]{.45\linewidth}
+\begin{center}
+\includegraphics[width=.7\linewidth]{images/fig_07_overfitting}
+\end{center}
+\end{minipage} 
+\end{exemple}
+
+
 
 \section{Pour aller plus loin...}
 
-Analyse d'image et réseaux convolutifs. 
-Times series...
+Les réseaux présentés ci-dessus sont les réseaux dits denses (ou fully-connected). On utilise d'autre types de réseaux pour une meilleure prédiction en fonction des données d'entrées : 
+\begin{itemize}
+\item réseaux convolutifs (CNN) pour l'analyse d'images;
+\item réseaux de neurones récurrents pour les données temporelles \textit{etc..}
+\end{itemize}
 
-Exemples : 
-\url{https://makina-corpus.com/blog/metier/2017/initiation-au-machine-learning-avec-python-pratique}
+Le cours suivant présente les réseaux de type NARX et MRAC qui sont utilisés dans Matlab pour gérer les signaux temporels. Ils ont la particularité de réutiliser les sorties estimées par le réseau comme entrées décalées. 
 
-\begin{thebibliography}{2}
-   \bibitem[1]{ref1} Éric Biernat et Michel Lutz. {\it Data science : fondamentaux et études de cas.} Eyrolles.
-\end{thebibliography}
+%Exemples : 
+%\url{https://makina-corpus.com/blog/metier/2017/initiation-au-machine-learning-avec-python-pratique}
+
+%\begin{thebibliography}{2}
+%   \bibitem[1]{ref1} Éric Biernat et Michel Lutz. {\it Data science : fondamentaux et études de cas.} Eyrolles.
+%\end{thebibliography}
 
