@@ -121,6 +121,12 @@ Pour pouvoir traiter ces données, il peut être nécessaire qu'elles soient org
 \end{itemize}
 
 \begin{exemple}
+Le site \url{https://www.kaggle.com/} partage des sets de données. 
+
+On peut par exemple retrouver un dataset semi-strucutrées au format JSON ou CSV des chansons disponibles sur Spotify, sorties entre 1922 et 2021. 
+(\url{https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks}).
+
+Le site \url{https://storage.googleapis.com/} propose des sets de photos étiquetées selon 600 classes. 
 \end{exemple}
 
 \begin{defi}[Observations -- Caractéristiques]
@@ -243,7 +249,7 @@ On peut donc faire une synthèse des méthodes d'apprentissage dont nous avons p
 \includegraphics[width=.8\linewidth]{fig_08}
 \end{center}
 
-\textit{Comment situer le deep learning parmi ces méthodes d'apprentissage ? --  Pour moi, XP,  l'utilisation du terme << deep learning >> apparaît lorsqu'on commence à utiliser des réseaux de neurones... mais les réseaux de neurones peuvent être utilisés dans chacune des méthodes d'apprentissage sus-citées...}
+\textit{Comment situer le deep learning parmi ces méthodes d'apprentissage ? --  Pour moi,  l'utilisation du terme << deep learning >> apparaît lorsqu'on commence à utiliser des réseaux de neurones... mais les réseaux de neurones peuvent être utilisés dans chacune des méthodes d'apprentissage sus-citées...}
 
 \subsection{Encore des définitions...}
 
@@ -294,9 +300,9 @@ Lors d'un problème de classification, il est par exemple possible de détermine
 
 
 \begin{defi}[Valeur prédictive positive]
-Valeur prédictive positive (\textit{accuracy classification score})
+Valeur prédictive positive (\textit{accuracy classification score}) :
 $$
-\text{Précision} = \dfrac{\text{Nombre de prédictions vraies}}{\text{Nombre de prédictions totales}}
+\text{Justesse} = \dfrac{\text{Nombre de prédictions vraies}}{\text{Nombre de prédictions totales}}.
 $$
 \end{defi}
 
@@ -313,12 +319,39 @@ print(skm.accuracy_score(Y, Y_pred))
 
 
 \begin{defi}[Matrices de confusion]
-
+La matrice de confusion est une métrique permettant de déterminer la qualité d'une classification. En abscisses sont indiquées le valeurs réelles, et on ordonnée les valeurs prédites. 
 \end{defi}
+\begin{exemple}~\\
+
+\begin{minipage}[c]{.6\linewidth}
+Dans l'exemple ci-contre, nous cherchons à classifier des iris, grâce à un algorithme, selon 3 familles : les setosa, les versicolor et les virginica. 
+
+Sur la diagonale, sont retrouvées les iris dont l'espèce a été correctement prédite. En revanche, 3 versicolor ont été classées parmi les virginica et 2 virginica ont été classifiées dans les versicolor. 
+
+\end{minipage} \hfill
+\begin{minipage}[c]{.35\linewidth}
+\begin{center}
+\includegraphics[width=\linewidth]{fig_13_confusion}
+\end{center}
+\end{minipage} 
+
+\end{exemple}
+
+\begin{rem}
+La matrice de confusion présentée est dite non-normalisée. Si la répartition des étiquettes n'est pas uniforme (en fonction des classes), il est probable qu'il y ait davantage d'erreurs pour les classes ayant beaucoup d'étiquettes. Pour palier ce problème on peut utiliser des matrices de confusions normalisées (on divise alors chaque terme de la matrice par la somme des éléments de la même ligne).
+\end{rem}
 
 \subsubsection{Critères de validation des problèmes de régression}
+\begin{defi}[Erreur moyenne quadratique]
+Appelée également \textit{mean squared error}, il s'agit d'une moyenne d'écart au carré : 
+$$
+msq = \dfrac{1}{N} \sum\limits_{i=1}^n \left|\left|Y_i - \hat{Y}_i \right|\right|^2
+$$
+ 
+ en notant $Y_i$ la valeur réelle (étiquetée) et $ \hat{Y}_i$ la valeur estimée par l'algorithme.
+\end{defi}
 
-\subsubsection{Critères de validation des problèmes d'apprentissage non supervisé}
+%\subsubsection{Critères de validation des problèmes d'apprentissage non supervisé}
 
 \subsection{Séparation des données/Gestion des données ?}
 Lorsque l'on souhaite disposer d'un modèle défini par un algorithme d'IA, il faut en premier lieu disposer de données. 
@@ -344,7 +377,7 @@ Données de sortie : vecteur \texttt{Y} de \texttt{n} résultats.
 
 Dans le cadre d'une classification, où \texttt{r} résultats sont possibles. On peut attribuer une valeur (entière) entre 1 et \texttt{r} à chacun des résultats, notamment si ceux-ci sont des données qualitatives.
 
-\textcolor{red}{\textbf{Problème de l'identification d'un système : quelles sont les données d'entrées ? Quelles sont surtout les données de sorties ? Un vecteur aussi ?}}
+%\textcolor{red}{\textbf{Problème de l'identification d'un système : quelles sont les données d'entrées ? Quelles sont surtout les données de sorties ? Un vecteur aussi ?}}
 
 \end{exemple}
 
@@ -385,7 +418,7 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.33)
 On perçoit donc que la qualité de l'apprentissage peut dépendre du choix utilisé lors de la séparation des données. De plus, certains choix de paramètres permettant d’affiner le modèle sont aussi liés aux données d’entraînement sélectionnées. 
 Une des solutions pour résoudre ce problème est d'avoir recours à la validation croisée. 
 
-\textcolor{red}{\textbf{À creuser}}
+%\textcolor{red}{\textbf{À creuser}}
 
 %Il est parfois possible de séparer en faisant en sorte que les valeurs moyennes et écarts types des données cibles des données d’entraînement et des données de test soient les mêmes.
 
@@ -403,6 +436,26 @@ Une des solutions pour résoudre ce problème est d'avoir recours à la validati
 \section{Algorithmes d'apprentissage}
 
 \subsection{Algorithme des $k$ plus proches voisins}
+L'algorithme des  $k$ plus proches voisins (aussi appelé $k$-nearest neighbors algorithm -- $k$-NN) permet de réaliser des opérations de régression et de classification sur un ensemble de données. 
+
+Pour une première approche, cette méthode permet d'estimer la classe d'une nouvelle donnée en déterminant la norme entre cette nouvelle donnée et l'ensemble des données du jeu d’entraînement. Parmi les $k$ plus proches voisins, on recherche la classe majoritaire et on attribue cette classe à la nouvelle donnée.  
+
+\begin{exemple}~\\
+
+\begin{minipage}[c]{.6\linewidth}
+Dans le cas ci-contre, on cherche à classifier les iris selon 3 catégories (setosa, versicolor et virginca). Les données étiquetées sont représentées dans le plan longueur du sépale en abscisse et largeur du pétale en ordonnée. 
+
+Soient les candidats 1 et 2, deux iris dont ont connaît les caractéristiques mais pas l'espèce. Les 5 plus proches voisins du candidat 1 sont des setosa. Il est donc probable que le candidat 1 soit un setosa aussi.
+
+Concernant le candidat 2, parmi les 5 plus proches voisins, 3 sont des virginica et 2 sont des versicolor. On peut faire l'hypothèse que c'est un virginica. 
+\end{minipage} \hfill
+\begin{minipage}[c]{.35\linewidth}
+\begin{center}
+\includegraphics[width=\linewidth]{fig_14_02}
+\end{center}
+\end{minipage} 
+
+\end{exemple}
 
 \subsection{Régression univariée}
 

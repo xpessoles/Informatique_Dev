@@ -9,14 +9,13 @@
 \contentsline {subsection}{\numberline {2.1}Classification des algorithmes d'apprentissage}{5}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Validation du modèle}{6}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Critères de validation des problèmes de classification}{6}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Critères de validation des problèmes de régression}{6}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Critères de validation des problèmes d'apprentissage non supervisé}{6}{subsubsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.3}Séparation des données/Gestion des données ?}{6}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Types de données -- Apprentissage supervisé}{6}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Normalisation des données}{7}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Séparation des données}{7}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.2.2}Critères de validation des problèmes de régression}{7}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Séparation des données/Gestion des données ?}{7}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Types de données -- Apprentissage supervisé}{7}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Normalisation des données}{8}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Séparation des données}{8}{subsubsection.2.3.3}%
 \contentsline {section}{\numberline {3}Algorithmes d'apprentissage}{8}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Algorithme des $k$ plus proches voisins}{8}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Régression univariée}{8}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Régression multivariée}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.2}Régression univariée}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Régression multivariée}{9}{subsection.3.3}%
 \contentsfinish 
