@@ -16,6 +16,9 @@
 \contentsline {subsubsection}{\numberline {2.3.3}Séparation des données}{8}{subsubsection.2.3.3}%
 \contentsline {section}{\numberline {3}Algorithmes d'apprentissage}{8}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Algorithme des $k$ plus proches voisins}{8}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Régression univariée}{9}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Régression multivariée}{9}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.1.1}Présentation}{8}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}L'algorithme}{9}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Régression univariée [Chloé-Agathe Azencott]}{10}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Régression multivariée}{11}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Pour aller (un peu) plus loin}{11}{subsection.3.4}%
 \contentsfinish 

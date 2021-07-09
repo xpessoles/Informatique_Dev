@@ -436,6 +436,7 @@ Une des solutions pour résoudre ce problème est d'avoir recours à la validati
 \section{Algorithmes d'apprentissage}
 
 \subsection{Algorithme des $k$ plus proches voisins}
+\subsubsection{Présentation}
 L'algorithme des  $k$ plus proches voisins (aussi appelé $k$-nearest neighbors algorithm -- $k$-NN) permet de réaliser des opérations de régression et de classification sur un ensemble de données. 
 
 Pour une première approche, cette méthode permet d'estimer la classe d'une nouvelle donnée en déterminant la norme entre cette nouvelle donnée et l'ensemble des données du jeu d’entraînement. Parmi les $k$ plus proches voisins, on recherche la classe majoritaire et on attribue cette classe à la nouvelle donnée.  
@@ -457,9 +458,159 @@ Concernant le candidat 2, parmi les 5 plus proches voisins, 3 sont des virginica
 
 \end{exemple}
 
-\subsection{Régression univariée}
+\subsubsection{L'algorithme}
+
+Prenons comme exemple des données sous la forme \texttt{[x,y,c]} où \texttt{x} et \texttt{y} représentent des coordonnées et \texttt{c} la classe d'appartenance.
+\paragraph*{Première étape -- Calculer la distance}
+
+Il faut tout d'abord définir une fonction de distance. On peut par exemple utiliser la distance euclidienne.
+Pour deux vecteurs $x_1$ et $x_2$ de taille $N$, 
+$d = \sqrt{ \sum\limits_{i=1}^n \left(x_{1,i}-x_{2,i} \right)^2}$.
+
+\begin{lstlisting}
+import math as m
+def distance(x1:list, x2:list) -> float :
+    distance = 0.
+    for i in range(len(x1)):
+        distance += (x1[i]-x2[i])**2
+    return m.sqrt(distance)
+\end{lstlisting}
+
+\paragraph*{Deuxième étape -- Détermination des plus proches voisins}
+Pour cette étape, on dispose de données pour l’entraînement \texttt{data\_train} et d'une donnée à tester \texttt{data\_test}.
+Il va falloir calculer la distance entre la donnée à tester et les données d’entraînement puis trier les données. 
+
+Enfin, on retournera les $k$ lignes les plus proches de \texttt{data\_test}.
+
+
+\begin{lstlisting}
+def get_voisins(data_train:list, data_test, k:int) -> list :
+    distances =[]
+    for ligne in data_train : 
+        d = distance(ligne,data_test)
+        distances.append([ligne,d])
+    # Tri de la liste suivant la seconde colonne (distances)
+    distances.sort(key=lambda t : t[1]) 
+    voisins = []
+    for i in range(k) :
+        voisins.append(distance[i][0])
+    return voisins
+\end{lstlisting}
+
+\paragraph*{Troisième étape -- Prédiction}
+
+Une fois qu'on connaît les $k$ plus proches voisins, on regarde quelle est la classe majoritaire parmi ces voisins. 
+
+\begin{lstlisting}
+def prediction(data_train:list, data_test, k:int) -> list :
+    voisins = get_voisins(data_train, data_test, k)
+    sorties = [ligne[-1] for ligne in voisins]
+    predict = max(set(sorties), key=sorties.count)
+    return predict
+\end{lstlisting}
+
+
+\paragraph*{Prédiction avec \texttt{scikit-learn}}
+
+Un exemple rapide pour réaliser une classification $k$-NN avec \texttt{scikit-learn}.
+\begin{lstlisting}
+import numpy as np
+from sklearn import datasets
+from sklearn.neighbors import KNeighborsClassifier
+
+iris_X, iris_y = datasets.load_iris(return_X_y=True)
+
+
+# A random permutation, to split the data randomly
+np.random.seed(0)
+
+# Chargement des données et séparation des données
+indices = np.random.permutation(len(iris_X))
+iris_X_train = iris_X[indices[:-10]]
+iris_y_train = iris_y[indices[:-10]]
+iris_X_test = iris_X[indices[-10:]]
+iris_y_test = iris_y[indices[-10:]]
+
+# Création du classifieur
+knn = KNeighborsClassifier() # KNeighborsClassifier(n_neighbors=k) pour choisir k
+# Entraînement du classifieur
+knn.fit(iris_X_train, iris_y_train)
+# Prédiction sur le jeu de test (à comparer avec iris_y_test)
+knn.predict(iris_X_test)
+\end{lstlisting}
+
+
+
+\subsection{Régression univariée [Chloé-Agathe Azencott]}
+
+\begin{minipage}[c]{.6\linewidth}
+Dans le cadre de la régression linéaire unvariée, on dispose de $n$ observations : $\mathcal{D}=\left\{ \left(x_1,y_1 \right), \left(x_2,y_2 \right), ..., \left(x_i,y_i \right), ..., \left(x_n,y_n \right)\right\}$ et des étiquettes $y_i$ associées. 
+La régression linéaire consiste à choisir une fonction de prédiction $f$ de la forme, $\forall x \in \mathbb{R}, f(x)=ax+b$ avec$\left(a,b\right) \in \mathbb{R}^2$. Il va donc falloir minimiser l'erreur entre les prédictions et la base de données d’entraînement. La minimisation se note : 
+$$ \left(\hat{a},\hat{b}\right)= \text{arg} \min\limits_{\left(a,b\right) \in \mathbb{R}^2} \dfrac{1}{n}\sum\limits_{i=1}^{n}\left( y_i - \left(ax_i +b\right) \right)^2.$$
+
+(Méthode des moindres carrés)
+
+On montre que si $\sum\limits_{i=1}^{n}x_i^2 \neq \left(\sum\limits_{i=1}^{n}x_i\right)^2 $ le problème à une unique solution. Sinon le système est indéterminé et il y a une infinité de solutions.
+\end{minipage} \hfill
+\begin{minipage}[c]{.35\linewidth}
+\begin{center}
+\includegraphics[width=\linewidth]{fig_15}
+\end{center}
+\end{minipage} 
+
+
+
+\paragraph*{Exemple de régression linéaire univariée avec \texttt{scikit-learn}}
+\begin{lstlisting}
+import matplotlib.pyplot as plt
+import numpy as np
+from sklearn import datasets, linear_model
+from sklearn.metrics import mean_squared_error, r2_score
+
+# Load the diabetes dataset
+diabetes_X, diabetes_y = datasets.load_diabetes(return_X_y=True)
+
+# Use only one feature
+diabetes_X = diabetes_X[:, np.newaxis, 2]
+
+# Split the data into training/testing sets
+diabetes_X_train = diabetes_X[:-20]
+diabetes_X_test = diabetes_X[-20:]
+
+# Split the targets into training/testing sets
+diabetes_y_train = diabetes_y[:-20]
+diabetes_y_test = diabetes_y[-20:]
+
+# Create linear regression object
+regr = linear_model.LinearRegression()
+
+# Train the model using the training sets
+regr.fit(diabetes_X_train, diabetes_y_train)
+
+# Make predictions using the testing set
+diabetes_y_pred = regr.predict(diabetes_X_test)
+
+# The coefficients
+print('Coefficients: \n', regr.coef_)
+# The mean squared error
+print('Mean squared error: %.2f'
+      % mean_squared_error(diabetes_y_test, diabetes_y_pred))
+# The coefficient of determination: 1 is perfect prediction
+print('Coefficient of determination: %.2f'
+      % r2_score(diabetes_y_test, diabetes_y_pred))
+
+# Plot outputs
+plt.scatter(diabetes_X_test, diabetes_y_test,  color='black')
+plt.plot(diabetes_X_test, diabetes_y_pred, color='blue', linewidth=3)
+
+plt.xticks(())
+plt.yticks(())
+
+plt.show()
+\end{lstlisting}
 
 \subsection{Régression multivariée}
+[À faire]
 %
 %\section{Réseaux de neurones}
 %
@@ -564,9 +715,16 @@ Concernant le candidat 2, parmi les 5 plus proches voisins, 3 sont des virginica
 %
 %\newpage
 
-Exemples : 
-\url{https://makina-corpus.com/blog/metier/2017/initiation-au-machine-learning-avec-python-pratique}
+%Exemples : 
+%\url{https://makina-corpus.com/blog/metier/2017/initiation-au-machine-learning-avec-python-pratique}
+\subsection{Pour aller (un peu) plus loin}
+\texttt{scikit-learn} propose des algorithmes plus efficaces que les $k$ plus proches voisins pour réaliser des classifications. 
 
+La figure suivant représente une vue d'ensemble des algorithmes utilisables en fonction des problèmes rencontrés. 
+
+\begin{center}
+\includegraphics[width=.8\linewidth]{fig_09}
+\end{center}
 \begin{thebibliography}{2}
    \bibitem[1]{ref1} Éric Biernat et Michel Lutz. {\it Data science : fondamentaux et études de cas.} Eyrolles.
 \end{thebibliography}
